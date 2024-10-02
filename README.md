@@ -27,7 +27,7 @@ The executable will be located on the main directory.
 
 Changes in the graphic interface: you should only run the "make" command again.
 
-
+You can also open the .pro in QTCreator and run with ctrl + r
 
 System Requirements
 -----------------------
