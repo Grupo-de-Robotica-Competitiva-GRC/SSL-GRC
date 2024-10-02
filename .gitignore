@@ -1,0 +1,11 @@
+# Ignore build directory
+build/
+
+# Ignore Makefile
+Makefile
+
+# Ignore qmake stash file
+.qmake.stash
+
+# Ignore SSL-GRC directory or file (if needed)
+SSL-GRC
