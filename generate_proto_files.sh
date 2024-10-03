@@ -14,3 +14,5 @@ protoc --proto_path=$VISION_PROTOS_DIR $VISION_PROTOS_DIR/ssl_vision_geometry.pr
 protoc --proto_path=$VISION_PROTOS_DIR $VISION_PROTOS_DIR/ssl_vision_wrapper.proto --cpp_out=$VISION_PROTOS_DIR
 
 echo "Arquivos .h e .cc gerados com sucesso!"
+
+#teste
