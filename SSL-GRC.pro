@@ -18,31 +18,27 @@ MOC_DIR = $$build_dir/moc
 RCC_DIR = $$build_dir/rcc
 UI_DIR = $$build_dir/ui
 
-# Arquivos .proto
-PROTOBUF_DIR = Includes/GRSimProtos
-PROTO_FILES = $$PROTOBUF_DIR/grSim_Commands.proto \
-              $$PROTOBUF_DIR/grSim_Packet.proto \
-              $$PROTOBUF_DIR/grSim_Replacement.proto \
-              Includes/VisionProtos/ssl_vision_detection.proto \
-              Includes/VisionProtos/ssl_vision_geometry.proto \
-              Includes/VisionProtos/ssl_vision_wrapper.proto
+# Chama o script para gerar os arquivos .h e .cc antes da compilação
+system(./generate_proto_files.sh)
 
-# Gera os arquivos .pb.h e .pb.cc a partir dos .proto
-PROTO_OUTPUT_DIR = $$build_dir/proto
-PROTO_SOURCES = $$replace(PROTO_FILES, .proto, .pb.cc)
-PROTO_HEADERS = $$replace(PROTO_FILES, .proto, .pb.h)
+SOURCES += \
+    main.cpp \
+    mainwindow.cpp \
+    Includes/GRSimProtos/grSim_Commands.pb.cc \
+    Includes/GRSimProtos/grSim_Packet.pb.cc \
+    Includes/GRSimProtos/grSim_Replacement.pb.cc \
+    Includes/VisionProtos/ssl_vision_detection.pb.cc \
+    Includes/VisionProtos/ssl_vision_geometry.pb.cc \
+    Includes/VisionProtos/ssl_vision_wrapper.pb.cc
 
-for(proto, PROTO_FILES) {
-    protoc.commands += protoc $$proto --cpp_out=$$PROTO_OUTPUT_DIR
-}
-
-# Adiciona os arquivos .pb.cc e .pb.h gerados ao projeto
-SOURCES += $$PROTO_SOURCES \
-           main.cpp \
-           mainwindow.cpp
-
-HEADERS += $$PROTO_HEADERS \
-           mainwindow.h
+HEADERS += \
+    mainwindow.h \
+    Includes/GRSimProtos/grSim_Commands.pb.h \
+    Includes/GRSimProtos/grSim_Packet.pb.h \
+    Includes/GRSimProtos/grSim_Replacement.pb.h \
+    Includes/VisionProtos/ssl_vision_detection.pb.h \
+    Includes/VisionProtos/ssl_vision_geometry.pb.h \
+    Includes/VisionProtos/ssl_vision_wrapper.pb.h
 
 FORMS += \
     mainwindow.ui
