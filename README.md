@@ -37,3 +37,7 @@ System Requirements
 Software Requirements
 ---------------------
 
+```
+sudo apt-get install libprotobuf-dev protobuf-compiler
+```
+
