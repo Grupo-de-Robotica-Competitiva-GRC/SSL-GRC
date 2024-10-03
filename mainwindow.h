@@ -28,6 +28,8 @@ public slots:
     void reconnectUdp();
     void sendBtnClicked();
     void sendPacket(SSL_DetectionFrame detection);
+    void simulationStrategy(SSL_DetectionFrame detection);
+    void realStrategy(SSL_DetectionFrame detection);
 
 private:
     Ui::MainWindow *ui;

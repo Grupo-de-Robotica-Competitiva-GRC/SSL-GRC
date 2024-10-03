@@ -17,7 +17,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     QStringList teams, modes;
     teams << "Blue" << "Yellow";
-    modes << "Slimulation" << "Reality";
+    modes << "Simulation" << "Reality";
     ui->team->addItems(teams);
     ui->mode->addItems(modes);
 
@@ -42,10 +42,8 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
-void MainWindow::sendPacket(SSL_DetectionFrame detection)
-{
-    qDebug() << "Iniciando o envio do pacote"; // Debug
+void MainWindow::simulationStrategy(SSL_DetectionFrame detection){
+    qDebug() << "Estratégia Simulada"; // Debug
 
     grSim_Packet packet;
     bool yellow = ui->team->currentText() == "Yellow";
@@ -83,6 +81,27 @@ void MainWindow::sendPacket(SSL_DetectionFrame detection)
             qDebug() << "Falha na serialização do pacote.";
         }
     }
+}
+
+void MainWindow::realStrategy(SSL_DetectionFrame detection){
+    qDebug() << "Estratégia Real"; // Debug
+}
+
+
+void MainWindow::sendPacket(SSL_DetectionFrame detection)
+{
+    qDebug() << "Iniciando o envio do pacote"; // Debug
+    qDebug() << ui->mode->currentText(); // Debug
+    if(ui->mode->currentText() == "Simulation"){
+        //Lógica para a simulação
+        simulationStrategy(detection);
+
+    }
+    else{
+        //Lógica para os robôs reais
+        realStrategy(detection);
+    }
+
 }
 
 
