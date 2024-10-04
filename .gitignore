@@ -9,3 +9,6 @@ Makefile
 
 # Ignore SSL-GRC directory or file (if needed)
 SSL-GRC
+
+# Ignore .pro.user files
+*.pro.user
