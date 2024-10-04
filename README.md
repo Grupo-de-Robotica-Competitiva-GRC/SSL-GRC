@@ -7,12 +7,6 @@ This project is about the system of vision and strategy that GRC will use for th
 
 __How to use__
 
-Dê permissão de execução para o script 
-
-```
-$ chmod +x generate_proto_files.sh
-```
-
 Run qmake to generate the makefile:
 
 ```
