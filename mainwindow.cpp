@@ -21,7 +21,6 @@ MainWindow::MainWindow(QWidget *parent)
     ui->team->addItems(teams);
     ui->mode->addItems(modes);
 
-
     timer = new QTimer(this);
     timer->setInterval(20);
 
@@ -376,4 +375,57 @@ void MainWindow::stopReceiving()
         txtInfo->append("Recebimento de dados interrompido."); // Mensagem de log
     }*/
 }
+
+// Efeitos de cliques nos botões
+
+void MainWindow::on_Receive_pressed()
+{
+    ui->Receive->setStyleSheet("background-color: #FF5733; border: 2px solid #FFD700;");
+
+}
+
+
+void MainWindow::on_Receive_released()
+{
+    ui->Receive->setStyleSheet("background-color: #E01B25; color: #D1D1D1; border: 2px solid black;");
+}
+
+
+void MainWindow::on_StopReceiving_pressed()
+{
+    ui->StopReceiving->setStyleSheet("background-color: #FF5733; border: 2px solid #FFD700;");
+}
+
+
+void MainWindow::on_StopReceiving_released()
+{
+    ui->StopReceiving->setStyleSheet("background-color: #E01B25; color: #D1D1D1; border: 2px solid black;");
+}
+
+
+void MainWindow::on_Connect_pressed()
+{
+     ui->Connect->setStyleSheet("background-color: #FF5733; border: 2px solid #FFD700;");
+}
+
+
+void MainWindow::on_Connect_released()
+{
+    ui->Connect->setStyleSheet("background-color: #E01B25; color: #D1D1D1; border: 2px solid black;");
+}
+
+
+void MainWindow::on_Send_pressed()
+{
+    ui->Send->setStyleSheet("background-color: #FF5733; border: 2px solid #FFD700;");
+}
+
+
+void MainWindow::on_Send_released()
+{
+    ui->Send->setStyleSheet("background-color: #E01B25; color: #D1D1D1; border: 2px solid black;");
+}
+
+
+
 

@@ -31,6 +31,23 @@ public slots:
     void simulationStrategy(SSL_DetectionFrame detection);
     void realStrategy(SSL_DetectionFrame detection);
 
+private slots:
+    void on_Receive_pressed();
+
+    void on_Receive_released();
+
+    void on_StopReceiving_pressed();
+
+    void on_StopReceiving_released();
+
+    void on_Connect_pressed();
+
+    void on_Connect_released();
+
+    void on_Send_pressed();
+
+    void on_Send_released();
+
 private:
     Ui::MainWindow *ui;
     QHostAddress _addr;
