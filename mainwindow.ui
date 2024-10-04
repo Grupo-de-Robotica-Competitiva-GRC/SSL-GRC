@@ -457,6 +457,7 @@ font-weight: bold;
        <property name="styleSheet">
         <string notr="true">background-color: #D1D1D1;
 color:  Black;
+padding: 1px 18px 1px 3px;
 border: 2px solid black;
 </string>
        </property>
@@ -717,11 +718,14 @@ font-weight: bold;
      </item>
      <item>
       <widget class="QComboBox" name="mode">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: #D1D1D1;
 color:  Black;
-border: 2px solid black;
-</string>
+padding: 1px 18px 1px 3px;
+border: 2px solid black;</string>
        </property>
        <property name="editable">
         <bool>false</bool>
