@@ -69,32 +69,21 @@ public:
         Receive = new QPushButton(centralwidget);
         Receive->setObjectName(QString::fromUtf8("Receive"));
         Receive->setGeometry(QRect(30, 520, 301, 41));
-        Receive->setStyleSheet(QString::fromUtf8(
-          "QPushButton {"
-          "    background-color: #E01B25;"
-          "    color: #D1D1D1;"
-          "    border: 2px solid black;"
-          "}"
-          "QPushButton:pressed {"
-          "    background-color: #FF5733;"  // Cor alterada ao pressionar
-          "    border: 2px solid #FFD700;"  // Alterar a borda ao pressionar
-          "}"
-      ));
-
+        Receive->setStyleSheet(QString::fromUtf8("background-color: #E01B25;\n"
+"color: #D1D1D1;\n"
+"border: 2px solid black;\n"
+"\n"
+"\n"
+""));
         StopReceiving = new QPushButton(centralwidget);
         StopReceiving->setObjectName(QString::fromUtf8("StopReceiving"));
         StopReceiving->setGeometry(QRect(360, 520, 311, 41));
-        StopReceiving->setStyleSheet(QString::fromUtf8(
-          "QPushButton {"
-          "    background-color: #E01B25;"
-          "    color: #D1D1D1;"
-          "    border: 2px solid black;"
-          "}"
-          "QPushButton:pressed {"
-          "    background-color: #FF5733;"  // Cor alterada ao pressionar
-          "    border: 2px solid #FFD700;"  // Alterar a borda ao pressionar
-          "}"
-      ));
+        StopReceiving->setStyleSheet(QString::fromUtf8("background-color: #E01B25;\n"
+"color: #D1D1D1;\n"
+"border: 2px solid black;\n"
+"\n"
+"\n"
+""));
         label = new QLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(40, 266, 161, 16));
@@ -126,17 +115,17 @@ public:
         pushButton_5->setGeometry(QRect(160, 180, 131, 41));
         pushButton_5->setMouseTracking(true);
         pushButton_5->setTabletTracking(true);
-        pushButton_5->setStyleSheet(QString::fromUtf8(
-          "QPushButton {"
-          "    background-color: #E01B25;"
-          "    color: #D1D1D1;"
-          "    border: 2px solid black;"
-          "}"
-          "QPushButton:pressed {"
-          "    background-color: #FF5733;"  // Cor alterada ao pressionar
-          "    border: 2px solid #FFD700;"  // Alterar a borda ao pressionar
-          "}"
-      ));
+        pushButton_5->setStyleSheet(QString::fromUtf8("QString::fromUtf8(\n"
+"          \"QPushButton {\"\n"
+"          \"    background-color: #E01B25;\"\n"
+"          \"    color: #D1D1D1;\"\n"
+"          \"    border: 2px solid black;\"\n"
+"          \"}\"\n"
+"          \"QPushButton:pressed {\"\n"
+"          \"    background-color: #FF5733;\"  // Cor alterada ao pressionar\n"
+"          \"    border: 2px solid #FFD700;\"  // Alterar a borda ao pressionar\n"
+"          \"}\"\n"
+"      )"));
         pushButton_5->setCheckable(true);
         pushButton_5->setFlat(true);
         label_8 = new QLabel(centralwidget);
@@ -247,22 +236,14 @@ public:
 #if QT_VERSION >= QT_VERSION_CHECK(5, 12, 0)
         palette1.setBrush(QPalette::Active, QPalette::PlaceholderText, brush2);
 #endif
-        QBrush brush3(QColor(218, 218, 218, 255));
-        brush3.setStyle(Qt::SolidPattern);
-        palette1.setBrush(QPalette::Inactive, QPalette::WindowText, brush3);
-        QBrush brush4(QColor(38, 38, 38, 255));
-        brush4.setStyle(Qt::SolidPattern);
-        palette1.setBrush(QPalette::Inactive, QPalette::Button, brush4);
-        palette1.setBrush(QPalette::Inactive, QPalette::Text, brush3);
-        palette1.setBrush(QPalette::Inactive, QPalette::ButtonText, brush3);
-        QBrush brush5(QColor(38, 39, 40, 255));
-        brush5.setStyle(Qt::SolidPattern);
-        palette1.setBrush(QPalette::Inactive, QPalette::Base, brush5);
-        palette1.setBrush(QPalette::Inactive, QPalette::Window, brush4);
-        QBrush brush6(QColor(128, 128, 129, 255));
-        brush6.setStyle(Qt::SolidPattern);
+        palette1.setBrush(QPalette::Inactive, QPalette::WindowText, brush);
+        palette1.setBrush(QPalette::Inactive, QPalette::Button, brush1);
+        palette1.setBrush(QPalette::Inactive, QPalette::Text, brush);
+        palette1.setBrush(QPalette::Inactive, QPalette::ButtonText, brush);
+        palette1.setBrush(QPalette::Inactive, QPalette::Base, brush1);
+        palette1.setBrush(QPalette::Inactive, QPalette::Window, brush1);
 #if QT_VERSION >= QT_VERSION_CHECK(5, 12, 0)
-        palette1.setBrush(QPalette::Inactive, QPalette::PlaceholderText, brush6);
+        palette1.setBrush(QPalette::Inactive, QPalette::PlaceholderText, brush2);
 #endif
         palette1.setBrush(QPalette::Disabled, QPalette::WindowText, brush);
         palette1.setBrush(QPalette::Disabled, QPalette::Button, brush1);
@@ -271,7 +252,7 @@ public:
         palette1.setBrush(QPalette::Disabled, QPalette::Base, brush1);
         palette1.setBrush(QPalette::Disabled, QPalette::Window, brush1);
 #if QT_VERSION >= QT_VERSION_CHECK(5, 12, 0)
-        palette1.setBrush(QPalette::Disabled, QPalette::PlaceholderText, brush6);
+        palette1.setBrush(QPalette::Disabled, QPalette::PlaceholderText, brush2);
 #endif
         strategy->setPalette(palette1);
         strategy->setStyleSheet(QString::fromUtf8("background-color: #D1D1D1;\n"
@@ -359,17 +340,12 @@ public:
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
         Connect = new QPushButton(layoutWidget2);
         Connect->setObjectName(QString::fromUtf8("Connect"));
-        Connect->setStyleSheet(QString::fromUtf8(
-          "QPushButton {"
-          "    background-color: #E01B25;"
-          "    color: #D1D1D1;"
-          "    border: 2px solid black;"
-          "}"
-          "QPushButton:pressed {"
-          "    background-color: #FF5733;"  // Cor alterada ao pressionar
-          "    border: 2px solid #FFD700;"  // Alterar a borda ao pressionar
-          "}"
-      ));
+        Connect->setStyleSheet(QString::fromUtf8("background-color: #E01B25;\n"
+"color: #D1D1D1;\n"
+"border: 2px solid black;\n"
+"\n"
+"\n"
+""));
         Connect->setFlat(true);
 
         horizontalLayout->addWidget(Connect);
@@ -377,17 +353,12 @@ public:
         Send = new QPushButton(layoutWidget2);
         Send->setObjectName(QString::fromUtf8("Send"));
         Send->setEnabled(true);
-        Send->setStyleSheet(QString::fromUtf8(
-          "QPushButton {"
-          "    background-color: #E01B25;"
-          "    color: #D1D1D1;"
-          "    border: 2px solid black;"
-          "}"
-          "QPushButton:pressed {"
-          "    background-color: #FF5733;"  // Cor alterada ao pressionar
-          "    border: 2px solid #FFD700;"  // Alterar a borda ao pressionar
-          "}"
-      ));
+        Send->setStyleSheet(QString::fromUtf8("background-color: #E01B25;\n"
+"color: #D1D1D1;\n"
+"border: 2px solid black;\n"
+"\n"
+"\n"
+""));
 
         horizontalLayout->addWidget(Send);
 
