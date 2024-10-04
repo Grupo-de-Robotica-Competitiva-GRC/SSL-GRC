@@ -27,12 +27,15 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #E01B25;
-color: #D1D1D1;
-border: 2px solid black;
-
-
-</string>
+     <string notr="true">QPushButton {
+           background-color: #E01B25;
+           color: #D1D1D1;
+              border: 2px solid black;
+          }
+          QPushButton:pressed {
+             background-color: #FF5733;  // Cor alterada ao pressionar
+             border: 2px solid #FFD700;  // Alterar a borda ao pressionar
+          }</string>
     </property>
     <property name="text">
      <string>Receive</string>
@@ -48,12 +51,15 @@ border: 2px solid black;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #E01B25;
-color: #D1D1D1;
-border: 2px solid black;
-
-
-</string>
+     <string notr="true">QPushButton {
+           background-color: #E01B25;
+           color: #D1D1D1;
+              border: 2px solid black;
+          }
+          QPushButton:pressed {
+             background-color: #FF5733;  // Cor alterada ao pressionar
+             border: 2px solid #FFD700;  // Alterar a borda ao pressionar
+          }</string>
     </property>
     <property name="text">
      <string>Stop Receiving</string>
@@ -141,12 +147,15 @@ font-weight: bold;
      <bool>true</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #E01B25;
-color: #D1D1D1;
-border: 2px solid black;
-
-
-</string>
+     <string notr="true">QPushButton {
+           background-color: #E01B25;
+           color: #D1D1D1;
+              border: 2px solid black;
+          }
+          QPushButton:pressed {
+             background-color: #FF5733;  // Cor alterada ao pressionar
+             border: 2px solid #FFD700;  // Alterar a borda ao pressionar
+          }</string>
     </property>
     <property name="text">
      <string>Apply strategy</string>
@@ -545,63 +554,63 @@ font-weight: bold;
           <colorrole role="WindowText">
            <brush brushstyle="SolidPattern">
             <color alpha="255">
-             <red>218</red>
-             <green>218</green>
-             <blue>218</blue>
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
             </color>
            </brush>
           </colorrole>
           <colorrole role="Button">
            <brush brushstyle="SolidPattern">
             <color alpha="255">
-             <red>38</red>
-             <green>38</green>
-             <blue>38</blue>
+             <red>209</red>
+             <green>209</green>
+             <blue>209</blue>
             </color>
            </brush>
           </colorrole>
           <colorrole role="Text">
            <brush brushstyle="SolidPattern">
             <color alpha="255">
-             <red>218</red>
-             <green>218</green>
-             <blue>218</blue>
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
             </color>
            </brush>
           </colorrole>
           <colorrole role="ButtonText">
            <brush brushstyle="SolidPattern">
             <color alpha="255">
-             <red>218</red>
-             <green>218</green>
-             <blue>218</blue>
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
             </color>
            </brush>
           </colorrole>
           <colorrole role="Base">
            <brush brushstyle="SolidPattern">
             <color alpha="255">
-             <red>38</red>
-             <green>39</green>
-             <blue>40</blue>
+             <red>209</red>
+             <green>209</green>
+             <blue>209</blue>
             </color>
            </brush>
           </colorrole>
           <colorrole role="Window">
            <brush brushstyle="SolidPattern">
             <color alpha="255">
-             <red>38</red>
-             <green>38</green>
-             <blue>38</blue>
+             <red>209</red>
+             <green>209</green>
+             <blue>209</blue>
             </color>
            </brush>
           </colorrole>
           <colorrole role="PlaceholderText">
            <brush brushstyle="SolidPattern">
-            <color alpha="255">
-             <red>128</red>
-             <green>128</green>
-             <blue>129</blue>
+            <color alpha="128">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
             </color>
            </brush>
           </colorrole>
@@ -663,10 +672,10 @@ font-weight: bold;
           </colorrole>
           <colorrole role="PlaceholderText">
            <brush brushstyle="SolidPattern">
-            <color alpha="255">
-             <red>128</red>
-             <green>128</green>
-             <blue>129</blue>
+            <color alpha="128">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
             </color>
            </brush>
           </colorrole>
@@ -798,12 +807,15 @@ border: 2px solid black;
      <item>
       <widget class="QPushButton" name="Connect">
        <property name="styleSheet">
-        <string notr="true">background-color: #E01B25;
-color: #D1D1D1;
-border: 2px solid black;
-
-
-</string>
+        <string notr="true">QPushButton {
+           background-color: #E01B25;
+           color: #D1D1D1;
+              border: 2px solid black;
+          }
+          QPushButton:pressed {
+             background-color: #FF5733;  // Cor alterada ao pressionar
+             border: 2px solid #FFD700;  // Alterar a borda ao pressionar
+          }</string>
        </property>
        <property name="text">
         <string>Connect</string>
@@ -819,12 +831,15 @@ border: 2px solid black;
         <bool>true</bool>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: #E01B25;
-color: #D1D1D1;
-border: 2px solid black;
-
-
-</string>
+        <string notr="true">QPushButton {
+           background-color: #E01B25;
+           color: #D1D1D1;
+              border: 2px solid black;
+          }
+          QPushButton:pressed {
+             background-color: #FF5733;  // Cor alterada ao pressionar
+             border: 2px solid #FFD700;  // Alterar a borda ao pressionar
+          }</string>
        </property>
        <property name="text">
         <string>Send</string>

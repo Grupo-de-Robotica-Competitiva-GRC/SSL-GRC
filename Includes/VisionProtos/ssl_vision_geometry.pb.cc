@@ -14,226 +14,224 @@
 #include <google/protobuf/wire_format.h>
 // @@protoc_insertion_point(includes)
 #include <google/protobuf/port_def.inc>
-extern PROTOBUF_INTERNAL_EXPORT_ssl_5fvision_5fgeometry_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_SSL_BallModelChipFixedLoss_ssl_5fvision_5fgeometry_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_ssl_5fvision_5fgeometry_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_SSL_BallModelStraightTwoPhase_ssl_5fvision_5fgeometry_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_ssl_5fvision_5fgeometry_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_SSL_FieldCircularArc_ssl_5fvision_5fgeometry_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_ssl_5fvision_5fgeometry_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_SSL_FieldLineSegment_ssl_5fvision_5fgeometry_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_ssl_5fvision_5fgeometry_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_SSL_GeometryCameraCalibration_ssl_5fvision_5fgeometry_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_ssl_5fvision_5fgeometry_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_SSL_GeometryFieldSize_ssl_5fvision_5fgeometry_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_ssl_5fvision_5fgeometry_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_SSL_GeometryModels_ssl_5fvision_5fgeometry_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_ssl_5fvision_5fgeometry_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Vector2f_ssl_5fvision_5fgeometry_2eproto;
-class Vector2fDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Vector2f> _instance;
-} _Vector2f_default_instance_;
-class SSL_FieldLineSegmentDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<SSL_FieldLineSegment> _instance;
-} _SSL_FieldLineSegment_default_instance_;
-class SSL_FieldCircularArcDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<SSL_FieldCircularArc> _instance;
-} _SSL_FieldCircularArc_default_instance_;
-class SSL_GeometryFieldSizeDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<SSL_GeometryFieldSize> _instance;
-} _SSL_GeometryFieldSize_default_instance_;
-class SSL_GeometryCameraCalibrationDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<SSL_GeometryCameraCalibration> _instance;
-} _SSL_GeometryCameraCalibration_default_instance_;
-class SSL_BallModelStraightTwoPhaseDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<SSL_BallModelStraightTwoPhase> _instance;
-} _SSL_BallModelStraightTwoPhase_default_instance_;
-class SSL_BallModelChipFixedLossDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<SSL_BallModelChipFixedLoss> _instance;
-} _SSL_BallModelChipFixedLoss_default_instance_;
-class SSL_GeometryModelsDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<SSL_GeometryModels> _instance;
-} _SSL_GeometryModels_default_instance_;
-class SSL_GeometryDataDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<SSL_GeometryData> _instance;
-} _SSL_GeometryData_default_instance_;
-static void InitDefaultsscc_info_SSL_BallModelChipFixedLoss_ssl_5fvision_5fgeometry_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
 
-  {
-    void* ptr = &::_SSL_BallModelChipFixedLoss_default_instance_;
-    new (ptr) ::SSL_BallModelChipFixedLoss();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::SSL_BallModelChipFixedLoss::InitAsDefaultInstance();
-}
+PROTOBUF_PRAGMA_INIT_SEG
 
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_SSL_BallModelChipFixedLoss_ssl_5fvision_5fgeometry_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_SSL_BallModelChipFixedLoss_ssl_5fvision_5fgeometry_2eproto}, {}};
+namespace _pb = ::PROTOBUF_NAMESPACE_ID;
+namespace _pbi = _pb::internal;
 
-static void InitDefaultsscc_info_SSL_BallModelStraightTwoPhase_ssl_5fvision_5fgeometry_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
+PROTOBUF_CONSTEXPR Vector2f::Vector2f(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_._has_bits_)*/{}
+  , /*decltype(_impl_._cached_size_)*/{}
+  , /*decltype(_impl_.x_)*/0
+  , /*decltype(_impl_.y_)*/0} {}
+struct Vector2fDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR Vector2fDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~Vector2fDefaultTypeInternal() {}
+  union {
+    Vector2f _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 Vector2fDefaultTypeInternal _Vector2f_default_instance_;
+PROTOBUF_CONSTEXPR SSL_FieldLineSegment::SSL_FieldLineSegment(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_._has_bits_)*/{}
+  , /*decltype(_impl_._cached_size_)*/{}
+  , /*decltype(_impl_.name_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.p1_)*/nullptr
+  , /*decltype(_impl_.p2_)*/nullptr
+  , /*decltype(_impl_.thickness_)*/0
+  , /*decltype(_impl_.type_)*/0} {}
+struct SSL_FieldLineSegmentDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR SSL_FieldLineSegmentDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~SSL_FieldLineSegmentDefaultTypeInternal() {}
+  union {
+    SSL_FieldLineSegment _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SSL_FieldLineSegmentDefaultTypeInternal _SSL_FieldLineSegment_default_instance_;
+PROTOBUF_CONSTEXPR SSL_FieldCircularArc::SSL_FieldCircularArc(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_._has_bits_)*/{}
+  , /*decltype(_impl_._cached_size_)*/{}
+  , /*decltype(_impl_.name_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.center_)*/nullptr
+  , /*decltype(_impl_.radius_)*/0
+  , /*decltype(_impl_.a1_)*/0
+  , /*decltype(_impl_.a2_)*/0
+  , /*decltype(_impl_.thickness_)*/0
+  , /*decltype(_impl_.type_)*/0} {}
+struct SSL_FieldCircularArcDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR SSL_FieldCircularArcDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~SSL_FieldCircularArcDefaultTypeInternal() {}
+  union {
+    SSL_FieldCircularArc _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SSL_FieldCircularArcDefaultTypeInternal _SSL_FieldCircularArc_default_instance_;
+PROTOBUF_CONSTEXPR SSL_GeometryFieldSize::SSL_GeometryFieldSize(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_._has_bits_)*/{}
+  , /*decltype(_impl_._cached_size_)*/{}
+  , /*decltype(_impl_.field_lines_)*/{}
+  , /*decltype(_impl_.field_arcs_)*/{}
+  , /*decltype(_impl_.field_length_)*/0
+  , /*decltype(_impl_.field_width_)*/0
+  , /*decltype(_impl_.goal_width_)*/0
+  , /*decltype(_impl_.goal_depth_)*/0
+  , /*decltype(_impl_.boundary_width_)*/0
+  , /*decltype(_impl_.penalty_area_depth_)*/0
+  , /*decltype(_impl_.penalty_area_width_)*/0} {}
+struct SSL_GeometryFieldSizeDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR SSL_GeometryFieldSizeDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~SSL_GeometryFieldSizeDefaultTypeInternal() {}
+  union {
+    SSL_GeometryFieldSize _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SSL_GeometryFieldSizeDefaultTypeInternal _SSL_GeometryFieldSize_default_instance_;
+PROTOBUF_CONSTEXPR SSL_GeometryCameraCalibration::SSL_GeometryCameraCalibration(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_._has_bits_)*/{}
+  , /*decltype(_impl_._cached_size_)*/{}
+  , /*decltype(_impl_.camera_id_)*/0u
+  , /*decltype(_impl_.focal_length_)*/0
+  , /*decltype(_impl_.principal_point_x_)*/0
+  , /*decltype(_impl_.principal_point_y_)*/0
+  , /*decltype(_impl_.distortion_)*/0
+  , /*decltype(_impl_.q0_)*/0
+  , /*decltype(_impl_.q1_)*/0
+  , /*decltype(_impl_.q2_)*/0
+  , /*decltype(_impl_.q3_)*/0
+  , /*decltype(_impl_.tx_)*/0
+  , /*decltype(_impl_.ty_)*/0
+  , /*decltype(_impl_.tz_)*/0
+  , /*decltype(_impl_.derived_camera_world_tx_)*/0
+  , /*decltype(_impl_.derived_camera_world_ty_)*/0
+  , /*decltype(_impl_.derived_camera_world_tz_)*/0
+  , /*decltype(_impl_.pixel_image_width_)*/0u
+  , /*decltype(_impl_.pixel_image_height_)*/0u} {}
+struct SSL_GeometryCameraCalibrationDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR SSL_GeometryCameraCalibrationDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~SSL_GeometryCameraCalibrationDefaultTypeInternal() {}
+  union {
+    SSL_GeometryCameraCalibration _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SSL_GeometryCameraCalibrationDefaultTypeInternal _SSL_GeometryCameraCalibration_default_instance_;
+PROTOBUF_CONSTEXPR SSL_BallModelStraightTwoPhase::SSL_BallModelStraightTwoPhase(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_._has_bits_)*/{}
+  , /*decltype(_impl_._cached_size_)*/{}
+  , /*decltype(_impl_.acc_slide_)*/0
+  , /*decltype(_impl_.acc_roll_)*/0
+  , /*decltype(_impl_.k_switch_)*/0} {}
+struct SSL_BallModelStraightTwoPhaseDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR SSL_BallModelStraightTwoPhaseDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~SSL_BallModelStraightTwoPhaseDefaultTypeInternal() {}
+  union {
+    SSL_BallModelStraightTwoPhase _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SSL_BallModelStraightTwoPhaseDefaultTypeInternal _SSL_BallModelStraightTwoPhase_default_instance_;
+PROTOBUF_CONSTEXPR SSL_BallModelChipFixedLoss::SSL_BallModelChipFixedLoss(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_._has_bits_)*/{}
+  , /*decltype(_impl_._cached_size_)*/{}
+  , /*decltype(_impl_.damping_xy_first_hop_)*/0
+  , /*decltype(_impl_.damping_xy_other_hops_)*/0
+  , /*decltype(_impl_.damping_z_)*/0} {}
+struct SSL_BallModelChipFixedLossDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR SSL_BallModelChipFixedLossDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~SSL_BallModelChipFixedLossDefaultTypeInternal() {}
+  union {
+    SSL_BallModelChipFixedLoss _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SSL_BallModelChipFixedLossDefaultTypeInternal _SSL_BallModelChipFixedLoss_default_instance_;
+PROTOBUF_CONSTEXPR SSL_GeometryModels::SSL_GeometryModels(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_._has_bits_)*/{}
+  , /*decltype(_impl_._cached_size_)*/{}
+  , /*decltype(_impl_.straight_two_phase_)*/nullptr
+  , /*decltype(_impl_.chip_fixed_loss_)*/nullptr} {}
+struct SSL_GeometryModelsDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR SSL_GeometryModelsDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~SSL_GeometryModelsDefaultTypeInternal() {}
+  union {
+    SSL_GeometryModels _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SSL_GeometryModelsDefaultTypeInternal _SSL_GeometryModels_default_instance_;
+PROTOBUF_CONSTEXPR SSL_GeometryData::SSL_GeometryData(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_._has_bits_)*/{}
+  , /*decltype(_impl_._cached_size_)*/{}
+  , /*decltype(_impl_.calib_)*/{}
+  , /*decltype(_impl_.field_)*/nullptr
+  , /*decltype(_impl_.models_)*/nullptr} {}
+struct SSL_GeometryDataDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR SSL_GeometryDataDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~SSL_GeometryDataDefaultTypeInternal() {}
+  union {
+    SSL_GeometryData _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SSL_GeometryDataDefaultTypeInternal _SSL_GeometryData_default_instance_;
+static ::_pb::Metadata file_level_metadata_ssl_5fvision_5fgeometry_2eproto[9];
+static const ::_pb::EnumDescriptor* file_level_enum_descriptors_ssl_5fvision_5fgeometry_2eproto[1];
+static constexpr ::_pb::ServiceDescriptor const** file_level_service_descriptors_ssl_5fvision_5fgeometry_2eproto = nullptr;
 
-  {
-    void* ptr = &::_SSL_BallModelStraightTwoPhase_default_instance_;
-    new (ptr) ::SSL_BallModelStraightTwoPhase();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::SSL_BallModelStraightTwoPhase::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_SSL_BallModelStraightTwoPhase_ssl_5fvision_5fgeometry_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_SSL_BallModelStraightTwoPhase_ssl_5fvision_5fgeometry_2eproto}, {}};
-
-static void InitDefaultsscc_info_SSL_FieldCircularArc_ssl_5fvision_5fgeometry_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_SSL_FieldCircularArc_default_instance_;
-    new (ptr) ::SSL_FieldCircularArc();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::SSL_FieldCircularArc::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_SSL_FieldCircularArc_ssl_5fvision_5fgeometry_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_SSL_FieldCircularArc_ssl_5fvision_5fgeometry_2eproto}, {
-      &scc_info_Vector2f_ssl_5fvision_5fgeometry_2eproto.base,}};
-
-static void InitDefaultsscc_info_SSL_FieldLineSegment_ssl_5fvision_5fgeometry_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_SSL_FieldLineSegment_default_instance_;
-    new (ptr) ::SSL_FieldLineSegment();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::SSL_FieldLineSegment::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_SSL_FieldLineSegment_ssl_5fvision_5fgeometry_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_SSL_FieldLineSegment_ssl_5fvision_5fgeometry_2eproto}, {
-      &scc_info_Vector2f_ssl_5fvision_5fgeometry_2eproto.base,}};
-
-static void InitDefaultsscc_info_SSL_GeometryCameraCalibration_ssl_5fvision_5fgeometry_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_SSL_GeometryCameraCalibration_default_instance_;
-    new (ptr) ::SSL_GeometryCameraCalibration();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::SSL_GeometryCameraCalibration::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_SSL_GeometryCameraCalibration_ssl_5fvision_5fgeometry_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_SSL_GeometryCameraCalibration_ssl_5fvision_5fgeometry_2eproto}, {}};
-
-static void InitDefaultsscc_info_SSL_GeometryData_ssl_5fvision_5fgeometry_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_SSL_GeometryData_default_instance_;
-    new (ptr) ::SSL_GeometryData();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::SSL_GeometryData::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<3> scc_info_SSL_GeometryData_ssl_5fvision_5fgeometry_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 3, 0, InitDefaultsscc_info_SSL_GeometryData_ssl_5fvision_5fgeometry_2eproto}, {
-      &scc_info_SSL_GeometryFieldSize_ssl_5fvision_5fgeometry_2eproto.base,
-      &scc_info_SSL_GeometryCameraCalibration_ssl_5fvision_5fgeometry_2eproto.base,
-      &scc_info_SSL_GeometryModels_ssl_5fvision_5fgeometry_2eproto.base,}};
-
-static void InitDefaultsscc_info_SSL_GeometryFieldSize_ssl_5fvision_5fgeometry_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_SSL_GeometryFieldSize_default_instance_;
-    new (ptr) ::SSL_GeometryFieldSize();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::SSL_GeometryFieldSize::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_SSL_GeometryFieldSize_ssl_5fvision_5fgeometry_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 2, 0, InitDefaultsscc_info_SSL_GeometryFieldSize_ssl_5fvision_5fgeometry_2eproto}, {
-      &scc_info_SSL_FieldLineSegment_ssl_5fvision_5fgeometry_2eproto.base,
-      &scc_info_SSL_FieldCircularArc_ssl_5fvision_5fgeometry_2eproto.base,}};
-
-static void InitDefaultsscc_info_SSL_GeometryModels_ssl_5fvision_5fgeometry_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_SSL_GeometryModels_default_instance_;
-    new (ptr) ::SSL_GeometryModels();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::SSL_GeometryModels::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_SSL_GeometryModels_ssl_5fvision_5fgeometry_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 2, 0, InitDefaultsscc_info_SSL_GeometryModels_ssl_5fvision_5fgeometry_2eproto}, {
-      &scc_info_SSL_BallModelStraightTwoPhase_ssl_5fvision_5fgeometry_2eproto.base,
-      &scc_info_SSL_BallModelChipFixedLoss_ssl_5fvision_5fgeometry_2eproto.base,}};
-
-static void InitDefaultsscc_info_Vector2f_ssl_5fvision_5fgeometry_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_Vector2f_default_instance_;
-    new (ptr) ::Vector2f();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::Vector2f::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Vector2f_ssl_5fvision_5fgeometry_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_Vector2f_ssl_5fvision_5fgeometry_2eproto}, {}};
-
-static ::PROTOBUF_NAMESPACE_ID::Metadata file_level_metadata_ssl_5fvision_5fgeometry_2eproto[9];
-static const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* file_level_enum_descriptors_ssl_5fvision_5fgeometry_2eproto[1];
-static constexpr ::PROTOBUF_NAMESPACE_ID::ServiceDescriptor const** file_level_service_descriptors_ssl_5fvision_5fgeometry_2eproto = nullptr;
-
-const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_ssl_5fvision_5fgeometry_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  PROTOBUF_FIELD_OFFSET(::Vector2f, _has_bits_),
+const uint32_t TableStruct_ssl_5fvision_5fgeometry_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
+  PROTOBUF_FIELD_OFFSET(::Vector2f, _impl_._has_bits_),
   PROTOBUF_FIELD_OFFSET(::Vector2f, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::Vector2f, x_),
-  PROTOBUF_FIELD_OFFSET(::Vector2f, y_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::Vector2f, _impl_.x_),
+  PROTOBUF_FIELD_OFFSET(::Vector2f, _impl_.y_),
   0,
   1,
-  PROTOBUF_FIELD_OFFSET(::SSL_FieldLineSegment, _has_bits_),
+  PROTOBUF_FIELD_OFFSET(::SSL_FieldLineSegment, _impl_._has_bits_),
   PROTOBUF_FIELD_OFFSET(::SSL_FieldLineSegment, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::SSL_FieldLineSegment, name_),
-  PROTOBUF_FIELD_OFFSET(::SSL_FieldLineSegment, p1_),
-  PROTOBUF_FIELD_OFFSET(::SSL_FieldLineSegment, p2_),
-  PROTOBUF_FIELD_OFFSET(::SSL_FieldLineSegment, thickness_),
-  PROTOBUF_FIELD_OFFSET(::SSL_FieldLineSegment, type_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::SSL_FieldLineSegment, _impl_.name_),
+  PROTOBUF_FIELD_OFFSET(::SSL_FieldLineSegment, _impl_.p1_),
+  PROTOBUF_FIELD_OFFSET(::SSL_FieldLineSegment, _impl_.p2_),
+  PROTOBUF_FIELD_OFFSET(::SSL_FieldLineSegment, _impl_.thickness_),
+  PROTOBUF_FIELD_OFFSET(::SSL_FieldLineSegment, _impl_.type_),
   0,
   1,
   2,
   3,
   4,
-  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, _has_bits_),
+  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, _impl_._has_bits_),
   PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, name_),
-  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, center_),
-  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, radius_),
-  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, a1_),
-  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, a2_),
-  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, thickness_),
-  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, type_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, _impl_.name_),
+  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, _impl_.center_),
+  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, _impl_.radius_),
+  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, _impl_.a1_),
+  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, _impl_.a2_),
+  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, _impl_.thickness_),
+  PROTOBUF_FIELD_OFFSET(::SSL_FieldCircularArc, _impl_.type_),
   0,
   1,
   2,
@@ -241,20 +239,21 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_ssl_5fvision_5fgeometry_2eprot
   4,
   5,
   6,
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, _has_bits_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, _impl_._has_bits_),
   PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, field_length_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, field_width_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, goal_width_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, goal_depth_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, boundary_width_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, field_lines_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, field_arcs_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, penalty_area_depth_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, penalty_area_width_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, _impl_.field_length_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, _impl_.field_width_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, _impl_.goal_width_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, _impl_.goal_depth_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, _impl_.boundary_width_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, _impl_.field_lines_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, _impl_.field_arcs_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, _impl_.penalty_area_depth_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryFieldSize, _impl_.penalty_area_width_),
   0,
   1,
   2,
@@ -264,28 +263,29 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_ssl_5fvision_5fgeometry_2eprot
   ~0u,
   5,
   6,
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _has_bits_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_._has_bits_),
   PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, camera_id_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, focal_length_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, principal_point_x_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, principal_point_y_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, distortion_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, q0_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, q1_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, q2_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, q3_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, tx_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, ty_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, tz_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, derived_camera_world_tx_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, derived_camera_world_ty_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, derived_camera_world_tz_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, pixel_image_width_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, pixel_image_height_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.camera_id_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.focal_length_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.principal_point_x_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.principal_point_y_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.distortion_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.q0_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.q1_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.q2_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.q3_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.tx_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.ty_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.tz_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.derived_camera_world_tx_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.derived_camera_world_ty_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.derived_camera_world_tz_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.pixel_image_width_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryCameraCalibration, _impl_.pixel_image_height_),
   0,
   1,
   2,
@@ -303,71 +303,75 @@ const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_ssl_5fvision_5fgeometry_2eprot
   14,
   15,
   16,
-  PROTOBUF_FIELD_OFFSET(::SSL_BallModelStraightTwoPhase, _has_bits_),
+  PROTOBUF_FIELD_OFFSET(::SSL_BallModelStraightTwoPhase, _impl_._has_bits_),
   PROTOBUF_FIELD_OFFSET(::SSL_BallModelStraightTwoPhase, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::SSL_BallModelStraightTwoPhase, acc_slide_),
-  PROTOBUF_FIELD_OFFSET(::SSL_BallModelStraightTwoPhase, acc_roll_),
-  PROTOBUF_FIELD_OFFSET(::SSL_BallModelStraightTwoPhase, k_switch_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::SSL_BallModelStraightTwoPhase, _impl_.acc_slide_),
+  PROTOBUF_FIELD_OFFSET(::SSL_BallModelStraightTwoPhase, _impl_.acc_roll_),
+  PROTOBUF_FIELD_OFFSET(::SSL_BallModelStraightTwoPhase, _impl_.k_switch_),
   0,
   1,
   2,
-  PROTOBUF_FIELD_OFFSET(::SSL_BallModelChipFixedLoss, _has_bits_),
+  PROTOBUF_FIELD_OFFSET(::SSL_BallModelChipFixedLoss, _impl_._has_bits_),
   PROTOBUF_FIELD_OFFSET(::SSL_BallModelChipFixedLoss, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::SSL_BallModelChipFixedLoss, damping_xy_first_hop_),
-  PROTOBUF_FIELD_OFFSET(::SSL_BallModelChipFixedLoss, damping_xy_other_hops_),
-  PROTOBUF_FIELD_OFFSET(::SSL_BallModelChipFixedLoss, damping_z_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::SSL_BallModelChipFixedLoss, _impl_.damping_xy_first_hop_),
+  PROTOBUF_FIELD_OFFSET(::SSL_BallModelChipFixedLoss, _impl_.damping_xy_other_hops_),
+  PROTOBUF_FIELD_OFFSET(::SSL_BallModelChipFixedLoss, _impl_.damping_z_),
   0,
   1,
   2,
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryModels, _has_bits_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryModels, _impl_._has_bits_),
   PROTOBUF_FIELD_OFFSET(::SSL_GeometryModels, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryModels, straight_two_phase_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryModels, chip_fixed_loss_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryModels, _impl_.straight_two_phase_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryModels, _impl_.chip_fixed_loss_),
   0,
   1,
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryData, _has_bits_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryData, _impl_._has_bits_),
   PROTOBUF_FIELD_OFFSET(::SSL_GeometryData, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryData, field_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryData, calib_),
-  PROTOBUF_FIELD_OFFSET(::SSL_GeometryData, models_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryData, _impl_.field_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryData, _impl_.calib_),
+  PROTOBUF_FIELD_OFFSET(::SSL_GeometryData, _impl_.models_),
   0,
   ~0u,
   1,
 };
-static const ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, 7, sizeof(::Vector2f)},
-  { 9, 19, sizeof(::SSL_FieldLineSegment)},
-  { 24, 36, sizeof(::SSL_FieldCircularArc)},
-  { 43, 57, sizeof(::SSL_GeometryFieldSize)},
-  { 66, 88, sizeof(::SSL_GeometryCameraCalibration)},
-  { 105, 113, sizeof(::SSL_BallModelStraightTwoPhase)},
-  { 116, 124, sizeof(::SSL_BallModelChipFixedLoss)},
-  { 127, 134, sizeof(::SSL_GeometryModels)},
-  { 136, 144, sizeof(::SSL_GeometryData)},
+static const ::_pbi::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
+  { 0, 8, -1, sizeof(::Vector2f)},
+  { 10, 21, -1, sizeof(::SSL_FieldLineSegment)},
+  { 26, 39, -1, sizeof(::SSL_FieldCircularArc)},
+  { 46, 61, -1, sizeof(::SSL_GeometryFieldSize)},
+  { 70, 93, -1, sizeof(::SSL_GeometryCameraCalibration)},
+  { 110, 119, -1, sizeof(::SSL_BallModelStraightTwoPhase)},
+  { 122, 131, -1, sizeof(::SSL_BallModelChipFixedLoss)},
+  { 134, 142, -1, sizeof(::SSL_GeometryModels)},
+  { 144, 153, -1, sizeof(::SSL_GeometryData)},
 };
 
-static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_Vector2f_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_SSL_FieldLineSegment_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_SSL_FieldCircularArc_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_SSL_GeometryFieldSize_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_SSL_GeometryCameraCalibration_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_SSL_BallModelStraightTwoPhase_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_SSL_BallModelChipFixedLoss_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_SSL_GeometryModels_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_SSL_GeometryData_default_instance_),
+static const ::_pb::Message* const file_default_instances[] = {
+  &::_Vector2f_default_instance_._instance,
+  &::_SSL_FieldLineSegment_default_instance_._instance,
+  &::_SSL_FieldCircularArc_default_instance_._instance,
+  &::_SSL_GeometryFieldSize_default_instance_._instance,
+  &::_SSL_GeometryCameraCalibration_default_instance_._instance,
+  &::_SSL_BallModelStraightTwoPhase_default_instance_._instance,
+  &::_SSL_BallModelChipFixedLoss_default_instance_._instance,
+  &::_SSL_GeometryModels_default_instance_._instance,
+  &::_SSL_GeometryData_default_instance_._instance,
 };
 
 const char descriptor_table_protodef_ssl_5fvision_5fgeometry_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
@@ -420,29 +424,21 @@ const char descriptor_table_protodef_ssl_5fvision_5fgeometry_2eproto[] PROTOBUF_
   "ltyStretch\020\rB8Z6github.com/RoboCup-SSL/s"
   "sl-simulation-protocol/pkg/sim"
   ;
-static const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable*const descriptor_table_ssl_5fvision_5fgeometry_2eproto_deps[1] = {
+static ::_pbi::once_flag descriptor_table_ssl_5fvision_5fgeometry_2eproto_once;
+const ::_pbi::DescriptorTable descriptor_table_ssl_5fvision_5fgeometry_2eproto = {
+    false, false, 1910, descriptor_table_protodef_ssl_5fvision_5fgeometry_2eproto,
+    "ssl_vision_geometry.proto",
+    &descriptor_table_ssl_5fvision_5fgeometry_2eproto_once, nullptr, 0, 9,
+    schemas, file_default_instances, TableStruct_ssl_5fvision_5fgeometry_2eproto::offsets,
+    file_level_metadata_ssl_5fvision_5fgeometry_2eproto, file_level_enum_descriptors_ssl_5fvision_5fgeometry_2eproto,
+    file_level_service_descriptors_ssl_5fvision_5fgeometry_2eproto,
 };
-static ::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase*const descriptor_table_ssl_5fvision_5fgeometry_2eproto_sccs[9] = {
-  &scc_info_SSL_BallModelChipFixedLoss_ssl_5fvision_5fgeometry_2eproto.base,
-  &scc_info_SSL_BallModelStraightTwoPhase_ssl_5fvision_5fgeometry_2eproto.base,
-  &scc_info_SSL_FieldCircularArc_ssl_5fvision_5fgeometry_2eproto.base,
-  &scc_info_SSL_FieldLineSegment_ssl_5fvision_5fgeometry_2eproto.base,
-  &scc_info_SSL_GeometryCameraCalibration_ssl_5fvision_5fgeometry_2eproto.base,
-  &scc_info_SSL_GeometryData_ssl_5fvision_5fgeometry_2eproto.base,
-  &scc_info_SSL_GeometryFieldSize_ssl_5fvision_5fgeometry_2eproto.base,
-  &scc_info_SSL_GeometryModels_ssl_5fvision_5fgeometry_2eproto.base,
-  &scc_info_Vector2f_ssl_5fvision_5fgeometry_2eproto.base,
-};
-static ::PROTOBUF_NAMESPACE_ID::internal::once_flag descriptor_table_ssl_5fvision_5fgeometry_2eproto_once;
-const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_ssl_5fvision_5fgeometry_2eproto = {
-  false, false, descriptor_table_protodef_ssl_5fvision_5fgeometry_2eproto, "ssl_vision_geometry.proto", 1910,
-  &descriptor_table_ssl_5fvision_5fgeometry_2eproto_once, descriptor_table_ssl_5fvision_5fgeometry_2eproto_sccs, descriptor_table_ssl_5fvision_5fgeometry_2eproto_deps, 9, 0,
-  schemas, file_default_instances, TableStruct_ssl_5fvision_5fgeometry_2eproto::offsets,
-  file_level_metadata_ssl_5fvision_5fgeometry_2eproto, 9, file_level_enum_descriptors_ssl_5fvision_5fgeometry_2eproto, file_level_service_descriptors_ssl_5fvision_5fgeometry_2eproto,
-};
+PROTOBUF_ATTRIBUTE_WEAK const ::_pbi::DescriptorTable* descriptor_table_ssl_5fvision_5fgeometry_2eproto_getter() {
+  return &descriptor_table_ssl_5fvision_5fgeometry_2eproto;
+}
 
 // Force running AddDescriptors() at dynamic initialization time.
-static bool dynamic_init_dummy_ssl_5fvision_5fgeometry_2eproto = (static_cast<void>(::PROTOBUF_NAMESPACE_ID::internal::AddDescriptors(&descriptor_table_ssl_5fvision_5fgeometry_2eproto)), true);
+PROTOBUF_ATTRIBUTE_INIT_PRIORITY2 static ::_pbi::AddDescriptorsRunner dynamic_init_dummy_ssl_5fvision_5fgeometry_2eproto(&descriptor_table_ssl_5fvision_5fgeometry_2eproto);
 const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* SSL_FieldShapeType_descriptor() {
   ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&descriptor_table_ssl_5fvision_5fgeometry_2eproto);
   return file_level_enum_descriptors_ssl_5fvision_5fgeometry_2eproto[0];
@@ -472,11 +468,9 @@ bool SSL_FieldShapeType_IsValid(int value) {
 
 // ===================================================================
 
-void Vector2f::InitAsDefaultInstance() {
-}
 class Vector2f::_Internal {
  public:
-  using HasBits = decltype(std::declval<Vector2f>()._has_bits_);
+  using HasBits = decltype(std::declval<Vector2f>()._impl_._has_bits_);
   static void set_has_x(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
   }
@@ -488,138 +482,143 @@ class Vector2f::_Internal {
   }
 };
 
-Vector2f::Vector2f(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+Vector2f::Vector2f(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:Vector2f)
 }
 Vector2f::Vector2f(const Vector2f& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      _has_bits_(from._has_bits_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  Vector2f* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){from._impl_._has_bits_}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.x_){}
+    , decltype(_impl_.y_){}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::memcpy(&x_, &from.x_,
-    static_cast<size_t>(reinterpret_cast<char*>(&y_) -
-    reinterpret_cast<char*>(&x_)) + sizeof(y_));
+  ::memcpy(&_impl_.x_, &from._impl_.x_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.y_) -
+    reinterpret_cast<char*>(&_impl_.x_)) + sizeof(_impl_.y_));
   // @@protoc_insertion_point(copy_constructor:Vector2f)
 }
 
-void Vector2f::SharedCtor() {
-  ::memset(&x_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&y_) -
-      reinterpret_cast<char*>(&x_)) + sizeof(y_));
+inline void Vector2f::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.x_){0}
+    , decltype(_impl_.y_){0}
+  };
 }
 
 Vector2f::~Vector2f() {
   // @@protoc_insertion_point(destructor:Vector2f)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void Vector2f::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
+inline void Vector2f::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
 }
 
-void Vector2f::ArenaDtor(void* object) {
-  Vector2f* _this = reinterpret_cast< Vector2f* >(object);
-  (void)_this;
-}
-void Vector2f::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void Vector2f::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const Vector2f& Vector2f::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Vector2f_ssl_5fvision_5fgeometry_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void Vector2f::Clear() {
 // @@protoc_insertion_point(message_clear_start:Vector2f)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000003u) {
-    ::memset(&x_, 0, static_cast<size_t>(
-        reinterpret_cast<char*>(&y_) -
-        reinterpret_cast<char*>(&x_)) + sizeof(y_));
+    ::memset(&_impl_.x_, 0, static_cast<size_t>(
+        reinterpret_cast<char*>(&_impl_.y_) -
+        reinterpret_cast<char*>(&_impl_.x_)) + sizeof(_impl_.y_));
   }
-  _has_bits_.Clear();
+  _impl_._has_bits_.Clear();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* Vector2f::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* Vector2f::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // required float x = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 13)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 13)) {
           _Internal::set_has_x(&has_bits);
-          x_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.x_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float y = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 21)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 21)) {
           _Internal::set_has_y(&has_bits);
-          y_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.y_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
-  _has_bits_.Or(has_bits);
+message_done:
+  _impl_._has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* Vector2f::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* Vector2f::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:Vector2f)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   // required float x = 1;
   if (cached_has_bits & 0x00000001u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(1, this->_internal_x(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(1, this->_internal_x(), target);
   }
 
   // required float y = 2;
   if (cached_has_bits & 0x00000002u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(2, this->_internal_y(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(2, this->_internal_y(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:Vector2f)
@@ -646,7 +645,7 @@ size_t Vector2f::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:Vector2f)
   size_t total_size = 0;
 
-  if (((_has_bits_[0] & 0x00000003) ^ 0x00000003) == 0) {  // All required fields are present.
+  if (((_impl_._has_bits_[0] & 0x00000003) ^ 0x00000003) == 0) {  // All required fields are present.
     // required float x = 1;
     total_size += 1 + 4;
 
@@ -656,58 +655,39 @@ size_t Vector2f::ByteSizeLong() const {
   } else {
     total_size += RequiredFieldsByteSizeFallback();
   }
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void Vector2f::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:Vector2f)
-  GOOGLE_DCHECK_NE(&from, this);
-  const Vector2f* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Vector2f>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:Vector2f)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:Vector2f)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData Vector2f::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    Vector2f::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*Vector2f::GetClassData() const { return &_class_data_; }
 
-void Vector2f::MergeFrom(const Vector2f& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:Vector2f)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void Vector2f::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<Vector2f*>(&to_msg);
+  auto& from = static_cast<const Vector2f&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:Vector2f)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = from._has_bits_[0];
+  cached_has_bits = from._impl_._has_bits_[0];
   if (cached_has_bits & 0x00000003u) {
     if (cached_has_bits & 0x00000001u) {
-      x_ = from.x_;
+      _this->_impl_.x_ = from._impl_.x_;
     }
     if (cached_has_bits & 0x00000002u) {
-      y_ = from.y_;
+      _this->_impl_.y_ = from._impl_.y_;
     }
-    _has_bits_[0] |= cached_has_bits;
+    _this->_impl_._has_bits_[0] |= cached_has_bits;
   }
-}
-
-void Vector2f::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:Vector2f)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void Vector2f::CopyFrom(const Vector2f& from) {
@@ -718,38 +698,33 @@ void Vector2f::CopyFrom(const Vector2f& from) {
 }
 
 bool Vector2f::IsInitialized() const {
-  if (_Internal::MissingRequiredFields(_has_bits_)) return false;
+  if (_Internal::MissingRequiredFields(_impl_._has_bits_)) return false;
   return true;
 }
 
 void Vector2f::InternalSwap(Vector2f* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  swap(_has_bits_[0], other->_has_bits_[0]);
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  swap(_impl_._has_bits_[0], other->_impl_._has_bits_[0]);
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(Vector2f, y_)
-      + sizeof(Vector2f::y_)
-      - PROTOBUF_FIELD_OFFSET(Vector2f, x_)>(
-          reinterpret_cast<char*>(&x_),
-          reinterpret_cast<char*>(&other->x_));
+      PROTOBUF_FIELD_OFFSET(Vector2f, _impl_.y_)
+      + sizeof(Vector2f::_impl_.y_)
+      - PROTOBUF_FIELD_OFFSET(Vector2f, _impl_.x_)>(
+          reinterpret_cast<char*>(&_impl_.x_),
+          reinterpret_cast<char*>(&other->_impl_.x_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata Vector2f::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_ssl_5fvision_5fgeometry_2eproto_getter, &descriptor_table_ssl_5fvision_5fgeometry_2eproto_once,
+      file_level_metadata_ssl_5fvision_5fgeometry_2eproto[0]);
 }
-
 
 // ===================================================================
 
-void SSL_FieldLineSegment::InitAsDefaultInstance() {
-  ::_SSL_FieldLineSegment_default_instance_._instance.get_mutable()->p1_ = const_cast< ::Vector2f*>(
-      ::Vector2f::internal_default_instance());
-  ::_SSL_FieldLineSegment_default_instance_._instance.get_mutable()->p2_ = const_cast< ::Vector2f*>(
-      ::Vector2f::internal_default_instance());
-}
 class SSL_FieldLineSegment::_Internal {
  public:
-  using HasBits = decltype(std::declval<SSL_FieldLineSegment>()._has_bits_);
+  using HasBits = decltype(std::declval<SSL_FieldLineSegment>()._impl_._has_bits_);
   static void set_has_name(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
   }
@@ -774,192 +749,207 @@ class SSL_FieldLineSegment::_Internal {
 
 const ::Vector2f&
 SSL_FieldLineSegment::_Internal::p1(const SSL_FieldLineSegment* msg) {
-  return *msg->p1_;
+  return *msg->_impl_.p1_;
 }
 const ::Vector2f&
 SSL_FieldLineSegment::_Internal::p2(const SSL_FieldLineSegment* msg) {
-  return *msg->p2_;
+  return *msg->_impl_.p2_;
 }
-SSL_FieldLineSegment::SSL_FieldLineSegment(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+SSL_FieldLineSegment::SSL_FieldLineSegment(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:SSL_FieldLineSegment)
 }
 SSL_FieldLineSegment::SSL_FieldLineSegment(const SSL_FieldLineSegment& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      _has_bits_(from._has_bits_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  SSL_FieldLineSegment* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){from._impl_._has_bits_}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.name_){}
+    , decltype(_impl_.p1_){nullptr}
+    , decltype(_impl_.p2_){nullptr}
+    , decltype(_impl_.thickness_){}
+    , decltype(_impl_.type_){}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.name_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.name_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (from._internal_has_name()) {
-    name_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_name(),
-      GetArena());
+    _this->_impl_.name_.Set(from._internal_name(), 
+      _this->GetArenaForAllocation());
   }
   if (from._internal_has_p1()) {
-    p1_ = new ::Vector2f(*from.p1_);
-  } else {
-    p1_ = nullptr;
+    _this->_impl_.p1_ = new ::Vector2f(*from._impl_.p1_);
   }
   if (from._internal_has_p2()) {
-    p2_ = new ::Vector2f(*from.p2_);
-  } else {
-    p2_ = nullptr;
+    _this->_impl_.p2_ = new ::Vector2f(*from._impl_.p2_);
   }
-  ::memcpy(&thickness_, &from.thickness_,
-    static_cast<size_t>(reinterpret_cast<char*>(&type_) -
-    reinterpret_cast<char*>(&thickness_)) + sizeof(type_));
+  ::memcpy(&_impl_.thickness_, &from._impl_.thickness_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.type_) -
+    reinterpret_cast<char*>(&_impl_.thickness_)) + sizeof(_impl_.type_));
   // @@protoc_insertion_point(copy_constructor:SSL_FieldLineSegment)
 }
 
-void SSL_FieldLineSegment::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_SSL_FieldLineSegment_ssl_5fvision_5fgeometry_2eproto.base);
-  name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&p1_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&type_) -
-      reinterpret_cast<char*>(&p1_)) + sizeof(type_));
+inline void SSL_FieldLineSegment::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.name_){}
+    , decltype(_impl_.p1_){nullptr}
+    , decltype(_impl_.p2_){nullptr}
+    , decltype(_impl_.thickness_){0}
+    , decltype(_impl_.type_){0}
+  };
+  _impl_.name_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.name_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
 SSL_FieldLineSegment::~SSL_FieldLineSegment() {
   // @@protoc_insertion_point(destructor:SSL_FieldLineSegment)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void SSL_FieldLineSegment::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  name_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (this != internal_default_instance()) delete p1_;
-  if (this != internal_default_instance()) delete p2_;
+inline void SSL_FieldLineSegment::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.name_.Destroy();
+  if (this != internal_default_instance()) delete _impl_.p1_;
+  if (this != internal_default_instance()) delete _impl_.p2_;
 }
 
-void SSL_FieldLineSegment::ArenaDtor(void* object) {
-  SSL_FieldLineSegment* _this = reinterpret_cast< SSL_FieldLineSegment* >(object);
-  (void)_this;
-}
-void SSL_FieldLineSegment::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SSL_FieldLineSegment::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const SSL_FieldLineSegment& SSL_FieldLineSegment::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_SSL_FieldLineSegment_ssl_5fvision_5fgeometry_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void SSL_FieldLineSegment::Clear() {
 // @@protoc_insertion_point(message_clear_start:SSL_FieldLineSegment)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000007u) {
     if (cached_has_bits & 0x00000001u) {
-      name_.ClearNonDefaultToEmpty();
+      _impl_.name_.ClearNonDefaultToEmpty();
     }
     if (cached_has_bits & 0x00000002u) {
-      GOOGLE_DCHECK(p1_ != nullptr);
-      p1_->Clear();
+      GOOGLE_DCHECK(_impl_.p1_ != nullptr);
+      _impl_.p1_->Clear();
     }
     if (cached_has_bits & 0x00000004u) {
-      GOOGLE_DCHECK(p2_ != nullptr);
-      p2_->Clear();
+      GOOGLE_DCHECK(_impl_.p2_ != nullptr);
+      _impl_.p2_->Clear();
     }
   }
   if (cached_has_bits & 0x00000018u) {
-    ::memset(&thickness_, 0, static_cast<size_t>(
-        reinterpret_cast<char*>(&type_) -
-        reinterpret_cast<char*>(&thickness_)) + sizeof(type_));
+    ::memset(&_impl_.thickness_, 0, static_cast<size_t>(
+        reinterpret_cast<char*>(&_impl_.type_) -
+        reinterpret_cast<char*>(&_impl_.thickness_)) + sizeof(_impl_.type_));
   }
-  _has_bits_.Clear();
+  _impl_._has_bits_.Clear();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* SSL_FieldLineSegment::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* SSL_FieldLineSegment::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // required string name = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
           auto str = _internal_mutable_name();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          #ifndef NDEBUG
-          ::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "SSL_FieldLineSegment.name");
-          #endif  // !NDEBUG
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+          #ifndef NDEBUG
+          ::_pbi::VerifyUTF8(str, "SSL_FieldLineSegment.name");
+          #endif  // !NDEBUG
+        } else
+          goto handle_unusual;
         continue;
       // required .Vector2f p1 = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 18)) {
           ptr = ctx->ParseMessage(_internal_mutable_p1(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required .Vector2f p2 = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 26)) {
           ptr = ctx->ParseMessage(_internal_mutable_p2(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float thickness = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 37)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 37)) {
           _Internal::set_has_thickness(&has_bits);
-          thickness_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.thickness_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional .SSL_FieldShapeType type = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 40)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 40)) {
+          uint64_t val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
           if (PROTOBUF_PREDICT_TRUE(::SSL_FieldShapeType_IsValid(val))) {
             _internal_set_type(static_cast<::SSL_FieldShapeType>(val));
           } else {
             ::PROTOBUF_NAMESPACE_ID::internal::WriteVarint(5, val, mutable_unknown_fields());
           }
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
-  _has_bits_.Or(has_bits);
+message_done:
+  _impl_._has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SSL_FieldLineSegment::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SSL_FieldLineSegment::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:SSL_FieldLineSegment)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   // required string name = 1;
   if (cached_has_bits & 0x00000001u) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::VerifyUTF8StringNamedField(
@@ -972,35 +962,33 @@ failure:
 
   // required .Vector2f p1 = 2;
   if (cached_has_bits & 0x00000002u) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        2, _Internal::p1(this), target, stream);
+      InternalWriteMessage(2, _Internal::p1(this),
+        _Internal::p1(this).GetCachedSize(), target, stream);
   }
 
   // required .Vector2f p2 = 3;
   if (cached_has_bits & 0x00000004u) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        3, _Internal::p2(this), target, stream);
+      InternalWriteMessage(3, _Internal::p2(this),
+        _Internal::p2(this).GetCachedSize(), target, stream);
   }
 
   // required float thickness = 4;
   if (cached_has_bits & 0x00000008u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(4, this->_internal_thickness(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(4, this->_internal_thickness(), target);
   }
 
   // optional .SSL_FieldShapeType type = 5;
   if (cached_has_bits & 0x00000010u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
+    target = ::_pbi::WireFormatLite::WriteEnumToArray(
       5, this->_internal_type(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:SSL_FieldLineSegment)
@@ -1022,14 +1010,14 @@ size_t SSL_FieldLineSegment::RequiredFieldsByteSizeFallback() const {
     // required .Vector2f p1 = 2;
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *p1_);
+        *_impl_.p1_);
   }
 
   if (_internal_has_p2()) {
     // required .Vector2f p2 = 3;
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *p2_);
+        *_impl_.p2_);
   }
 
   if (_internal_has_thickness()) {
@@ -1043,7 +1031,7 @@ size_t SSL_FieldLineSegment::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:SSL_FieldLineSegment)
   size_t total_size = 0;
 
-  if (((_has_bits_[0] & 0x0000000f) ^ 0x0000000f) == 0) {  // All required fields are present.
+  if (((_impl_._has_bits_[0] & 0x0000000f) ^ 0x0000000f) == 0) {  // All required fields are present.
     // required string name = 1;
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
@@ -1052,12 +1040,12 @@ size_t SSL_FieldLineSegment::ByteSizeLong() const {
     // required .Vector2f p1 = 2;
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *p1_);
+        *_impl_.p1_);
 
     // required .Vector2f p2 = 3;
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *p2_);
+        *_impl_.p2_);
 
     // required float thickness = 4;
     total_size += 1 + 4;
@@ -1065,74 +1053,57 @@ size_t SSL_FieldLineSegment::ByteSizeLong() const {
   } else {
     total_size += RequiredFieldsByteSizeFallback();
   }
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // optional .SSL_FieldShapeType type = 5;
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000010u) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_type());
+      ::_pbi::WireFormatLite::EnumSize(this->_internal_type());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void SSL_FieldLineSegment::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:SSL_FieldLineSegment)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SSL_FieldLineSegment* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<SSL_FieldLineSegment>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:SSL_FieldLineSegment)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:SSL_FieldLineSegment)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_FieldLineSegment::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    SSL_FieldLineSegment::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SSL_FieldLineSegment::GetClassData() const { return &_class_data_; }
 
-void SSL_FieldLineSegment::MergeFrom(const SSL_FieldLineSegment& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:SSL_FieldLineSegment)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void SSL_FieldLineSegment::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<SSL_FieldLineSegment*>(&to_msg);
+  auto& from = static_cast<const SSL_FieldLineSegment&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:SSL_FieldLineSegment)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = from._has_bits_[0];
+  cached_has_bits = from._impl_._has_bits_[0];
   if (cached_has_bits & 0x0000001fu) {
     if (cached_has_bits & 0x00000001u) {
-      _internal_set_name(from._internal_name());
+      _this->_internal_set_name(from._internal_name());
     }
     if (cached_has_bits & 0x00000002u) {
-      _internal_mutable_p1()->::Vector2f::MergeFrom(from._internal_p1());
+      _this->_internal_mutable_p1()->::Vector2f::MergeFrom(
+          from._internal_p1());
     }
     if (cached_has_bits & 0x00000004u) {
-      _internal_mutable_p2()->::Vector2f::MergeFrom(from._internal_p2());
+      _this->_internal_mutable_p2()->::Vector2f::MergeFrom(
+          from._internal_p2());
     }
     if (cached_has_bits & 0x00000008u) {
-      thickness_ = from.thickness_;
+      _this->_impl_.thickness_ = from._impl_.thickness_;
     }
     if (cached_has_bits & 0x00000010u) {
-      type_ = from.type_;
+      _this->_impl_.type_ = from._impl_.type_;
     }
-    _has_bits_[0] |= cached_has_bits;
+    _this->_impl_._has_bits_[0] |= cached_has_bits;
   }
-}
-
-void SSL_FieldLineSegment::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:SSL_FieldLineSegment)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void SSL_FieldLineSegment::CopyFrom(const SSL_FieldLineSegment& from) {
@@ -1143,43 +1114,45 @@ void SSL_FieldLineSegment::CopyFrom(const SSL_FieldLineSegment& from) {
 }
 
 bool SSL_FieldLineSegment::IsInitialized() const {
-  if (_Internal::MissingRequiredFields(_has_bits_)) return false;
+  if (_Internal::MissingRequiredFields(_impl_._has_bits_)) return false;
   if (_internal_has_p1()) {
-    if (!p1_->IsInitialized()) return false;
+    if (!_impl_.p1_->IsInitialized()) return false;
   }
   if (_internal_has_p2()) {
-    if (!p2_->IsInitialized()) return false;
+    if (!_impl_.p2_->IsInitialized()) return false;
   }
   return true;
 }
 
 void SSL_FieldLineSegment::InternalSwap(SSL_FieldLineSegment* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  swap(_has_bits_[0], other->_has_bits_[0]);
-  name_.Swap(&other->name_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  auto* lhs_arena = GetArenaForAllocation();
+  auto* rhs_arena = other->GetArenaForAllocation();
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  swap(_impl_._has_bits_[0], other->_impl_._has_bits_[0]);
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.name_, lhs_arena,
+      &other->_impl_.name_, rhs_arena
+  );
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(SSL_FieldLineSegment, type_)
-      + sizeof(SSL_FieldLineSegment::type_)
-      - PROTOBUF_FIELD_OFFSET(SSL_FieldLineSegment, p1_)>(
-          reinterpret_cast<char*>(&p1_),
-          reinterpret_cast<char*>(&other->p1_));
+      PROTOBUF_FIELD_OFFSET(SSL_FieldLineSegment, _impl_.type_)
+      + sizeof(SSL_FieldLineSegment::_impl_.type_)
+      - PROTOBUF_FIELD_OFFSET(SSL_FieldLineSegment, _impl_.p1_)>(
+          reinterpret_cast<char*>(&_impl_.p1_),
+          reinterpret_cast<char*>(&other->_impl_.p1_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata SSL_FieldLineSegment::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_ssl_5fvision_5fgeometry_2eproto_getter, &descriptor_table_ssl_5fvision_5fgeometry_2eproto_once,
+      file_level_metadata_ssl_5fvision_5fgeometry_2eproto[1]);
 }
-
 
 // ===================================================================
 
-void SSL_FieldCircularArc::InitAsDefaultInstance() {
-  ::_SSL_FieldCircularArc_default_instance_._instance.get_mutable()->center_ = const_cast< ::Vector2f*>(
-      ::Vector2f::internal_default_instance());
-}
 class SSL_FieldCircularArc::_Internal {
  public:
-  using HasBits = decltype(std::declval<SSL_FieldCircularArc>()._has_bits_);
+  using HasBits = decltype(std::declval<SSL_FieldCircularArc>()._impl_._has_bits_);
   static void set_has_name(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
   }
@@ -1209,195 +1182,218 @@ class SSL_FieldCircularArc::_Internal {
 
 const ::Vector2f&
 SSL_FieldCircularArc::_Internal::center(const SSL_FieldCircularArc* msg) {
-  return *msg->center_;
+  return *msg->_impl_.center_;
 }
-SSL_FieldCircularArc::SSL_FieldCircularArc(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+SSL_FieldCircularArc::SSL_FieldCircularArc(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:SSL_FieldCircularArc)
 }
 SSL_FieldCircularArc::SSL_FieldCircularArc(const SSL_FieldCircularArc& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      _has_bits_(from._has_bits_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  SSL_FieldCircularArc* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){from._impl_._has_bits_}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.name_){}
+    , decltype(_impl_.center_){nullptr}
+    , decltype(_impl_.radius_){}
+    , decltype(_impl_.a1_){}
+    , decltype(_impl_.a2_){}
+    , decltype(_impl_.thickness_){}
+    , decltype(_impl_.type_){}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.name_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.name_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (from._internal_has_name()) {
-    name_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_name(),
-      GetArena());
+    _this->_impl_.name_.Set(from._internal_name(), 
+      _this->GetArenaForAllocation());
   }
   if (from._internal_has_center()) {
-    center_ = new ::Vector2f(*from.center_);
-  } else {
-    center_ = nullptr;
+    _this->_impl_.center_ = new ::Vector2f(*from._impl_.center_);
   }
-  ::memcpy(&radius_, &from.radius_,
-    static_cast<size_t>(reinterpret_cast<char*>(&type_) -
-    reinterpret_cast<char*>(&radius_)) + sizeof(type_));
+  ::memcpy(&_impl_.radius_, &from._impl_.radius_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.type_) -
+    reinterpret_cast<char*>(&_impl_.radius_)) + sizeof(_impl_.type_));
   // @@protoc_insertion_point(copy_constructor:SSL_FieldCircularArc)
 }
 
-void SSL_FieldCircularArc::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_SSL_FieldCircularArc_ssl_5fvision_5fgeometry_2eproto.base);
-  name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&center_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&type_) -
-      reinterpret_cast<char*>(&center_)) + sizeof(type_));
+inline void SSL_FieldCircularArc::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.name_){}
+    , decltype(_impl_.center_){nullptr}
+    , decltype(_impl_.radius_){0}
+    , decltype(_impl_.a1_){0}
+    , decltype(_impl_.a2_){0}
+    , decltype(_impl_.thickness_){0}
+    , decltype(_impl_.type_){0}
+  };
+  _impl_.name_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.name_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
 SSL_FieldCircularArc::~SSL_FieldCircularArc() {
   // @@protoc_insertion_point(destructor:SSL_FieldCircularArc)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void SSL_FieldCircularArc::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  name_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (this != internal_default_instance()) delete center_;
+inline void SSL_FieldCircularArc::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.name_.Destroy();
+  if (this != internal_default_instance()) delete _impl_.center_;
 }
 
-void SSL_FieldCircularArc::ArenaDtor(void* object) {
-  SSL_FieldCircularArc* _this = reinterpret_cast< SSL_FieldCircularArc* >(object);
-  (void)_this;
-}
-void SSL_FieldCircularArc::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SSL_FieldCircularArc::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const SSL_FieldCircularArc& SSL_FieldCircularArc::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_SSL_FieldCircularArc_ssl_5fvision_5fgeometry_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void SSL_FieldCircularArc::Clear() {
 // @@protoc_insertion_point(message_clear_start:SSL_FieldCircularArc)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000003u) {
     if (cached_has_bits & 0x00000001u) {
-      name_.ClearNonDefaultToEmpty();
+      _impl_.name_.ClearNonDefaultToEmpty();
     }
     if (cached_has_bits & 0x00000002u) {
-      GOOGLE_DCHECK(center_ != nullptr);
-      center_->Clear();
+      GOOGLE_DCHECK(_impl_.center_ != nullptr);
+      _impl_.center_->Clear();
     }
   }
   if (cached_has_bits & 0x0000007cu) {
-    ::memset(&radius_, 0, static_cast<size_t>(
-        reinterpret_cast<char*>(&type_) -
-        reinterpret_cast<char*>(&radius_)) + sizeof(type_));
+    ::memset(&_impl_.radius_, 0, static_cast<size_t>(
+        reinterpret_cast<char*>(&_impl_.type_) -
+        reinterpret_cast<char*>(&_impl_.radius_)) + sizeof(_impl_.type_));
   }
-  _has_bits_.Clear();
+  _impl_._has_bits_.Clear();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* SSL_FieldCircularArc::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* SSL_FieldCircularArc::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // required string name = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
           auto str = _internal_mutable_name();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          #ifndef NDEBUG
-          ::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "SSL_FieldCircularArc.name");
-          #endif  // !NDEBUG
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+          #ifndef NDEBUG
+          ::_pbi::VerifyUTF8(str, "SSL_FieldCircularArc.name");
+          #endif  // !NDEBUG
+        } else
+          goto handle_unusual;
         continue;
       // required .Vector2f center = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 18)) {
           ptr = ctx->ParseMessage(_internal_mutable_center(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float radius = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 29)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 29)) {
           _Internal::set_has_radius(&has_bits);
-          radius_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.radius_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float a1 = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 37)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 37)) {
           _Internal::set_has_a1(&has_bits);
-          a1_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.a1_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float a2 = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 45)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 45)) {
           _Internal::set_has_a2(&has_bits);
-          a2_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.a2_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float thickness = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 53)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 53)) {
           _Internal::set_has_thickness(&has_bits);
-          thickness_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.thickness_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional .SSL_FieldShapeType type = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 56)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 56)) {
+          uint64_t val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
           if (PROTOBUF_PREDICT_TRUE(::SSL_FieldShapeType_IsValid(val))) {
             _internal_set_type(static_cast<::SSL_FieldShapeType>(val));
           } else {
             ::PROTOBUF_NAMESPACE_ID::internal::WriteVarint(7, val, mutable_unknown_fields());
           }
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
-  _has_bits_.Or(has_bits);
+message_done:
+  _impl_._has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SSL_FieldCircularArc::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SSL_FieldCircularArc::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:SSL_FieldCircularArc)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   // required string name = 1;
   if (cached_has_bits & 0x00000001u) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::VerifyUTF8StringNamedField(
@@ -1410,45 +1406,44 @@ failure:
 
   // required .Vector2f center = 2;
   if (cached_has_bits & 0x00000002u) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        2, _Internal::center(this), target, stream);
+      InternalWriteMessage(2, _Internal::center(this),
+        _Internal::center(this).GetCachedSize(), target, stream);
   }
 
   // required float radius = 3;
   if (cached_has_bits & 0x00000004u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(3, this->_internal_radius(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(3, this->_internal_radius(), target);
   }
 
   // required float a1 = 4;
   if (cached_has_bits & 0x00000008u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(4, this->_internal_a1(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(4, this->_internal_a1(), target);
   }
 
   // required float a2 = 5;
   if (cached_has_bits & 0x00000010u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(5, this->_internal_a2(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(5, this->_internal_a2(), target);
   }
 
   // required float thickness = 6;
   if (cached_has_bits & 0x00000020u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(6, this->_internal_thickness(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(6, this->_internal_thickness(), target);
   }
 
   // optional .SSL_FieldShapeType type = 7;
   if (cached_has_bits & 0x00000040u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
+    target = ::_pbi::WireFormatLite::WriteEnumToArray(
       7, this->_internal_type(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:SSL_FieldCircularArc)
@@ -1470,7 +1465,7 @@ size_t SSL_FieldCircularArc::RequiredFieldsByteSizeFallback() const {
     // required .Vector2f center = 2;
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *center_);
+        *_impl_.center_);
   }
 
   if (_internal_has_radius()) {
@@ -1499,7 +1494,7 @@ size_t SSL_FieldCircularArc::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:SSL_FieldCircularArc)
   size_t total_size = 0;
 
-  if (((_has_bits_[0] & 0x0000003f) ^ 0x0000003f) == 0) {  // All required fields are present.
+  if (((_impl_._has_bits_[0] & 0x0000003f) ^ 0x0000003f) == 0) {  // All required fields are present.
     // required string name = 1;
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
@@ -1508,7 +1503,7 @@ size_t SSL_FieldCircularArc::ByteSizeLong() const {
     // required .Vector2f center = 2;
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *center_);
+        *_impl_.center_);
 
     // required float radius = 3;
     total_size += 1 + 4;
@@ -1525,80 +1520,62 @@ size_t SSL_FieldCircularArc::ByteSizeLong() const {
   } else {
     total_size += RequiredFieldsByteSizeFallback();
   }
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // optional .SSL_FieldShapeType type = 7;
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000040u) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_type());
+      ::_pbi::WireFormatLite::EnumSize(this->_internal_type());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void SSL_FieldCircularArc::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:SSL_FieldCircularArc)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SSL_FieldCircularArc* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<SSL_FieldCircularArc>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:SSL_FieldCircularArc)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:SSL_FieldCircularArc)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_FieldCircularArc::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    SSL_FieldCircularArc::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SSL_FieldCircularArc::GetClassData() const { return &_class_data_; }
 
-void SSL_FieldCircularArc::MergeFrom(const SSL_FieldCircularArc& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:SSL_FieldCircularArc)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void SSL_FieldCircularArc::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<SSL_FieldCircularArc*>(&to_msg);
+  auto& from = static_cast<const SSL_FieldCircularArc&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:SSL_FieldCircularArc)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = from._has_bits_[0];
+  cached_has_bits = from._impl_._has_bits_[0];
   if (cached_has_bits & 0x0000007fu) {
     if (cached_has_bits & 0x00000001u) {
-      _internal_set_name(from._internal_name());
+      _this->_internal_set_name(from._internal_name());
     }
     if (cached_has_bits & 0x00000002u) {
-      _internal_mutable_center()->::Vector2f::MergeFrom(from._internal_center());
+      _this->_internal_mutable_center()->::Vector2f::MergeFrom(
+          from._internal_center());
     }
     if (cached_has_bits & 0x00000004u) {
-      radius_ = from.radius_;
+      _this->_impl_.radius_ = from._impl_.radius_;
     }
     if (cached_has_bits & 0x00000008u) {
-      a1_ = from.a1_;
+      _this->_impl_.a1_ = from._impl_.a1_;
     }
     if (cached_has_bits & 0x00000010u) {
-      a2_ = from.a2_;
+      _this->_impl_.a2_ = from._impl_.a2_;
     }
     if (cached_has_bits & 0x00000020u) {
-      thickness_ = from.thickness_;
+      _this->_impl_.thickness_ = from._impl_.thickness_;
     }
     if (cached_has_bits & 0x00000040u) {
-      type_ = from.type_;
+      _this->_impl_.type_ = from._impl_.type_;
     }
-    _has_bits_[0] |= cached_has_bits;
+    _this->_impl_._has_bits_[0] |= cached_has_bits;
   }
-}
-
-void SSL_FieldCircularArc::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:SSL_FieldCircularArc)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void SSL_FieldCircularArc::CopyFrom(const SSL_FieldCircularArc& from) {
@@ -1609,38 +1586,42 @@ void SSL_FieldCircularArc::CopyFrom(const SSL_FieldCircularArc& from) {
 }
 
 bool SSL_FieldCircularArc::IsInitialized() const {
-  if (_Internal::MissingRequiredFields(_has_bits_)) return false;
+  if (_Internal::MissingRequiredFields(_impl_._has_bits_)) return false;
   if (_internal_has_center()) {
-    if (!center_->IsInitialized()) return false;
+    if (!_impl_.center_->IsInitialized()) return false;
   }
   return true;
 }
 
 void SSL_FieldCircularArc::InternalSwap(SSL_FieldCircularArc* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  swap(_has_bits_[0], other->_has_bits_[0]);
-  name_.Swap(&other->name_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  auto* lhs_arena = GetArenaForAllocation();
+  auto* rhs_arena = other->GetArenaForAllocation();
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  swap(_impl_._has_bits_[0], other->_impl_._has_bits_[0]);
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.name_, lhs_arena,
+      &other->_impl_.name_, rhs_arena
+  );
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(SSL_FieldCircularArc, type_)
-      + sizeof(SSL_FieldCircularArc::type_)
-      - PROTOBUF_FIELD_OFFSET(SSL_FieldCircularArc, center_)>(
-          reinterpret_cast<char*>(&center_),
-          reinterpret_cast<char*>(&other->center_));
+      PROTOBUF_FIELD_OFFSET(SSL_FieldCircularArc, _impl_.type_)
+      + sizeof(SSL_FieldCircularArc::_impl_.type_)
+      - PROTOBUF_FIELD_OFFSET(SSL_FieldCircularArc, _impl_.center_)>(
+          reinterpret_cast<char*>(&_impl_.center_),
+          reinterpret_cast<char*>(&other->_impl_.center_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata SSL_FieldCircularArc::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_ssl_5fvision_5fgeometry_2eproto_getter, &descriptor_table_ssl_5fvision_5fgeometry_2eproto_once,
+      file_level_metadata_ssl_5fvision_5fgeometry_2eproto[2]);
 }
-
 
 // ===================================================================
 
-void SSL_GeometryFieldSize::InitAsDefaultInstance() {
-}
 class SSL_GeometryFieldSize::_Internal {
  public:
-  using HasBits = decltype(std::declval<SSL_GeometryFieldSize>()._has_bits_);
+  using HasBits = decltype(std::declval<SSL_GeometryFieldSize>()._impl_._has_bits_);
   static void set_has_field_length(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
   }
@@ -1667,128 +1648,146 @@ class SSL_GeometryFieldSize::_Internal {
   }
 };
 
-SSL_GeometryFieldSize::SSL_GeometryFieldSize(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena),
-  field_lines_(arena),
-  field_arcs_(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+SSL_GeometryFieldSize::SSL_GeometryFieldSize(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:SSL_GeometryFieldSize)
 }
 SSL_GeometryFieldSize::SSL_GeometryFieldSize(const SSL_GeometryFieldSize& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      _has_bits_(from._has_bits_),
-      field_lines_(from.field_lines_),
-      field_arcs_(from.field_arcs_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  SSL_GeometryFieldSize* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){from._impl_._has_bits_}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.field_lines_){from._impl_.field_lines_}
+    , decltype(_impl_.field_arcs_){from._impl_.field_arcs_}
+    , decltype(_impl_.field_length_){}
+    , decltype(_impl_.field_width_){}
+    , decltype(_impl_.goal_width_){}
+    , decltype(_impl_.goal_depth_){}
+    , decltype(_impl_.boundary_width_){}
+    , decltype(_impl_.penalty_area_depth_){}
+    , decltype(_impl_.penalty_area_width_){}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::memcpy(&field_length_, &from.field_length_,
-    static_cast<size_t>(reinterpret_cast<char*>(&penalty_area_width_) -
-    reinterpret_cast<char*>(&field_length_)) + sizeof(penalty_area_width_));
+  ::memcpy(&_impl_.field_length_, &from._impl_.field_length_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.penalty_area_width_) -
+    reinterpret_cast<char*>(&_impl_.field_length_)) + sizeof(_impl_.penalty_area_width_));
   // @@protoc_insertion_point(copy_constructor:SSL_GeometryFieldSize)
 }
 
-void SSL_GeometryFieldSize::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_SSL_GeometryFieldSize_ssl_5fvision_5fgeometry_2eproto.base);
-  ::memset(&field_length_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&penalty_area_width_) -
-      reinterpret_cast<char*>(&field_length_)) + sizeof(penalty_area_width_));
+inline void SSL_GeometryFieldSize::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.field_lines_){arena}
+    , decltype(_impl_.field_arcs_){arena}
+    , decltype(_impl_.field_length_){0}
+    , decltype(_impl_.field_width_){0}
+    , decltype(_impl_.goal_width_){0}
+    , decltype(_impl_.goal_depth_){0}
+    , decltype(_impl_.boundary_width_){0}
+    , decltype(_impl_.penalty_area_depth_){0}
+    , decltype(_impl_.penalty_area_width_){0}
+  };
 }
 
 SSL_GeometryFieldSize::~SSL_GeometryFieldSize() {
   // @@protoc_insertion_point(destructor:SSL_GeometryFieldSize)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void SSL_GeometryFieldSize::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
+inline void SSL_GeometryFieldSize::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.field_lines_.~RepeatedPtrField();
+  _impl_.field_arcs_.~RepeatedPtrField();
 }
 
-void SSL_GeometryFieldSize::ArenaDtor(void* object) {
-  SSL_GeometryFieldSize* _this = reinterpret_cast< SSL_GeometryFieldSize* >(object);
-  (void)_this;
-}
-void SSL_GeometryFieldSize::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SSL_GeometryFieldSize::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const SSL_GeometryFieldSize& SSL_GeometryFieldSize::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_SSL_GeometryFieldSize_ssl_5fvision_5fgeometry_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void SSL_GeometryFieldSize::Clear() {
 // @@protoc_insertion_point(message_clear_start:SSL_GeometryFieldSize)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  field_lines_.Clear();
-  field_arcs_.Clear();
-  cached_has_bits = _has_bits_[0];
+  _impl_.field_lines_.Clear();
+  _impl_.field_arcs_.Clear();
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x0000007fu) {
-    ::memset(&field_length_, 0, static_cast<size_t>(
-        reinterpret_cast<char*>(&penalty_area_width_) -
-        reinterpret_cast<char*>(&field_length_)) + sizeof(penalty_area_width_));
+    ::memset(&_impl_.field_length_, 0, static_cast<size_t>(
+        reinterpret_cast<char*>(&_impl_.penalty_area_width_) -
+        reinterpret_cast<char*>(&_impl_.field_length_)) + sizeof(_impl_.penalty_area_width_));
   }
-  _has_bits_.Clear();
+  _impl_._has_bits_.Clear();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* SSL_GeometryFieldSize::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* SSL_GeometryFieldSize::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // required int32 field_length = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 8)) {
           _Internal::set_has_field_length(&has_bits);
-          field_length_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          _impl_.field_length_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 field_width = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 16)) {
           _Internal::set_has_field_width(&has_bits);
-          field_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          _impl_.field_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 goal_width = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 24)) {
           _Internal::set_has_goal_width(&has_bits);
-          goal_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          _impl_.goal_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 goal_depth = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 32)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 32)) {
           _Internal::set_has_goal_depth(&has_bits);
-          goal_depth_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          _impl_.goal_depth_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required int32 boundary_width = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 40)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 40)) {
           _Internal::set_has_boundary_width(&has_bits);
-          boundary_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          _impl_.boundary_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // repeated .SSL_FieldLineSegment field_lines = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 50)) {
           ptr -= 1;
           do {
             ptr += 1;
@@ -1796,11 +1795,12 @@ const char* SSL_GeometryFieldSize::_InternalParse(const char* ptr, ::PROTOBUF_NA
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<50>(ptr));
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // repeated .SSL_FieldCircularArc field_arcs = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 58)) {
           ptr -= 1;
           do {
             ptr += 1;
@@ -1808,114 +1808,118 @@ const char* SSL_GeometryFieldSize::_InternalParse(const char* ptr, ::PROTOBUF_NA
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<58>(ptr));
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional int32 penalty_area_depth = 8;
       case 8:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 64)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 64)) {
           _Internal::set_has_penalty_area_depth(&has_bits);
-          penalty_area_depth_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          _impl_.penalty_area_depth_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional int32 penalty_area_width = 9;
       case 9:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 72)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 72)) {
           _Internal::set_has_penalty_area_width(&has_bits);
-          penalty_area_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+          _impl_.penalty_area_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
-  _has_bits_.Or(has_bits);
+message_done:
+  _impl_._has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SSL_GeometryFieldSize::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SSL_GeometryFieldSize::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:SSL_GeometryFieldSize)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   // required int32 field_length = 1;
   if (cached_has_bits & 0x00000001u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(1, this->_internal_field_length(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(1, this->_internal_field_length(), target);
   }
 
   // required int32 field_width = 2;
   if (cached_has_bits & 0x00000002u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(2, this->_internal_field_width(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(2, this->_internal_field_width(), target);
   }
 
   // required int32 goal_width = 3;
   if (cached_has_bits & 0x00000004u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(3, this->_internal_goal_width(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(3, this->_internal_goal_width(), target);
   }
 
   // required int32 goal_depth = 4;
   if (cached_has_bits & 0x00000008u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(4, this->_internal_goal_depth(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(4, this->_internal_goal_depth(), target);
   }
 
   // required int32 boundary_width = 5;
   if (cached_has_bits & 0x00000010u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(5, this->_internal_boundary_width(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(5, this->_internal_boundary_width(), target);
   }
 
   // repeated .SSL_FieldLineSegment field_lines = 6;
-  for (unsigned int i = 0,
-      n = static_cast<unsigned int>(this->_internal_field_lines_size()); i < n; i++) {
-    target = stream->EnsureSpace(target);
+  for (unsigned i = 0,
+      n = static_cast<unsigned>(this->_internal_field_lines_size()); i < n; i++) {
+    const auto& repfield = this->_internal_field_lines(i);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(6, this->_internal_field_lines(i), target, stream);
+        InternalWriteMessage(6, repfield, repfield.GetCachedSize(), target, stream);
   }
 
   // repeated .SSL_FieldCircularArc field_arcs = 7;
-  for (unsigned int i = 0,
-      n = static_cast<unsigned int>(this->_internal_field_arcs_size()); i < n; i++) {
-    target = stream->EnsureSpace(target);
+  for (unsigned i = 0,
+      n = static_cast<unsigned>(this->_internal_field_arcs_size()); i < n; i++) {
+    const auto& repfield = this->_internal_field_arcs(i);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(7, this->_internal_field_arcs(i), target, stream);
+        InternalWriteMessage(7, repfield, repfield.GetCachedSize(), target, stream);
   }
 
   // optional int32 penalty_area_depth = 8;
   if (cached_has_bits & 0x00000020u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(8, this->_internal_penalty_area_depth(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(8, this->_internal_penalty_area_depth(), target);
   }
 
   // optional int32 penalty_area_width = 9;
   if (cached_has_bits & 0x00000040u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(9, this->_internal_penalty_area_width(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(9, this->_internal_penalty_area_width(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:SSL_GeometryFieldSize)
@@ -1928,37 +1932,27 @@ size_t SSL_GeometryFieldSize::RequiredFieldsByteSizeFallback() const {
 
   if (_internal_has_field_length()) {
     // required int32 field_length = 1;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_field_length());
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_field_length());
   }
 
   if (_internal_has_field_width()) {
     // required int32 field_width = 2;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_field_width());
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_field_width());
   }
 
   if (_internal_has_goal_width()) {
     // required int32 goal_width = 3;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_goal_width());
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_goal_width());
   }
 
   if (_internal_has_goal_depth()) {
     // required int32 goal_depth = 4;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_goal_depth());
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_goal_depth());
   }
 
   if (_internal_has_boundary_width()) {
     // required int32 boundary_width = 5;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_boundary_width());
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_boundary_width());
   }
 
   return total_size;
@@ -1967,135 +1961,102 @@ size_t SSL_GeometryFieldSize::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:SSL_GeometryFieldSize)
   size_t total_size = 0;
 
-  if (((_has_bits_[0] & 0x0000001f) ^ 0x0000001f) == 0) {  // All required fields are present.
+  if (((_impl_._has_bits_[0] & 0x0000001f) ^ 0x0000001f) == 0) {  // All required fields are present.
     // required int32 field_length = 1;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_field_length());
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_field_length());
 
     // required int32 field_width = 2;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_field_width());
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_field_width());
 
     // required int32 goal_width = 3;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_goal_width());
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_goal_width());
 
     // required int32 goal_depth = 4;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_goal_depth());
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_goal_depth());
 
     // required int32 boundary_width = 5;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_boundary_width());
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_boundary_width());
 
   } else {
     total_size += RequiredFieldsByteSizeFallback();
   }
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // repeated .SSL_FieldLineSegment field_lines = 6;
   total_size += 1UL * this->_internal_field_lines_size();
-  for (const auto& msg : this->field_lines_) {
+  for (const auto& msg : this->_impl_.field_lines_) {
     total_size +=
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
   // repeated .SSL_FieldCircularArc field_arcs = 7;
   total_size += 1UL * this->_internal_field_arcs_size();
-  for (const auto& msg : this->field_arcs_) {
+  for (const auto& msg : this->_impl_.field_arcs_) {
     total_size +=
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000060u) {
     // optional int32 penalty_area_depth = 8;
     if (cached_has_bits & 0x00000020u) {
-      total_size += 1 +
-        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-          this->_internal_penalty_area_depth());
+      total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_penalty_area_depth());
     }
 
     // optional int32 penalty_area_width = 9;
     if (cached_has_bits & 0x00000040u) {
-      total_size += 1 +
-        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-          this->_internal_penalty_area_width());
+      total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_penalty_area_width());
     }
 
   }
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void SSL_GeometryFieldSize::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:SSL_GeometryFieldSize)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SSL_GeometryFieldSize* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<SSL_GeometryFieldSize>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:SSL_GeometryFieldSize)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:SSL_GeometryFieldSize)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_GeometryFieldSize::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    SSL_GeometryFieldSize::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SSL_GeometryFieldSize::GetClassData() const { return &_class_data_; }
 
-void SSL_GeometryFieldSize::MergeFrom(const SSL_GeometryFieldSize& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:SSL_GeometryFieldSize)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void SSL_GeometryFieldSize::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<SSL_GeometryFieldSize*>(&to_msg);
+  auto& from = static_cast<const SSL_GeometryFieldSize&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:SSL_GeometryFieldSize)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  field_lines_.MergeFrom(from.field_lines_);
-  field_arcs_.MergeFrom(from.field_arcs_);
-  cached_has_bits = from._has_bits_[0];
+  _this->_impl_.field_lines_.MergeFrom(from._impl_.field_lines_);
+  _this->_impl_.field_arcs_.MergeFrom(from._impl_.field_arcs_);
+  cached_has_bits = from._impl_._has_bits_[0];
   if (cached_has_bits & 0x0000007fu) {
     if (cached_has_bits & 0x00000001u) {
-      field_length_ = from.field_length_;
+      _this->_impl_.field_length_ = from._impl_.field_length_;
     }
     if (cached_has_bits & 0x00000002u) {
-      field_width_ = from.field_width_;
+      _this->_impl_.field_width_ = from._impl_.field_width_;
     }
     if (cached_has_bits & 0x00000004u) {
-      goal_width_ = from.goal_width_;
+      _this->_impl_.goal_width_ = from._impl_.goal_width_;
     }
     if (cached_has_bits & 0x00000008u) {
-      goal_depth_ = from.goal_depth_;
+      _this->_impl_.goal_depth_ = from._impl_.goal_depth_;
     }
     if (cached_has_bits & 0x00000010u) {
-      boundary_width_ = from.boundary_width_;
+      _this->_impl_.boundary_width_ = from._impl_.boundary_width_;
     }
     if (cached_has_bits & 0x00000020u) {
-      penalty_area_depth_ = from.penalty_area_depth_;
+      _this->_impl_.penalty_area_depth_ = from._impl_.penalty_area_depth_;
     }
     if (cached_has_bits & 0x00000040u) {
-      penalty_area_width_ = from.penalty_area_width_;
+      _this->_impl_.penalty_area_width_ = from._impl_.penalty_area_width_;
     }
-    _has_bits_[0] |= cached_has_bits;
+    _this->_impl_._has_bits_[0] |= cached_has_bits;
   }
-}
-
-void SSL_GeometryFieldSize::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:SSL_GeometryFieldSize)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void SSL_GeometryFieldSize::CopyFrom(const SSL_GeometryFieldSize& from) {
@@ -2106,38 +2067,39 @@ void SSL_GeometryFieldSize::CopyFrom(const SSL_GeometryFieldSize& from) {
 }
 
 bool SSL_GeometryFieldSize::IsInitialized() const {
-  if (_Internal::MissingRequiredFields(_has_bits_)) return false;
-  if (!::PROTOBUF_NAMESPACE_ID::internal::AllAreInitialized(field_lines_)) return false;
-  if (!::PROTOBUF_NAMESPACE_ID::internal::AllAreInitialized(field_arcs_)) return false;
+  if (_Internal::MissingRequiredFields(_impl_._has_bits_)) return false;
+  if (!::PROTOBUF_NAMESPACE_ID::internal::AllAreInitialized(_impl_.field_lines_))
+    return false;
+  if (!::PROTOBUF_NAMESPACE_ID::internal::AllAreInitialized(_impl_.field_arcs_))
+    return false;
   return true;
 }
 
 void SSL_GeometryFieldSize::InternalSwap(SSL_GeometryFieldSize* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  swap(_has_bits_[0], other->_has_bits_[0]);
-  field_lines_.InternalSwap(&other->field_lines_);
-  field_arcs_.InternalSwap(&other->field_arcs_);
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  swap(_impl_._has_bits_[0], other->_impl_._has_bits_[0]);
+  _impl_.field_lines_.InternalSwap(&other->_impl_.field_lines_);
+  _impl_.field_arcs_.InternalSwap(&other->_impl_.field_arcs_);
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(SSL_GeometryFieldSize, penalty_area_width_)
-      + sizeof(SSL_GeometryFieldSize::penalty_area_width_)
-      - PROTOBUF_FIELD_OFFSET(SSL_GeometryFieldSize, field_length_)>(
-          reinterpret_cast<char*>(&field_length_),
-          reinterpret_cast<char*>(&other->field_length_));
+      PROTOBUF_FIELD_OFFSET(SSL_GeometryFieldSize, _impl_.penalty_area_width_)
+      + sizeof(SSL_GeometryFieldSize::_impl_.penalty_area_width_)
+      - PROTOBUF_FIELD_OFFSET(SSL_GeometryFieldSize, _impl_.field_length_)>(
+          reinterpret_cast<char*>(&_impl_.field_length_),
+          reinterpret_cast<char*>(&other->_impl_.field_length_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata SSL_GeometryFieldSize::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_ssl_5fvision_5fgeometry_2eproto_getter, &descriptor_table_ssl_5fvision_5fgeometry_2eproto_once,
+      file_level_metadata_ssl_5fvision_5fgeometry_2eproto[3]);
 }
-
 
 // ===================================================================
 
-void SSL_GeometryCameraCalibration::InitAsDefaultInstance() {
-}
 class SSL_GeometryCameraCalibration::_Internal {
  public:
-  using HasBits = decltype(std::declval<SSL_GeometryCameraCalibration>()._has_bits_);
+  using HasBits = decltype(std::declval<SSL_GeometryCameraCalibration>()._impl_._has_bits_);
   static void set_has_camera_id(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
   }
@@ -2194,354 +2156,404 @@ class SSL_GeometryCameraCalibration::_Internal {
   }
 };
 
-SSL_GeometryCameraCalibration::SSL_GeometryCameraCalibration(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+SSL_GeometryCameraCalibration::SSL_GeometryCameraCalibration(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:SSL_GeometryCameraCalibration)
 }
 SSL_GeometryCameraCalibration::SSL_GeometryCameraCalibration(const SSL_GeometryCameraCalibration& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      _has_bits_(from._has_bits_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  SSL_GeometryCameraCalibration* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){from._impl_._has_bits_}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.camera_id_){}
+    , decltype(_impl_.focal_length_){}
+    , decltype(_impl_.principal_point_x_){}
+    , decltype(_impl_.principal_point_y_){}
+    , decltype(_impl_.distortion_){}
+    , decltype(_impl_.q0_){}
+    , decltype(_impl_.q1_){}
+    , decltype(_impl_.q2_){}
+    , decltype(_impl_.q3_){}
+    , decltype(_impl_.tx_){}
+    , decltype(_impl_.ty_){}
+    , decltype(_impl_.tz_){}
+    , decltype(_impl_.derived_camera_world_tx_){}
+    , decltype(_impl_.derived_camera_world_ty_){}
+    , decltype(_impl_.derived_camera_world_tz_){}
+    , decltype(_impl_.pixel_image_width_){}
+    , decltype(_impl_.pixel_image_height_){}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::memcpy(&camera_id_, &from.camera_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&pixel_image_height_) -
-    reinterpret_cast<char*>(&camera_id_)) + sizeof(pixel_image_height_));
+  ::memcpy(&_impl_.camera_id_, &from._impl_.camera_id_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.pixel_image_height_) -
+    reinterpret_cast<char*>(&_impl_.camera_id_)) + sizeof(_impl_.pixel_image_height_));
   // @@protoc_insertion_point(copy_constructor:SSL_GeometryCameraCalibration)
 }
 
-void SSL_GeometryCameraCalibration::SharedCtor() {
-  ::memset(&camera_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&pixel_image_height_) -
-      reinterpret_cast<char*>(&camera_id_)) + sizeof(pixel_image_height_));
+inline void SSL_GeometryCameraCalibration::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.camera_id_){0u}
+    , decltype(_impl_.focal_length_){0}
+    , decltype(_impl_.principal_point_x_){0}
+    , decltype(_impl_.principal_point_y_){0}
+    , decltype(_impl_.distortion_){0}
+    , decltype(_impl_.q0_){0}
+    , decltype(_impl_.q1_){0}
+    , decltype(_impl_.q2_){0}
+    , decltype(_impl_.q3_){0}
+    , decltype(_impl_.tx_){0}
+    , decltype(_impl_.ty_){0}
+    , decltype(_impl_.tz_){0}
+    , decltype(_impl_.derived_camera_world_tx_){0}
+    , decltype(_impl_.derived_camera_world_ty_){0}
+    , decltype(_impl_.derived_camera_world_tz_){0}
+    , decltype(_impl_.pixel_image_width_){0u}
+    , decltype(_impl_.pixel_image_height_){0u}
+  };
 }
 
 SSL_GeometryCameraCalibration::~SSL_GeometryCameraCalibration() {
   // @@protoc_insertion_point(destructor:SSL_GeometryCameraCalibration)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void SSL_GeometryCameraCalibration::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
+inline void SSL_GeometryCameraCalibration::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
 }
 
-void SSL_GeometryCameraCalibration::ArenaDtor(void* object) {
-  SSL_GeometryCameraCalibration* _this = reinterpret_cast< SSL_GeometryCameraCalibration* >(object);
-  (void)_this;
-}
-void SSL_GeometryCameraCalibration::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SSL_GeometryCameraCalibration::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const SSL_GeometryCameraCalibration& SSL_GeometryCameraCalibration::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_SSL_GeometryCameraCalibration_ssl_5fvision_5fgeometry_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void SSL_GeometryCameraCalibration::Clear() {
 // @@protoc_insertion_point(message_clear_start:SSL_GeometryCameraCalibration)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x000000ffu) {
-    ::memset(&camera_id_, 0, static_cast<size_t>(
-        reinterpret_cast<char*>(&q2_) -
-        reinterpret_cast<char*>(&camera_id_)) + sizeof(q2_));
+    ::memset(&_impl_.camera_id_, 0, static_cast<size_t>(
+        reinterpret_cast<char*>(&_impl_.q2_) -
+        reinterpret_cast<char*>(&_impl_.camera_id_)) + sizeof(_impl_.q2_));
   }
   if (cached_has_bits & 0x0000ff00u) {
-    ::memset(&q3_, 0, static_cast<size_t>(
-        reinterpret_cast<char*>(&pixel_image_width_) -
-        reinterpret_cast<char*>(&q3_)) + sizeof(pixel_image_width_));
+    ::memset(&_impl_.q3_, 0, static_cast<size_t>(
+        reinterpret_cast<char*>(&_impl_.pixel_image_width_) -
+        reinterpret_cast<char*>(&_impl_.q3_)) + sizeof(_impl_.pixel_image_width_));
   }
-  pixel_image_height_ = 0u;
-  _has_bits_.Clear();
+  _impl_.pixel_image_height_ = 0u;
+  _impl_._has_bits_.Clear();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* SSL_GeometryCameraCalibration::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* SSL_GeometryCameraCalibration::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // required uint32 camera_id = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 8)) {
           _Internal::set_has_camera_id(&has_bits);
-          camera_id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+          _impl_.camera_id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float focal_length = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 21)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 21)) {
           _Internal::set_has_focal_length(&has_bits);
-          focal_length_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.focal_length_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float principal_point_x = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 29)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 29)) {
           _Internal::set_has_principal_point_x(&has_bits);
-          principal_point_x_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.principal_point_x_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float principal_point_y = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 37)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 37)) {
           _Internal::set_has_principal_point_y(&has_bits);
-          principal_point_y_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.principal_point_y_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float distortion = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 45)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 45)) {
           _Internal::set_has_distortion(&has_bits);
-          distortion_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.distortion_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float q0 = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 53)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 53)) {
           _Internal::set_has_q0(&has_bits);
-          q0_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.q0_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float q1 = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 61)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 61)) {
           _Internal::set_has_q1(&has_bits);
-          q1_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.q1_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float q2 = 8;
       case 8:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 69)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 69)) {
           _Internal::set_has_q2(&has_bits);
-          q2_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.q2_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float q3 = 9;
       case 9:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 77)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 77)) {
           _Internal::set_has_q3(&has_bits);
-          q3_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.q3_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float tx = 10;
       case 10:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 85)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 85)) {
           _Internal::set_has_tx(&has_bits);
-          tx_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.tx_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float ty = 11;
       case 11:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 93)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 93)) {
           _Internal::set_has_ty(&has_bits);
-          ty_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.ty_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required float tz = 12;
       case 12:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 101)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 101)) {
           _Internal::set_has_tz(&has_bits);
-          tz_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.tz_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional float derived_camera_world_tx = 13;
       case 13:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 109)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 109)) {
           _Internal::set_has_derived_camera_world_tx(&has_bits);
-          derived_camera_world_tx_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.derived_camera_world_tx_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional float derived_camera_world_ty = 14;
       case 14:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 117)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 117)) {
           _Internal::set_has_derived_camera_world_ty(&has_bits);
-          derived_camera_world_ty_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.derived_camera_world_ty_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional float derived_camera_world_tz = 15;
       case 15:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 125)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 125)) {
           _Internal::set_has_derived_camera_world_tz(&has_bits);
-          derived_camera_world_tz_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
+          _impl_.derived_camera_world_tz_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<float>(ptr);
           ptr += sizeof(float);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional uint32 pixel_image_width = 16;
       case 16:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 128)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 128)) {
           _Internal::set_has_pixel_image_width(&has_bits);
-          pixel_image_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+          _impl_.pixel_image_width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional uint32 pixel_image_height = 17;
       case 17:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 136)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 136)) {
           _Internal::set_has_pixel_image_height(&has_bits);
-          pixel_image_height_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+          _impl_.pixel_image_height_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
-  _has_bits_.Or(has_bits);
+message_done:
+  _impl_._has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SSL_GeometryCameraCalibration::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SSL_GeometryCameraCalibration::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:SSL_GeometryCameraCalibration)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   // required uint32 camera_id = 1;
   if (cached_has_bits & 0x00000001u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(1, this->_internal_camera_id(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(1, this->_internal_camera_id(), target);
   }
 
   // required float focal_length = 2;
   if (cached_has_bits & 0x00000002u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(2, this->_internal_focal_length(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(2, this->_internal_focal_length(), target);
   }
 
   // required float principal_point_x = 3;
   if (cached_has_bits & 0x00000004u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(3, this->_internal_principal_point_x(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(3, this->_internal_principal_point_x(), target);
   }
 
   // required float principal_point_y = 4;
   if (cached_has_bits & 0x00000008u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(4, this->_internal_principal_point_y(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(4, this->_internal_principal_point_y(), target);
   }
 
   // required float distortion = 5;
   if (cached_has_bits & 0x00000010u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(5, this->_internal_distortion(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(5, this->_internal_distortion(), target);
   }
 
   // required float q0 = 6;
   if (cached_has_bits & 0x00000020u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(6, this->_internal_q0(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(6, this->_internal_q0(), target);
   }
 
   // required float q1 = 7;
   if (cached_has_bits & 0x00000040u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(7, this->_internal_q1(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(7, this->_internal_q1(), target);
   }
 
   // required float q2 = 8;
   if (cached_has_bits & 0x00000080u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(8, this->_internal_q2(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(8, this->_internal_q2(), target);
   }
 
   // required float q3 = 9;
   if (cached_has_bits & 0x00000100u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(9, this->_internal_q3(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(9, this->_internal_q3(), target);
   }
 
   // required float tx = 10;
   if (cached_has_bits & 0x00000200u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(10, this->_internal_tx(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(10, this->_internal_tx(), target);
   }
 
   // required float ty = 11;
   if (cached_has_bits & 0x00000400u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(11, this->_internal_ty(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(11, this->_internal_ty(), target);
   }
 
   // required float tz = 12;
   if (cached_has_bits & 0x00000800u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(12, this->_internal_tz(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(12, this->_internal_tz(), target);
   }
 
   // optional float derived_camera_world_tx = 13;
   if (cached_has_bits & 0x00001000u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(13, this->_internal_derived_camera_world_tx(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(13, this->_internal_derived_camera_world_tx(), target);
   }
 
   // optional float derived_camera_world_ty = 14;
   if (cached_has_bits & 0x00002000u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(14, this->_internal_derived_camera_world_ty(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(14, this->_internal_derived_camera_world_ty(), target);
   }
 
   // optional float derived_camera_world_tz = 15;
   if (cached_has_bits & 0x00004000u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteFloatToArray(15, this->_internal_derived_camera_world_tz(), target);
+    target = ::_pbi::WireFormatLite::WriteFloatToArray(15, this->_internal_derived_camera_world_tz(), target);
   }
 
   // optional uint32 pixel_image_width = 16;
   if (cached_has_bits & 0x00008000u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(16, this->_internal_pixel_image_width(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(16, this->_internal_pixel_image_width(), target);
   }
 
   // optional uint32 pixel_image_height = 17;
   if (cached_has_bits & 0x00010000u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(17, this->_internal_pixel_image_height(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(17, this->_internal_pixel_image_height(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:SSL_GeometryCameraCalibration)
@@ -2554,9 +2566,7 @@ size_t SSL_GeometryCameraCalibration::RequiredFieldsByteSizeFallback() const {
 
   if (_internal_has_camera_id()) {
     // required uint32 camera_id = 1;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_camera_id());
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_camera_id());
   }
 
   if (_internal_has_focal_length()) {
@@ -2620,11 +2630,9 @@ size_t SSL_GeometryCameraCalibration::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:SSL_GeometryCameraCalibration)
   size_t total_size = 0;
 
-  if (((_has_bits_[0] & 0x00000fff) ^ 0x00000fff) == 0) {  // All required fields are present.
+  if (((_impl_._has_bits_[0] & 0x00000fff) ^ 0x00000fff) == 0) {  // All required fields are present.
     // required uint32 camera_id = 1;
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_camera_id());
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_camera_id());
 
     // required float focal_length = 2;
     total_size += 1 + 4;
@@ -2662,11 +2670,11 @@ size_t SSL_GeometryCameraCalibration::ByteSizeLong() const {
   } else {
     total_size += RequiredFieldsByteSizeFallback();
   }
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x0000f000u) {
     // optional float derived_camera_world_tx = 13;
     if (cached_has_bits & 0x00001000u) {
@@ -2686,7 +2694,7 @@ size_t SSL_GeometryCameraCalibration::ByteSizeLong() const {
     // optional uint32 pixel_image_width = 16;
     if (cached_has_bits & 0x00008000u) {
       total_size += 2 +
-        ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+        ::_pbi::WireFormatLite::UInt32Size(
           this->_internal_pixel_image_width());
     }
 
@@ -2694,106 +2702,87 @@ size_t SSL_GeometryCameraCalibration::ByteSizeLong() const {
   // optional uint32 pixel_image_height = 17;
   if (cached_has_bits & 0x00010000u) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+      ::_pbi::WireFormatLite::UInt32Size(
         this->_internal_pixel_image_height());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void SSL_GeometryCameraCalibration::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:SSL_GeometryCameraCalibration)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SSL_GeometryCameraCalibration* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<SSL_GeometryCameraCalibration>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:SSL_GeometryCameraCalibration)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:SSL_GeometryCameraCalibration)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_GeometryCameraCalibration::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    SSL_GeometryCameraCalibration::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SSL_GeometryCameraCalibration::GetClassData() const { return &_class_data_; }
 
-void SSL_GeometryCameraCalibration::MergeFrom(const SSL_GeometryCameraCalibration& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:SSL_GeometryCameraCalibration)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void SSL_GeometryCameraCalibration::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<SSL_GeometryCameraCalibration*>(&to_msg);
+  auto& from = static_cast<const SSL_GeometryCameraCalibration&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:SSL_GeometryCameraCalibration)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = from._has_bits_[0];
+  cached_has_bits = from._impl_._has_bits_[0];
   if (cached_has_bits & 0x000000ffu) {
     if (cached_has_bits & 0x00000001u) {
-      camera_id_ = from.camera_id_;
+      _this->_impl_.camera_id_ = from._impl_.camera_id_;
     }
     if (cached_has_bits & 0x00000002u) {
-      focal_length_ = from.focal_length_;
+      _this->_impl_.focal_length_ = from._impl_.focal_length_;
     }
     if (cached_has_bits & 0x00000004u) {
-      principal_point_x_ = from.principal_point_x_;
+      _this->_impl_.principal_point_x_ = from._impl_.principal_point_x_;
     }
     if (cached_has_bits & 0x00000008u) {
-      principal_point_y_ = from.principal_point_y_;
+      _this->_impl_.principal_point_y_ = from._impl_.principal_point_y_;
     }
     if (cached_has_bits & 0x00000010u) {
-      distortion_ = from.distortion_;
+      _this->_impl_.distortion_ = from._impl_.distortion_;
     }
     if (cached_has_bits & 0x00000020u) {
-      q0_ = from.q0_;
+      _this->_impl_.q0_ = from._impl_.q0_;
     }
     if (cached_has_bits & 0x00000040u) {
-      q1_ = from.q1_;
+      _this->_impl_.q1_ = from._impl_.q1_;
     }
     if (cached_has_bits & 0x00000080u) {
-      q2_ = from.q2_;
+      _this->_impl_.q2_ = from._impl_.q2_;
     }
-    _has_bits_[0] |= cached_has_bits;
+    _this->_impl_._has_bits_[0] |= cached_has_bits;
   }
   if (cached_has_bits & 0x0000ff00u) {
     if (cached_has_bits & 0x00000100u) {
-      q3_ = from.q3_;
+      _this->_impl_.q3_ = from._impl_.q3_;
     }
     if (cached_has_bits & 0x00000200u) {
-      tx_ = from.tx_;
+      _this->_impl_.tx_ = from._impl_.tx_;
     }
     if (cached_has_bits & 0x00000400u) {
-      ty_ = from.ty_;
+      _this->_impl_.ty_ = from._impl_.ty_;
     }
     if (cached_has_bits & 0x00000800u) {
-      tz_ = from.tz_;
+      _this->_impl_.tz_ = from._impl_.tz_;
     }
     if (cached_has_bits & 0x00001000u) {
-      derived_camera_world_tx_ = from.derived_camera_world_tx_;
+      _this->_impl_.derived_camera_world_tx_ = from._impl_.derived_camera_world_tx_;
     }
     if (cached_has_bits & 0x00002000u) {
-      derived_camera_world_ty_ = from.derived_camera_world_ty_;
+      _this->_impl_.derived_camera_world_ty_ = from._impl_.derived_camera_world_ty_;
     }
     if (cached_has_bits & 0x00004000u) {
-      derived_camera_world_tz_ = from.derived_camera_world_tz_;
+      _this->_impl_.derived_camera_world_tz_ = from._impl_.derived_camera_world_tz_;
     }
     if (cached_has_bits & 0x00008000u) {
-      pixel_image_width_ = from.pixel_image_width_;
+      _this->_impl_.pixel_image_width_ = from._impl_.pixel_image_width_;
     }
-    _has_bits_[0] |= cached_has_bits;
+    _this->_impl_._has_bits_[0] |= cached_has_bits;
   }
   if (cached_has_bits & 0x00010000u) {
-    _internal_set_pixel_image_height(from._internal_pixel_image_height());
+    _this->_internal_set_pixel_image_height(from._internal_pixel_image_height());
   }
-}
-
-void SSL_GeometryCameraCalibration::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:SSL_GeometryCameraCalibration)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void SSL_GeometryCameraCalibration::CopyFrom(const SSL_GeometryCameraCalibration& from) {
@@ -2804,34 +2793,33 @@ void SSL_GeometryCameraCalibration::CopyFrom(const SSL_GeometryCameraCalibration
 }
 
 bool SSL_GeometryCameraCalibration::IsInitialized() const {
-  if (_Internal::MissingRequiredFields(_has_bits_)) return false;
+  if (_Internal::MissingRequiredFields(_impl_._has_bits_)) return false;
   return true;
 }
 
 void SSL_GeometryCameraCalibration::InternalSwap(SSL_GeometryCameraCalibration* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  swap(_has_bits_[0], other->_has_bits_[0]);
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  swap(_impl_._has_bits_[0], other->_impl_._has_bits_[0]);
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(SSL_GeometryCameraCalibration, pixel_image_height_)
-      + sizeof(SSL_GeometryCameraCalibration::pixel_image_height_)
-      - PROTOBUF_FIELD_OFFSET(SSL_GeometryCameraCalibration, camera_id_)>(
-          reinterpret_cast<char*>(&camera_id_),
-          reinterpret_cast<char*>(&other->camera_id_));
+      PROTOBUF_FIELD_OFFSET(SSL_GeometryCameraCalibration, _impl_.pixel_image_height_)
+      + sizeof(SSL_GeometryCameraCalibration::_impl_.pixel_image_height_)
+      - PROTOBUF_FIELD_OFFSET(SSL_GeometryCameraCalibration, _impl_.camera_id_)>(
+          reinterpret_cast<char*>(&_impl_.camera_id_),
+          reinterpret_cast<char*>(&other->_impl_.camera_id_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata SSL_GeometryCameraCalibration::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_ssl_5fvision_5fgeometry_2eproto_getter, &descriptor_table_ssl_5fvision_5fgeometry_2eproto_once,
+      file_level_metadata_ssl_5fvision_5fgeometry_2eproto[4]);
 }
-
 
 // ===================================================================
 
-void SSL_BallModelStraightTwoPhase::InitAsDefaultInstance() {
-}
 class SSL_BallModelStraightTwoPhase::_Internal {
  public:
-  using HasBits = decltype(std::declval<SSL_BallModelStraightTwoPhase>()._has_bits_);
+  using HasBits = decltype(std::declval<SSL_BallModelStraightTwoPhase>()._impl_._has_bits_);
   static void set_has_acc_slide(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
   }
@@ -2846,152 +2834,160 @@ class SSL_BallModelStraightTwoPhase::_Internal {
   }
 };
 
-SSL_BallModelStraightTwoPhase::SSL_BallModelStraightTwoPhase(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+SSL_BallModelStraightTwoPhase::SSL_BallModelStraightTwoPhase(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:SSL_BallModelStraightTwoPhase)
 }
 SSL_BallModelStraightTwoPhase::SSL_BallModelStraightTwoPhase(const SSL_BallModelStraightTwoPhase& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      _has_bits_(from._has_bits_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  SSL_BallModelStraightTwoPhase* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){from._impl_._has_bits_}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.acc_slide_){}
+    , decltype(_impl_.acc_roll_){}
+    , decltype(_impl_.k_switch_){}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::memcpy(&acc_slide_, &from.acc_slide_,
-    static_cast<size_t>(reinterpret_cast<char*>(&k_switch_) -
-    reinterpret_cast<char*>(&acc_slide_)) + sizeof(k_switch_));
+  ::memcpy(&_impl_.acc_slide_, &from._impl_.acc_slide_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.k_switch_) -
+    reinterpret_cast<char*>(&_impl_.acc_slide_)) + sizeof(_impl_.k_switch_));
   // @@protoc_insertion_point(copy_constructor:SSL_BallModelStraightTwoPhase)
 }
 
-void SSL_BallModelStraightTwoPhase::SharedCtor() {
-  ::memset(&acc_slide_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&k_switch_) -
-      reinterpret_cast<char*>(&acc_slide_)) + sizeof(k_switch_));
+inline void SSL_BallModelStraightTwoPhase::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.acc_slide_){0}
+    , decltype(_impl_.acc_roll_){0}
+    , decltype(_impl_.k_switch_){0}
+  };
 }
 
 SSL_BallModelStraightTwoPhase::~SSL_BallModelStraightTwoPhase() {
   // @@protoc_insertion_point(destructor:SSL_BallModelStraightTwoPhase)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void SSL_BallModelStraightTwoPhase::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
+inline void SSL_BallModelStraightTwoPhase::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
 }
 
-void SSL_BallModelStraightTwoPhase::ArenaDtor(void* object) {
-  SSL_BallModelStraightTwoPhase* _this = reinterpret_cast< SSL_BallModelStraightTwoPhase* >(object);
-  (void)_this;
-}
-void SSL_BallModelStraightTwoPhase::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SSL_BallModelStraightTwoPhase::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const SSL_BallModelStraightTwoPhase& SSL_BallModelStraightTwoPhase::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_SSL_BallModelStraightTwoPhase_ssl_5fvision_5fgeometry_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void SSL_BallModelStraightTwoPhase::Clear() {
 // @@protoc_insertion_point(message_clear_start:SSL_BallModelStraightTwoPhase)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000007u) {
-    ::memset(&acc_slide_, 0, static_cast<size_t>(
-        reinterpret_cast<char*>(&k_switch_) -
-        reinterpret_cast<char*>(&acc_slide_)) + sizeof(k_switch_));
+    ::memset(&_impl_.acc_slide_, 0, static_cast<size_t>(
+        reinterpret_cast<char*>(&_impl_.k_switch_) -
+        reinterpret_cast<char*>(&_impl_.acc_slide_)) + sizeof(_impl_.k_switch_));
   }
-  _has_bits_.Clear();
+  _impl_._has_bits_.Clear();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* SSL_BallModelStraightTwoPhase::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* SSL_BallModelStraightTwoPhase::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // required double acc_slide = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 9)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 9)) {
           _Internal::set_has_acc_slide(&has_bits);
-          acc_slide_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<double>(ptr);
+          _impl_.acc_slide_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<double>(ptr);
           ptr += sizeof(double);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required double acc_roll = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 17)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 17)) {
           _Internal::set_has_acc_roll(&has_bits);
-          acc_roll_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<double>(ptr);
+          _impl_.acc_roll_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<double>(ptr);
           ptr += sizeof(double);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required double k_switch = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 25)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 25)) {
           _Internal::set_has_k_switch(&has_bits);
-          k_switch_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<double>(ptr);
+          _impl_.k_switch_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<double>(ptr);
           ptr += sizeof(double);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
-  _has_bits_.Or(has_bits);
+message_done:
+  _impl_._has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SSL_BallModelStraightTwoPhase::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SSL_BallModelStraightTwoPhase::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:SSL_BallModelStraightTwoPhase)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   // required double acc_slide = 1;
   if (cached_has_bits & 0x00000001u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteDoubleToArray(1, this->_internal_acc_slide(), target);
+    target = ::_pbi::WireFormatLite::WriteDoubleToArray(1, this->_internal_acc_slide(), target);
   }
 
   // required double acc_roll = 2;
   if (cached_has_bits & 0x00000002u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteDoubleToArray(2, this->_internal_acc_roll(), target);
+    target = ::_pbi::WireFormatLite::WriteDoubleToArray(2, this->_internal_acc_roll(), target);
   }
 
   // required double k_switch = 3;
   if (cached_has_bits & 0x00000004u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteDoubleToArray(3, this->_internal_k_switch(), target);
+    target = ::_pbi::WireFormatLite::WriteDoubleToArray(3, this->_internal_k_switch(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:SSL_BallModelStraightTwoPhase)
@@ -3023,7 +3019,7 @@ size_t SSL_BallModelStraightTwoPhase::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:SSL_BallModelStraightTwoPhase)
   size_t total_size = 0;
 
-  if (((_has_bits_[0] & 0x00000007) ^ 0x00000007) == 0) {  // All required fields are present.
+  if (((_impl_._has_bits_[0] & 0x00000007) ^ 0x00000007) == 0) {  // All required fields are present.
     // required double acc_slide = 1;
     total_size += 1 + 8;
 
@@ -3036,61 +3032,42 @@ size_t SSL_BallModelStraightTwoPhase::ByteSizeLong() const {
   } else {
     total_size += RequiredFieldsByteSizeFallback();
   }
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void SSL_BallModelStraightTwoPhase::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:SSL_BallModelStraightTwoPhase)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SSL_BallModelStraightTwoPhase* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<SSL_BallModelStraightTwoPhase>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:SSL_BallModelStraightTwoPhase)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:SSL_BallModelStraightTwoPhase)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_BallModelStraightTwoPhase::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    SSL_BallModelStraightTwoPhase::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SSL_BallModelStraightTwoPhase::GetClassData() const { return &_class_data_; }
 
-void SSL_BallModelStraightTwoPhase::MergeFrom(const SSL_BallModelStraightTwoPhase& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:SSL_BallModelStraightTwoPhase)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void SSL_BallModelStraightTwoPhase::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<SSL_BallModelStraightTwoPhase*>(&to_msg);
+  auto& from = static_cast<const SSL_BallModelStraightTwoPhase&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:SSL_BallModelStraightTwoPhase)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = from._has_bits_[0];
+  cached_has_bits = from._impl_._has_bits_[0];
   if (cached_has_bits & 0x00000007u) {
     if (cached_has_bits & 0x00000001u) {
-      acc_slide_ = from.acc_slide_;
+      _this->_impl_.acc_slide_ = from._impl_.acc_slide_;
     }
     if (cached_has_bits & 0x00000002u) {
-      acc_roll_ = from.acc_roll_;
+      _this->_impl_.acc_roll_ = from._impl_.acc_roll_;
     }
     if (cached_has_bits & 0x00000004u) {
-      k_switch_ = from.k_switch_;
+      _this->_impl_.k_switch_ = from._impl_.k_switch_;
     }
-    _has_bits_[0] |= cached_has_bits;
+    _this->_impl_._has_bits_[0] |= cached_has_bits;
   }
-}
-
-void SSL_BallModelStraightTwoPhase::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:SSL_BallModelStraightTwoPhase)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void SSL_BallModelStraightTwoPhase::CopyFrom(const SSL_BallModelStraightTwoPhase& from) {
@@ -3101,34 +3078,33 @@ void SSL_BallModelStraightTwoPhase::CopyFrom(const SSL_BallModelStraightTwoPhase
 }
 
 bool SSL_BallModelStraightTwoPhase::IsInitialized() const {
-  if (_Internal::MissingRequiredFields(_has_bits_)) return false;
+  if (_Internal::MissingRequiredFields(_impl_._has_bits_)) return false;
   return true;
 }
 
 void SSL_BallModelStraightTwoPhase::InternalSwap(SSL_BallModelStraightTwoPhase* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  swap(_has_bits_[0], other->_has_bits_[0]);
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  swap(_impl_._has_bits_[0], other->_impl_._has_bits_[0]);
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(SSL_BallModelStraightTwoPhase, k_switch_)
-      + sizeof(SSL_BallModelStraightTwoPhase::k_switch_)
-      - PROTOBUF_FIELD_OFFSET(SSL_BallModelStraightTwoPhase, acc_slide_)>(
-          reinterpret_cast<char*>(&acc_slide_),
-          reinterpret_cast<char*>(&other->acc_slide_));
+      PROTOBUF_FIELD_OFFSET(SSL_BallModelStraightTwoPhase, _impl_.k_switch_)
+      + sizeof(SSL_BallModelStraightTwoPhase::_impl_.k_switch_)
+      - PROTOBUF_FIELD_OFFSET(SSL_BallModelStraightTwoPhase, _impl_.acc_slide_)>(
+          reinterpret_cast<char*>(&_impl_.acc_slide_),
+          reinterpret_cast<char*>(&other->_impl_.acc_slide_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata SSL_BallModelStraightTwoPhase::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_ssl_5fvision_5fgeometry_2eproto_getter, &descriptor_table_ssl_5fvision_5fgeometry_2eproto_once,
+      file_level_metadata_ssl_5fvision_5fgeometry_2eproto[5]);
 }
-
 
 // ===================================================================
 
-void SSL_BallModelChipFixedLoss::InitAsDefaultInstance() {
-}
 class SSL_BallModelChipFixedLoss::_Internal {
  public:
-  using HasBits = decltype(std::declval<SSL_BallModelChipFixedLoss>()._has_bits_);
+  using HasBits = decltype(std::declval<SSL_BallModelChipFixedLoss>()._impl_._has_bits_);
   static void set_has_damping_xy_first_hop(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
   }
@@ -3143,152 +3119,160 @@ class SSL_BallModelChipFixedLoss::_Internal {
   }
 };
 
-SSL_BallModelChipFixedLoss::SSL_BallModelChipFixedLoss(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+SSL_BallModelChipFixedLoss::SSL_BallModelChipFixedLoss(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:SSL_BallModelChipFixedLoss)
 }
 SSL_BallModelChipFixedLoss::SSL_BallModelChipFixedLoss(const SSL_BallModelChipFixedLoss& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      _has_bits_(from._has_bits_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  SSL_BallModelChipFixedLoss* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){from._impl_._has_bits_}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.damping_xy_first_hop_){}
+    , decltype(_impl_.damping_xy_other_hops_){}
+    , decltype(_impl_.damping_z_){}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::memcpy(&damping_xy_first_hop_, &from.damping_xy_first_hop_,
-    static_cast<size_t>(reinterpret_cast<char*>(&damping_z_) -
-    reinterpret_cast<char*>(&damping_xy_first_hop_)) + sizeof(damping_z_));
+  ::memcpy(&_impl_.damping_xy_first_hop_, &from._impl_.damping_xy_first_hop_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.damping_z_) -
+    reinterpret_cast<char*>(&_impl_.damping_xy_first_hop_)) + sizeof(_impl_.damping_z_));
   // @@protoc_insertion_point(copy_constructor:SSL_BallModelChipFixedLoss)
 }
 
-void SSL_BallModelChipFixedLoss::SharedCtor() {
-  ::memset(&damping_xy_first_hop_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&damping_z_) -
-      reinterpret_cast<char*>(&damping_xy_first_hop_)) + sizeof(damping_z_));
+inline void SSL_BallModelChipFixedLoss::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.damping_xy_first_hop_){0}
+    , decltype(_impl_.damping_xy_other_hops_){0}
+    , decltype(_impl_.damping_z_){0}
+  };
 }
 
 SSL_BallModelChipFixedLoss::~SSL_BallModelChipFixedLoss() {
   // @@protoc_insertion_point(destructor:SSL_BallModelChipFixedLoss)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void SSL_BallModelChipFixedLoss::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
+inline void SSL_BallModelChipFixedLoss::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
 }
 
-void SSL_BallModelChipFixedLoss::ArenaDtor(void* object) {
-  SSL_BallModelChipFixedLoss* _this = reinterpret_cast< SSL_BallModelChipFixedLoss* >(object);
-  (void)_this;
-}
-void SSL_BallModelChipFixedLoss::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SSL_BallModelChipFixedLoss::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const SSL_BallModelChipFixedLoss& SSL_BallModelChipFixedLoss::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_SSL_BallModelChipFixedLoss_ssl_5fvision_5fgeometry_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void SSL_BallModelChipFixedLoss::Clear() {
 // @@protoc_insertion_point(message_clear_start:SSL_BallModelChipFixedLoss)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000007u) {
-    ::memset(&damping_xy_first_hop_, 0, static_cast<size_t>(
-        reinterpret_cast<char*>(&damping_z_) -
-        reinterpret_cast<char*>(&damping_xy_first_hop_)) + sizeof(damping_z_));
+    ::memset(&_impl_.damping_xy_first_hop_, 0, static_cast<size_t>(
+        reinterpret_cast<char*>(&_impl_.damping_z_) -
+        reinterpret_cast<char*>(&_impl_.damping_xy_first_hop_)) + sizeof(_impl_.damping_z_));
   }
-  _has_bits_.Clear();
+  _impl_._has_bits_.Clear();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* SSL_BallModelChipFixedLoss::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* SSL_BallModelChipFixedLoss::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // required double damping_xy_first_hop = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 9)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 9)) {
           _Internal::set_has_damping_xy_first_hop(&has_bits);
-          damping_xy_first_hop_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<double>(ptr);
+          _impl_.damping_xy_first_hop_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<double>(ptr);
           ptr += sizeof(double);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required double damping_xy_other_hops = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 17)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 17)) {
           _Internal::set_has_damping_xy_other_hops(&has_bits);
-          damping_xy_other_hops_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<double>(ptr);
+          _impl_.damping_xy_other_hops_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<double>(ptr);
           ptr += sizeof(double);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // required double damping_z = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 25)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 25)) {
           _Internal::set_has_damping_z(&has_bits);
-          damping_z_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<double>(ptr);
+          _impl_.damping_z_ = ::PROTOBUF_NAMESPACE_ID::internal::UnalignedLoad<double>(ptr);
           ptr += sizeof(double);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
-  _has_bits_.Or(has_bits);
+message_done:
+  _impl_._has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SSL_BallModelChipFixedLoss::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SSL_BallModelChipFixedLoss::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:SSL_BallModelChipFixedLoss)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   // required double damping_xy_first_hop = 1;
   if (cached_has_bits & 0x00000001u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteDoubleToArray(1, this->_internal_damping_xy_first_hop(), target);
+    target = ::_pbi::WireFormatLite::WriteDoubleToArray(1, this->_internal_damping_xy_first_hop(), target);
   }
 
   // required double damping_xy_other_hops = 2;
   if (cached_has_bits & 0x00000002u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteDoubleToArray(2, this->_internal_damping_xy_other_hops(), target);
+    target = ::_pbi::WireFormatLite::WriteDoubleToArray(2, this->_internal_damping_xy_other_hops(), target);
   }
 
   // required double damping_z = 3;
   if (cached_has_bits & 0x00000004u) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteDoubleToArray(3, this->_internal_damping_z(), target);
+    target = ::_pbi::WireFormatLite::WriteDoubleToArray(3, this->_internal_damping_z(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:SSL_BallModelChipFixedLoss)
@@ -3320,7 +3304,7 @@ size_t SSL_BallModelChipFixedLoss::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:SSL_BallModelChipFixedLoss)
   size_t total_size = 0;
 
-  if (((_has_bits_[0] & 0x00000007) ^ 0x00000007) == 0) {  // All required fields are present.
+  if (((_impl_._has_bits_[0] & 0x00000007) ^ 0x00000007) == 0) {  // All required fields are present.
     // required double damping_xy_first_hop = 1;
     total_size += 1 + 8;
 
@@ -3333,61 +3317,42 @@ size_t SSL_BallModelChipFixedLoss::ByteSizeLong() const {
   } else {
     total_size += RequiredFieldsByteSizeFallback();
   }
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void SSL_BallModelChipFixedLoss::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:SSL_BallModelChipFixedLoss)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SSL_BallModelChipFixedLoss* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<SSL_BallModelChipFixedLoss>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:SSL_BallModelChipFixedLoss)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:SSL_BallModelChipFixedLoss)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_BallModelChipFixedLoss::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    SSL_BallModelChipFixedLoss::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SSL_BallModelChipFixedLoss::GetClassData() const { return &_class_data_; }
 
-void SSL_BallModelChipFixedLoss::MergeFrom(const SSL_BallModelChipFixedLoss& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:SSL_BallModelChipFixedLoss)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void SSL_BallModelChipFixedLoss::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<SSL_BallModelChipFixedLoss*>(&to_msg);
+  auto& from = static_cast<const SSL_BallModelChipFixedLoss&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:SSL_BallModelChipFixedLoss)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = from._has_bits_[0];
+  cached_has_bits = from._impl_._has_bits_[0];
   if (cached_has_bits & 0x00000007u) {
     if (cached_has_bits & 0x00000001u) {
-      damping_xy_first_hop_ = from.damping_xy_first_hop_;
+      _this->_impl_.damping_xy_first_hop_ = from._impl_.damping_xy_first_hop_;
     }
     if (cached_has_bits & 0x00000002u) {
-      damping_xy_other_hops_ = from.damping_xy_other_hops_;
+      _this->_impl_.damping_xy_other_hops_ = from._impl_.damping_xy_other_hops_;
     }
     if (cached_has_bits & 0x00000004u) {
-      damping_z_ = from.damping_z_;
+      _this->_impl_.damping_z_ = from._impl_.damping_z_;
     }
-    _has_bits_[0] |= cached_has_bits;
+    _this->_impl_._has_bits_[0] |= cached_has_bits;
   }
-}
-
-void SSL_BallModelChipFixedLoss::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:SSL_BallModelChipFixedLoss)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void SSL_BallModelChipFixedLoss::CopyFrom(const SSL_BallModelChipFixedLoss& from) {
@@ -3398,38 +3363,33 @@ void SSL_BallModelChipFixedLoss::CopyFrom(const SSL_BallModelChipFixedLoss& from
 }
 
 bool SSL_BallModelChipFixedLoss::IsInitialized() const {
-  if (_Internal::MissingRequiredFields(_has_bits_)) return false;
+  if (_Internal::MissingRequiredFields(_impl_._has_bits_)) return false;
   return true;
 }
 
 void SSL_BallModelChipFixedLoss::InternalSwap(SSL_BallModelChipFixedLoss* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  swap(_has_bits_[0], other->_has_bits_[0]);
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  swap(_impl_._has_bits_[0], other->_impl_._has_bits_[0]);
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(SSL_BallModelChipFixedLoss, damping_z_)
-      + sizeof(SSL_BallModelChipFixedLoss::damping_z_)
-      - PROTOBUF_FIELD_OFFSET(SSL_BallModelChipFixedLoss, damping_xy_first_hop_)>(
-          reinterpret_cast<char*>(&damping_xy_first_hop_),
-          reinterpret_cast<char*>(&other->damping_xy_first_hop_));
+      PROTOBUF_FIELD_OFFSET(SSL_BallModelChipFixedLoss, _impl_.damping_z_)
+      + sizeof(SSL_BallModelChipFixedLoss::_impl_.damping_z_)
+      - PROTOBUF_FIELD_OFFSET(SSL_BallModelChipFixedLoss, _impl_.damping_xy_first_hop_)>(
+          reinterpret_cast<char*>(&_impl_.damping_xy_first_hop_),
+          reinterpret_cast<char*>(&other->_impl_.damping_xy_first_hop_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata SSL_BallModelChipFixedLoss::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_ssl_5fvision_5fgeometry_2eproto_getter, &descriptor_table_ssl_5fvision_5fgeometry_2eproto_once,
+      file_level_metadata_ssl_5fvision_5fgeometry_2eproto[6]);
 }
-
 
 // ===================================================================
 
-void SSL_GeometryModels::InitAsDefaultInstance() {
-  ::_SSL_GeometryModels_default_instance_._instance.get_mutable()->straight_two_phase_ = const_cast< ::SSL_BallModelStraightTwoPhase*>(
-      ::SSL_BallModelStraightTwoPhase::internal_default_instance());
-  ::_SSL_GeometryModels_default_instance_._instance.get_mutable()->chip_fixed_loss_ = const_cast< ::SSL_BallModelChipFixedLoss*>(
-      ::SSL_BallModelChipFixedLoss::internal_default_instance());
-}
 class SSL_GeometryModels::_Internal {
  public:
-  using HasBits = decltype(std::declval<SSL_GeometryModels>()._has_bits_);
+  using HasBits = decltype(std::declval<SSL_GeometryModels>()._impl_._has_bits_);
   static const ::SSL_BallModelStraightTwoPhase& straight_two_phase(const SSL_GeometryModels* msg);
   static void set_has_straight_two_phase(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
@@ -3442,161 +3402,159 @@ class SSL_GeometryModels::_Internal {
 
 const ::SSL_BallModelStraightTwoPhase&
 SSL_GeometryModels::_Internal::straight_two_phase(const SSL_GeometryModels* msg) {
-  return *msg->straight_two_phase_;
+  return *msg->_impl_.straight_two_phase_;
 }
 const ::SSL_BallModelChipFixedLoss&
 SSL_GeometryModels::_Internal::chip_fixed_loss(const SSL_GeometryModels* msg) {
-  return *msg->chip_fixed_loss_;
+  return *msg->_impl_.chip_fixed_loss_;
 }
-SSL_GeometryModels::SSL_GeometryModels(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+SSL_GeometryModels::SSL_GeometryModels(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:SSL_GeometryModels)
 }
 SSL_GeometryModels::SSL_GeometryModels(const SSL_GeometryModels& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      _has_bits_(from._has_bits_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  SSL_GeometryModels* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){from._impl_._has_bits_}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.straight_two_phase_){nullptr}
+    , decltype(_impl_.chip_fixed_loss_){nullptr}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   if (from._internal_has_straight_two_phase()) {
-    straight_two_phase_ = new ::SSL_BallModelStraightTwoPhase(*from.straight_two_phase_);
-  } else {
-    straight_two_phase_ = nullptr;
+    _this->_impl_.straight_two_phase_ = new ::SSL_BallModelStraightTwoPhase(*from._impl_.straight_two_phase_);
   }
   if (from._internal_has_chip_fixed_loss()) {
-    chip_fixed_loss_ = new ::SSL_BallModelChipFixedLoss(*from.chip_fixed_loss_);
-  } else {
-    chip_fixed_loss_ = nullptr;
+    _this->_impl_.chip_fixed_loss_ = new ::SSL_BallModelChipFixedLoss(*from._impl_.chip_fixed_loss_);
   }
   // @@protoc_insertion_point(copy_constructor:SSL_GeometryModels)
 }
 
-void SSL_GeometryModels::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_SSL_GeometryModels_ssl_5fvision_5fgeometry_2eproto.base);
-  ::memset(&straight_two_phase_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&chip_fixed_loss_) -
-      reinterpret_cast<char*>(&straight_two_phase_)) + sizeof(chip_fixed_loss_));
+inline void SSL_GeometryModels::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.straight_two_phase_){nullptr}
+    , decltype(_impl_.chip_fixed_loss_){nullptr}
+  };
 }
 
 SSL_GeometryModels::~SSL_GeometryModels() {
   // @@protoc_insertion_point(destructor:SSL_GeometryModels)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void SSL_GeometryModels::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  if (this != internal_default_instance()) delete straight_two_phase_;
-  if (this != internal_default_instance()) delete chip_fixed_loss_;
+inline void SSL_GeometryModels::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  if (this != internal_default_instance()) delete _impl_.straight_two_phase_;
+  if (this != internal_default_instance()) delete _impl_.chip_fixed_loss_;
 }
 
-void SSL_GeometryModels::ArenaDtor(void* object) {
-  SSL_GeometryModels* _this = reinterpret_cast< SSL_GeometryModels* >(object);
-  (void)_this;
-}
-void SSL_GeometryModels::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SSL_GeometryModels::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const SSL_GeometryModels& SSL_GeometryModels::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_SSL_GeometryModels_ssl_5fvision_5fgeometry_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void SSL_GeometryModels::Clear() {
 // @@protoc_insertion_point(message_clear_start:SSL_GeometryModels)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000003u) {
     if (cached_has_bits & 0x00000001u) {
-      GOOGLE_DCHECK(straight_two_phase_ != nullptr);
-      straight_two_phase_->Clear();
+      GOOGLE_DCHECK(_impl_.straight_two_phase_ != nullptr);
+      _impl_.straight_two_phase_->Clear();
     }
     if (cached_has_bits & 0x00000002u) {
-      GOOGLE_DCHECK(chip_fixed_loss_ != nullptr);
-      chip_fixed_loss_->Clear();
+      GOOGLE_DCHECK(_impl_.chip_fixed_loss_ != nullptr);
+      _impl_.chip_fixed_loss_->Clear();
     }
   }
-  _has_bits_.Clear();
+  _impl_._has_bits_.Clear();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* SSL_GeometryModels::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* SSL_GeometryModels::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // optional .SSL_BallModelStraightTwoPhase straight_two_phase = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
           ptr = ctx->ParseMessage(_internal_mutable_straight_two_phase(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional .SSL_BallModelChipFixedLoss chip_fixed_loss = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 18)) {
           ptr = ctx->ParseMessage(_internal_mutable_chip_fixed_loss(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
-  _has_bits_.Or(has_bits);
+message_done:
+  _impl_._has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SSL_GeometryModels::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SSL_GeometryModels::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:SSL_GeometryModels)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   // optional .SSL_BallModelStraightTwoPhase straight_two_phase = 1;
   if (cached_has_bits & 0x00000001u) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        1, _Internal::straight_two_phase(this), target, stream);
+      InternalWriteMessage(1, _Internal::straight_two_phase(this),
+        _Internal::straight_two_phase(this).GetCachedSize(), target, stream);
   }
 
   // optional .SSL_BallModelChipFixedLoss chip_fixed_loss = 2;
   if (cached_has_bits & 0x00000002u) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        2, _Internal::chip_fixed_loss(this), target, stream);
+      InternalWriteMessage(2, _Internal::chip_fixed_loss(this),
+        _Internal::chip_fixed_loss(this).GetCachedSize(), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:SSL_GeometryModels)
@@ -3607,74 +3565,57 @@ size_t SSL_GeometryModels::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:SSL_GeometryModels)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000003u) {
     // optional .SSL_BallModelStraightTwoPhase straight_two_phase = 1;
     if (cached_has_bits & 0x00000001u) {
       total_size += 1 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-          *straight_two_phase_);
+          *_impl_.straight_two_phase_);
     }
 
     // optional .SSL_BallModelChipFixedLoss chip_fixed_loss = 2;
     if (cached_has_bits & 0x00000002u) {
       total_size += 1 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-          *chip_fixed_loss_);
+          *_impl_.chip_fixed_loss_);
     }
 
   }
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void SSL_GeometryModels::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:SSL_GeometryModels)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SSL_GeometryModels* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<SSL_GeometryModels>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:SSL_GeometryModels)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:SSL_GeometryModels)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_GeometryModels::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    SSL_GeometryModels::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SSL_GeometryModels::GetClassData() const { return &_class_data_; }
 
-void SSL_GeometryModels::MergeFrom(const SSL_GeometryModels& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:SSL_GeometryModels)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void SSL_GeometryModels::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<SSL_GeometryModels*>(&to_msg);
+  auto& from = static_cast<const SSL_GeometryModels&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:SSL_GeometryModels)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = from._has_bits_[0];
+  cached_has_bits = from._impl_._has_bits_[0];
   if (cached_has_bits & 0x00000003u) {
     if (cached_has_bits & 0x00000001u) {
-      _internal_mutable_straight_two_phase()->::SSL_BallModelStraightTwoPhase::MergeFrom(from._internal_straight_two_phase());
+      _this->_internal_mutable_straight_two_phase()->::SSL_BallModelStraightTwoPhase::MergeFrom(
+          from._internal_straight_two_phase());
     }
     if (cached_has_bits & 0x00000002u) {
-      _internal_mutable_chip_fixed_loss()->::SSL_BallModelChipFixedLoss::MergeFrom(from._internal_chip_fixed_loss());
+      _this->_internal_mutable_chip_fixed_loss()->::SSL_BallModelChipFixedLoss::MergeFrom(
+          from._internal_chip_fixed_loss());
     }
   }
-}
-
-void SSL_GeometryModels::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:SSL_GeometryModels)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void SSL_GeometryModels::CopyFrom(const SSL_GeometryModels& from) {
@@ -3686,42 +3627,37 @@ void SSL_GeometryModels::CopyFrom(const SSL_GeometryModels& from) {
 
 bool SSL_GeometryModels::IsInitialized() const {
   if (_internal_has_straight_two_phase()) {
-    if (!straight_two_phase_->IsInitialized()) return false;
+    if (!_impl_.straight_two_phase_->IsInitialized()) return false;
   }
   if (_internal_has_chip_fixed_loss()) {
-    if (!chip_fixed_loss_->IsInitialized()) return false;
+    if (!_impl_.chip_fixed_loss_->IsInitialized()) return false;
   }
   return true;
 }
 
 void SSL_GeometryModels::InternalSwap(SSL_GeometryModels* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  swap(_has_bits_[0], other->_has_bits_[0]);
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  swap(_impl_._has_bits_[0], other->_impl_._has_bits_[0]);
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(SSL_GeometryModels, chip_fixed_loss_)
-      + sizeof(SSL_GeometryModels::chip_fixed_loss_)
-      - PROTOBUF_FIELD_OFFSET(SSL_GeometryModels, straight_two_phase_)>(
-          reinterpret_cast<char*>(&straight_two_phase_),
-          reinterpret_cast<char*>(&other->straight_two_phase_));
+      PROTOBUF_FIELD_OFFSET(SSL_GeometryModels, _impl_.chip_fixed_loss_)
+      + sizeof(SSL_GeometryModels::_impl_.chip_fixed_loss_)
+      - PROTOBUF_FIELD_OFFSET(SSL_GeometryModels, _impl_.straight_two_phase_)>(
+          reinterpret_cast<char*>(&_impl_.straight_two_phase_),
+          reinterpret_cast<char*>(&other->_impl_.straight_two_phase_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata SSL_GeometryModels::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_ssl_5fvision_5fgeometry_2eproto_getter, &descriptor_table_ssl_5fvision_5fgeometry_2eproto_once,
+      file_level_metadata_ssl_5fvision_5fgeometry_2eproto[7]);
 }
-
 
 // ===================================================================
 
-void SSL_GeometryData::InitAsDefaultInstance() {
-  ::_SSL_GeometryData_default_instance_._instance.get_mutable()->field_ = const_cast< ::SSL_GeometryFieldSize*>(
-      ::SSL_GeometryFieldSize::internal_default_instance());
-  ::_SSL_GeometryData_default_instance_._instance.get_mutable()->models_ = const_cast< ::SSL_GeometryModels*>(
-      ::SSL_GeometryModels::internal_default_instance());
-}
 class SSL_GeometryData::_Internal {
  public:
-  using HasBits = decltype(std::declval<SSL_GeometryData>()._has_bits_);
+  using HasBits = decltype(std::declval<SSL_GeometryData>()._impl_._has_bits_);
   static const ::SSL_GeometryFieldSize& field(const SSL_GeometryData* msg);
   static void set_has_field(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
@@ -3737,112 +3673,111 @@ class SSL_GeometryData::_Internal {
 
 const ::SSL_GeometryFieldSize&
 SSL_GeometryData::_Internal::field(const SSL_GeometryData* msg) {
-  return *msg->field_;
+  return *msg->_impl_.field_;
 }
 const ::SSL_GeometryModels&
 SSL_GeometryData::_Internal::models(const SSL_GeometryData* msg) {
-  return *msg->models_;
+  return *msg->_impl_.models_;
 }
-SSL_GeometryData::SSL_GeometryData(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena),
-  calib_(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+SSL_GeometryData::SSL_GeometryData(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:SSL_GeometryData)
 }
 SSL_GeometryData::SSL_GeometryData(const SSL_GeometryData& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      _has_bits_(from._has_bits_),
-      calib_(from.calib_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  SSL_GeometryData* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){from._impl_._has_bits_}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.calib_){from._impl_.calib_}
+    , decltype(_impl_.field_){nullptr}
+    , decltype(_impl_.models_){nullptr}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   if (from._internal_has_field()) {
-    field_ = new ::SSL_GeometryFieldSize(*from.field_);
-  } else {
-    field_ = nullptr;
+    _this->_impl_.field_ = new ::SSL_GeometryFieldSize(*from._impl_.field_);
   }
   if (from._internal_has_models()) {
-    models_ = new ::SSL_GeometryModels(*from.models_);
-  } else {
-    models_ = nullptr;
+    _this->_impl_.models_ = new ::SSL_GeometryModels(*from._impl_.models_);
   }
   // @@protoc_insertion_point(copy_constructor:SSL_GeometryData)
 }
 
-void SSL_GeometryData::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_SSL_GeometryData_ssl_5fvision_5fgeometry_2eproto.base);
-  ::memset(&field_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&models_) -
-      reinterpret_cast<char*>(&field_)) + sizeof(models_));
+inline void SSL_GeometryData::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.calib_){arena}
+    , decltype(_impl_.field_){nullptr}
+    , decltype(_impl_.models_){nullptr}
+  };
 }
 
 SSL_GeometryData::~SSL_GeometryData() {
   // @@protoc_insertion_point(destructor:SSL_GeometryData)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void SSL_GeometryData::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  if (this != internal_default_instance()) delete field_;
-  if (this != internal_default_instance()) delete models_;
+inline void SSL_GeometryData::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.calib_.~RepeatedPtrField();
+  if (this != internal_default_instance()) delete _impl_.field_;
+  if (this != internal_default_instance()) delete _impl_.models_;
 }
 
-void SSL_GeometryData::ArenaDtor(void* object) {
-  SSL_GeometryData* _this = reinterpret_cast< SSL_GeometryData* >(object);
-  (void)_this;
-}
-void SSL_GeometryData::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SSL_GeometryData::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const SSL_GeometryData& SSL_GeometryData::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_SSL_GeometryData_ssl_5fvision_5fgeometry_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void SSL_GeometryData::Clear() {
 // @@protoc_insertion_point(message_clear_start:SSL_GeometryData)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  calib_.Clear();
-  cached_has_bits = _has_bits_[0];
+  _impl_.calib_.Clear();
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000003u) {
     if (cached_has_bits & 0x00000001u) {
-      GOOGLE_DCHECK(field_ != nullptr);
-      field_->Clear();
+      GOOGLE_DCHECK(_impl_.field_ != nullptr);
+      _impl_.field_->Clear();
     }
     if (cached_has_bits & 0x00000002u) {
-      GOOGLE_DCHECK(models_ != nullptr);
-      models_->Clear();
+      GOOGLE_DCHECK(_impl_.models_ != nullptr);
+      _impl_.models_->Clear();
     }
   }
-  _has_bits_.Clear();
+  _impl_._has_bits_.Clear();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* SSL_GeometryData::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* SSL_GeometryData::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // required .SSL_GeometryFieldSize field = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
           ptr = ctx->ParseMessage(_internal_mutable_field(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // repeated .SSL_GeometryCameraCalibration calib = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 18)) {
           ptr -= 1;
           do {
             ptr += 1;
@@ -3850,71 +3785,72 @@ const char* SSL_GeometryData::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPA
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<18>(ptr));
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional .SSL_GeometryModels models = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 26)) {
           ptr = ctx->ParseMessage(_internal_mutable_models(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
-  _has_bits_.Or(has_bits);
+message_done:
+  _impl_._has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SSL_GeometryData::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SSL_GeometryData::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:SSL_GeometryData)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   // required .SSL_GeometryFieldSize field = 1;
   if (cached_has_bits & 0x00000001u) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        1, _Internal::field(this), target, stream);
+      InternalWriteMessage(1, _Internal::field(this),
+        _Internal::field(this).GetCachedSize(), target, stream);
   }
 
   // repeated .SSL_GeometryCameraCalibration calib = 2;
-  for (unsigned int i = 0,
-      n = static_cast<unsigned int>(this->_internal_calib_size()); i < n; i++) {
-    target = stream->EnsureSpace(target);
+  for (unsigned i = 0,
+      n = static_cast<unsigned>(this->_internal_calib_size()); i < n; i++) {
+    const auto& repfield = this->_internal_calib(i);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(2, this->_internal_calib(i), target, stream);
+        InternalWriteMessage(2, repfield, repfield.GetCachedSize(), target, stream);
   }
 
   // optional .SSL_GeometryModels models = 3;
   if (cached_has_bits & 0x00000002u) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        3, _Internal::models(this), target, stream);
+      InternalWriteMessage(3, _Internal::models(this),
+        _Internal::models(this).GetCachedSize(), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:SSL_GeometryData)
@@ -3929,75 +3865,58 @@ size_t SSL_GeometryData::ByteSizeLong() const {
   if (_internal_has_field()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *field_);
+        *_impl_.field_);
   }
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // repeated .SSL_GeometryCameraCalibration calib = 2;
   total_size += 1UL * this->_internal_calib_size();
-  for (const auto& msg : this->calib_) {
+  for (const auto& msg : this->_impl_.calib_) {
     total_size +=
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
   // optional .SSL_GeometryModels models = 3;
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000002u) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *models_);
+        *_impl_.models_);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void SSL_GeometryData::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:SSL_GeometryData)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SSL_GeometryData* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<SSL_GeometryData>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:SSL_GeometryData)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:SSL_GeometryData)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_GeometryData::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    SSL_GeometryData::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SSL_GeometryData::GetClassData() const { return &_class_data_; }
 
-void SSL_GeometryData::MergeFrom(const SSL_GeometryData& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:SSL_GeometryData)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void SSL_GeometryData::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<SSL_GeometryData*>(&to_msg);
+  auto& from = static_cast<const SSL_GeometryData&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:SSL_GeometryData)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  calib_.MergeFrom(from.calib_);
-  cached_has_bits = from._has_bits_[0];
+  _this->_impl_.calib_.MergeFrom(from._impl_.calib_);
+  cached_has_bits = from._impl_._has_bits_[0];
   if (cached_has_bits & 0x00000003u) {
     if (cached_has_bits & 0x00000001u) {
-      _internal_mutable_field()->::SSL_GeometryFieldSize::MergeFrom(from._internal_field());
+      _this->_internal_mutable_field()->::SSL_GeometryFieldSize::MergeFrom(
+          from._internal_field());
     }
     if (cached_has_bits & 0x00000002u) {
-      _internal_mutable_models()->::SSL_GeometryModels::MergeFrom(from._internal_models());
+      _this->_internal_mutable_models()->::SSL_GeometryModels::MergeFrom(
+          from._internal_models());
     }
   }
-}
-
-void SSL_GeometryData::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:SSL_GeometryData)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void SSL_GeometryData::CopyFrom(const SSL_GeometryData& from) {
@@ -4008,62 +3927,73 @@ void SSL_GeometryData::CopyFrom(const SSL_GeometryData& from) {
 }
 
 bool SSL_GeometryData::IsInitialized() const {
-  if (_Internal::MissingRequiredFields(_has_bits_)) return false;
-  if (!::PROTOBUF_NAMESPACE_ID::internal::AllAreInitialized(calib_)) return false;
+  if (_Internal::MissingRequiredFields(_impl_._has_bits_)) return false;
+  if (!::PROTOBUF_NAMESPACE_ID::internal::AllAreInitialized(_impl_.calib_))
+    return false;
   if (_internal_has_field()) {
-    if (!field_->IsInitialized()) return false;
+    if (!_impl_.field_->IsInitialized()) return false;
   }
   if (_internal_has_models()) {
-    if (!models_->IsInitialized()) return false;
+    if (!_impl_.models_->IsInitialized()) return false;
   }
   return true;
 }
 
 void SSL_GeometryData::InternalSwap(SSL_GeometryData* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  swap(_has_bits_[0], other->_has_bits_[0]);
-  calib_.InternalSwap(&other->calib_);
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  swap(_impl_._has_bits_[0], other->_impl_._has_bits_[0]);
+  _impl_.calib_.InternalSwap(&other->_impl_.calib_);
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(SSL_GeometryData, models_)
-      + sizeof(SSL_GeometryData::models_)
-      - PROTOBUF_FIELD_OFFSET(SSL_GeometryData, field_)>(
-          reinterpret_cast<char*>(&field_),
-          reinterpret_cast<char*>(&other->field_));
+      PROTOBUF_FIELD_OFFSET(SSL_GeometryData, _impl_.models_)
+      + sizeof(SSL_GeometryData::_impl_.models_)
+      - PROTOBUF_FIELD_OFFSET(SSL_GeometryData, _impl_.field_)>(
+          reinterpret_cast<char*>(&_impl_.field_),
+          reinterpret_cast<char*>(&other->_impl_.field_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata SSL_GeometryData::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_ssl_5fvision_5fgeometry_2eproto_getter, &descriptor_table_ssl_5fvision_5fgeometry_2eproto_once,
+      file_level_metadata_ssl_5fvision_5fgeometry_2eproto[8]);
 }
-
 
 // @@protoc_insertion_point(namespace_scope)
 PROTOBUF_NAMESPACE_OPEN
-template<> PROTOBUF_NOINLINE ::Vector2f* Arena::CreateMaybeMessage< ::Vector2f >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::Vector2f*
+Arena::CreateMaybeMessage< ::Vector2f >(Arena* arena) {
   return Arena::CreateMessageInternal< ::Vector2f >(arena);
 }
-template<> PROTOBUF_NOINLINE ::SSL_FieldLineSegment* Arena::CreateMaybeMessage< ::SSL_FieldLineSegment >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::SSL_FieldLineSegment*
+Arena::CreateMaybeMessage< ::SSL_FieldLineSegment >(Arena* arena) {
   return Arena::CreateMessageInternal< ::SSL_FieldLineSegment >(arena);
 }
-template<> PROTOBUF_NOINLINE ::SSL_FieldCircularArc* Arena::CreateMaybeMessage< ::SSL_FieldCircularArc >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::SSL_FieldCircularArc*
+Arena::CreateMaybeMessage< ::SSL_FieldCircularArc >(Arena* arena) {
   return Arena::CreateMessageInternal< ::SSL_FieldCircularArc >(arena);
 }
-template<> PROTOBUF_NOINLINE ::SSL_GeometryFieldSize* Arena::CreateMaybeMessage< ::SSL_GeometryFieldSize >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::SSL_GeometryFieldSize*
+Arena::CreateMaybeMessage< ::SSL_GeometryFieldSize >(Arena* arena) {
   return Arena::CreateMessageInternal< ::SSL_GeometryFieldSize >(arena);
 }
-template<> PROTOBUF_NOINLINE ::SSL_GeometryCameraCalibration* Arena::CreateMaybeMessage< ::SSL_GeometryCameraCalibration >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::SSL_GeometryCameraCalibration*
+Arena::CreateMaybeMessage< ::SSL_GeometryCameraCalibration >(Arena* arena) {
   return Arena::CreateMessageInternal< ::SSL_GeometryCameraCalibration >(arena);
 }
-template<> PROTOBUF_NOINLINE ::SSL_BallModelStraightTwoPhase* Arena::CreateMaybeMessage< ::SSL_BallModelStraightTwoPhase >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::SSL_BallModelStraightTwoPhase*
+Arena::CreateMaybeMessage< ::SSL_BallModelStraightTwoPhase >(Arena* arena) {
   return Arena::CreateMessageInternal< ::SSL_BallModelStraightTwoPhase >(arena);
 }
-template<> PROTOBUF_NOINLINE ::SSL_BallModelChipFixedLoss* Arena::CreateMaybeMessage< ::SSL_BallModelChipFixedLoss >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::SSL_BallModelChipFixedLoss*
+Arena::CreateMaybeMessage< ::SSL_BallModelChipFixedLoss >(Arena* arena) {
   return Arena::CreateMessageInternal< ::SSL_BallModelChipFixedLoss >(arena);
 }
-template<> PROTOBUF_NOINLINE ::SSL_GeometryModels* Arena::CreateMaybeMessage< ::SSL_GeometryModels >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::SSL_GeometryModels*
+Arena::CreateMaybeMessage< ::SSL_GeometryModels >(Arena* arena) {
   return Arena::CreateMessageInternal< ::SSL_GeometryModels >(arena);
 }
-template<> PROTOBUF_NOINLINE ::SSL_GeometryData* Arena::CreateMaybeMessage< ::SSL_GeometryData >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::SSL_GeometryData*
+Arena::CreateMaybeMessage< ::SSL_GeometryData >(Arena* arena) {
   return Arena::CreateMessageInternal< ::SSL_GeometryData >(arena);
 }
 PROTOBUF_NAMESPACE_CLOSE
