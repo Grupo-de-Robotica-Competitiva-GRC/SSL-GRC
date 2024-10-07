@@ -7,11 +7,8 @@
 #include "Includes/VisionProtos/timer.h"
 #include <QDebug>
 
-
 MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
-    , udpsocket_rec(this)
+    : QMainWindow(parent), ui(new Ui::MainWindow), udpsocket_rec(this)
 {
     ui->setupUi(this);
 
@@ -30,10 +27,9 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->StopReceiving, SIGNAL(clicked()), this, SLOT(stopReceiving()));
     connect(ui->Connect, SIGNAL(clicked()), this, SLOT(reconnectUdp()));
     connect(ui->Send, SIGNAL(clicked()), this, SLOT(sendBtnClicked()));
-    //connect(timer, SIGNAL(timeout()), this, SLOT(sendPacket()));
+    // connect(timer, SIGNAL(timeout()), this, SLOT(sendPacket()));
     ui->Send->setDisabled(true);
     sending = false;
-
 }
 
 MainWindow::~MainWindow()
@@ -41,7 +37,8 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::simulationStrategy(SSL_DetectionFrame detection){
+void MainWindow::simulationStrategy(SSL_DetectionFrame detection)
+{
     qDebug() << "Estratégia Simulada"; // Debug
 
     grSim_Packet packet;
@@ -55,78 +52,115 @@ void MainWindow::simulationStrategy(SSL_DetectionFrame detection){
     int robots_blue_n = detection.robots_blue_size();
     int robots_yellow_n = detection.robots_yellow_size();
 
-    // Blue robot info:
-    for (int i = 0; i < robots_blue_n; i++) {
-        SSL_DetectionRobot robot = detection.robots_blue(i);
-        command->set_id(i);
-        command->set_veltangent(robot.x() <= 0 ? 1 : -1);
-        command->set_wheelsspeed(!true);
-        command->set_wheel1(0);
-        command->set_wheel2(0);
-        command->set_wheel3(0);
-        command->set_wheel4(0);
-        command->set_velnormal(0);
-        command->set_velangular(0);
-        command->set_kickspeedx(0);
-        command->set_kickspeedz(0);
-        command->set_spinner(false);
+    if (yellow)
+    {
+        // Yellow robot info:
+        for (int i = 0; i < robots_yellow_n; i++)
+        {
 
-        QByteArray dgram;
-        dgram.resize(packet.ByteSizeLong());
-        if (packet.SerializeToArray(dgram.data(), dgram.size())) {
-            qDebug() << "Pacote serializado com sucesso. Tamanho do datagrama:" << dgram.size();
-            udpsocket.writeDatagram(dgram, _addr, _port);
-        } else {
-            qDebug() << "Falha na serialização do pacote.";
+            SSL_DetectionRobot robot = detection.robots_yellow(i);
+
+            command->set_id(i);
+            command->set_veltangent(robot.x() >= 0 ? 0.5 : -0.5);
+            command->set_wheelsspeed(!true);
+            command->set_wheel1(0);
+            command->set_wheel2(0);
+            command->set_wheel3(0);
+            command->set_wheel4(0);
+            command->set_velnormal(0);
+            command->set_velangular(0);
+            command->set_kickspeedx(0);
+            command->set_kickspeedz(0);
+            command->set_spinner(false);
+
+            QByteArray dgram;
+            dgram.resize(packet.ByteSizeLong());
+            if (packet.SerializeToArray(dgram.data(), dgram.size()))
+            {
+                qDebug() << "Pacote serializado com sucesso. Tamanho do datagrama:" << dgram.size();
+                udpsocket.writeDatagram(dgram, _addr, _port);
+            }
+            else
+            {
+                qDebug() << "Falha na serialização do pacote.";
+            }
+        }
+    }
+    else
+    {
+        // Blue robot info:
+        for (int i = 0; i < robots_blue_n; i++)
+        {
+            SSL_DetectionRobot robot = detection.robots_blue(i);
+            command->set_id(i);
+            command->set_veltangent(robot.x() <= 0 ? 0.5 : -0.5);
+            command->set_wheelsspeed(!true);
+            command->set_wheel1(0);
+            command->set_wheel2(0);
+            command->set_wheel3(0);
+            command->set_wheel4(0);
+            command->set_velnormal(0);
+            command->set_velangular(0);
+            command->set_kickspeedx(0);
+            command->set_kickspeedz(0);
+            command->set_spinner(false);
+
+            QByteArray dgram;
+            dgram.resize(packet.ByteSizeLong());
+            if (packet.SerializeToArray(dgram.data(), dgram.size()))
+            {
+                qDebug() << "Pacote serializado com sucesso. Tamanho do datagrama:" << dgram.size();
+                udpsocket.writeDatagram(dgram, _addr, _port);
+            }
+            else
+            {
+                qDebug() << "Falha na serialização do pacote.";
+            }
         }
     }
 }
 
-void MainWindow::realStrategy(SSL_DetectionFrame detection){
+void MainWindow::realStrategy(SSL_DetectionFrame detection)
+{
     qDebug() << "Estratégia Real"; // Debug
 }
-
 
 void MainWindow::sendPacket(SSL_DetectionFrame detection)
 {
     qDebug() << "Iniciando o envio do pacote"; // Debug
-    qDebug() << ui->mode->currentText(); // Debug
-    if(ui->mode->currentText() == "Simulation"){
-        //Lógica para a simulação
+    qDebug() << ui->mode->currentText();       // Debug
+    if (ui->mode->currentText() == "Simulation")
+    {
+        // Lógica para a simulação
         simulationStrategy(detection);
-
     }
-    else{
-        //Lógica para os robôs reais
+    else
+    {
+        // Lógica para os robôs reais
         realStrategy(detection);
     }
-
 }
-
-
 
 void MainWindow::sendBtnClicked()
 {
     sending = !sending;
     if (!sending)
     {
-        //timer->stop();
+        // timer->stop();
         ui->Send->setText("Send");
     }
     else
     {
-        //timer->start();
+        // timer->start();
         ui->Send->setText("Pause");
     }
 }
-
-
 
 void MainWindow::reconnectUdp()
 {
     // Obtenha o IP e a porta do QLineEdit
     _addr = QHostAddress(ui->_addr->text()); // IP do QLineEdit
-    _port = ui->_port->text().toUShort(); // Porta do QLineEdit
+    _port = ui->_port->text().toUShort();    // Porta do QLineEdit
 
     qDebug() << "Endereço IP:" << _addr.toString();
     qDebug() << "Endereço IP:" << _addr.toString() << ", Porta:" << _port;
@@ -134,8 +168,6 @@ void MainWindow::reconnectUdp()
     // Habilite o botão de envio
     ui->Send->setDisabled(false);
 }
-
-
 
 void MainWindow::receiveBtnClicked()
 {
@@ -154,7 +186,6 @@ void MainWindow::receiveBtnClicked()
     udpsocket_rec.joinMulticastGroup(multicastAddress);
 
     connect(&udpsocket_rec, &QUdpSocket::readyRead, this, &MainWindow::processPendingDatagrams);
-
 }
 
 void MainWindow::processPendingDatagrams()
@@ -177,10 +208,10 @@ void MainWindow::processPendingDatagrams()
                 SSL_DetectionFrame detection = packet.detection();
                 double t_now = GetTimeSec();
 
-                if(sending){
+                if (sending)
+                {
                     sendPacket(detection);
                 }
-
 
                 // Adiciona a informação de detecção no terminal e no txtInfo
                 const char *header = "-[Detection Data]-------\n";
@@ -355,7 +386,6 @@ void MainWindow::processPendingDatagrams()
 
                 // Atualiza o QTextEdit (txtInfo) com as informações acumuladas
                 ui->txtInfo->append(info);
-
             }
         }
     }
@@ -367,7 +397,7 @@ void MainWindow::stopReceiving()
     udpsocket_rec.close();
     // Fecha o socket para interromper o recebimento
     disconnect(&udpsocket_rec, &QUdpSocket::readyRead, this, &MainWindow::processPendingDatagrams); // Desconecta o sinal
-    ui->txtInfo->append("Recebimento de dados interrompido.");                                          // Mensagem de log
+    ui->txtInfo->append("Recebimento de dados interrompido.");                                      // Mensagem de log
     /*if (udpsocket.isOpen()) {
 
         udpsocket.close(); // Fecha o socket para interromper o recebimento
@@ -381,51 +411,39 @@ void MainWindow::stopReceiving()
 void MainWindow::on_Receive_pressed()
 {
     ui->Receive->setStyleSheet("background-color: #FF5733; border: 2px solid #FFD700;");
-
 }
-
 
 void MainWindow::on_Receive_released()
 {
     ui->Receive->setStyleSheet("background-color: #E01B25; color: #D1D1D1; border: 2px solid black;");
 }
 
-
 void MainWindow::on_StopReceiving_pressed()
 {
     ui->StopReceiving->setStyleSheet("background-color: #FF5733; border: 2px solid #FFD700;");
 }
-
 
 void MainWindow::on_StopReceiving_released()
 {
     ui->StopReceiving->setStyleSheet("background-color: #E01B25; color: #D1D1D1; border: 2px solid black;");
 }
 
-
 void MainWindow::on_Connect_pressed()
 {
-     ui->Connect->setStyleSheet("background-color: #FF5733; border: 2px solid #FFD700;");
+    ui->Connect->setStyleSheet("background-color: #FF5733; border: 2px solid #FFD700;");
 }
-
 
 void MainWindow::on_Connect_released()
 {
     ui->Connect->setStyleSheet("background-color: #E01B25; color: #D1D1D1; border: 2px solid black;");
 }
 
-
 void MainWindow::on_Send_pressed()
 {
     ui->Send->setStyleSheet("background-color: #FF5733; border: 2px solid #FFD700;");
 }
 
-
 void MainWindow::on_Send_released()
 {
     ui->Send->setStyleSheet("background-color: #E01B25; color: #D1D1D1; border: 2px solid black;");
 }
-
-
-
-
