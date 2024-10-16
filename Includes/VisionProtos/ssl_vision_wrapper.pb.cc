@@ -14,49 +14,49 @@
 #include <google/protobuf/wire_format.h>
 // @@protoc_insertion_point(includes)
 #include <google/protobuf/port_def.inc>
-extern PROTOBUF_INTERNAL_EXPORT_ssl_5fvision_5fdetection_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_SSL_DetectionFrame_ssl_5fvision_5fdetection_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_ssl_5fvision_5fgeometry_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<3> scc_info_SSL_GeometryData_ssl_5fvision_5fgeometry_2eproto;
-class SSL_WrapperPacketDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<SSL_WrapperPacket> _instance;
-} _SSL_WrapperPacket_default_instance_;
-static void InitDefaultsscc_info_SSL_WrapperPacket_ssl_5fvision_5fwrapper_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
 
-  {
-    void* ptr = &::_SSL_WrapperPacket_default_instance_;
-    new (ptr) ::SSL_WrapperPacket();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::SSL_WrapperPacket::InitAsDefaultInstance();
-}
+PROTOBUF_PRAGMA_INIT_SEG
 
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<2> scc_info_SSL_WrapperPacket_ssl_5fvision_5fwrapper_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 2, 0, InitDefaultsscc_info_SSL_WrapperPacket_ssl_5fvision_5fwrapper_2eproto}, {
-      &scc_info_SSL_DetectionFrame_ssl_5fvision_5fdetection_2eproto.base,
-      &scc_info_SSL_GeometryData_ssl_5fvision_5fgeometry_2eproto.base,}};
+namespace _pb = ::PROTOBUF_NAMESPACE_ID;
+namespace _pbi = _pb::internal;
 
-static ::PROTOBUF_NAMESPACE_ID::Metadata file_level_metadata_ssl_5fvision_5fwrapper_2eproto[1];
-static constexpr ::PROTOBUF_NAMESPACE_ID::EnumDescriptor const** file_level_enum_descriptors_ssl_5fvision_5fwrapper_2eproto = nullptr;
-static constexpr ::PROTOBUF_NAMESPACE_ID::ServiceDescriptor const** file_level_service_descriptors_ssl_5fvision_5fwrapper_2eproto = nullptr;
+PROTOBUF_CONSTEXPR SSL_WrapperPacket::SSL_WrapperPacket(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_._has_bits_)*/{}
+  , /*decltype(_impl_._cached_size_)*/{}
+  , /*decltype(_impl_.detection_)*/nullptr
+  , /*decltype(_impl_.geometry_)*/nullptr} {}
+struct SSL_WrapperPacketDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR SSL_WrapperPacketDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~SSL_WrapperPacketDefaultTypeInternal() {}
+  union {
+    SSL_WrapperPacket _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SSL_WrapperPacketDefaultTypeInternal _SSL_WrapperPacket_default_instance_;
+static ::_pb::Metadata file_level_metadata_ssl_5fvision_5fwrapper_2eproto[1];
+static constexpr ::_pb::EnumDescriptor const** file_level_enum_descriptors_ssl_5fvision_5fwrapper_2eproto = nullptr;
+static constexpr ::_pb::ServiceDescriptor const** file_level_service_descriptors_ssl_5fvision_5fwrapper_2eproto = nullptr;
 
-const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_ssl_5fvision_5fwrapper_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  PROTOBUF_FIELD_OFFSET(::SSL_WrapperPacket, _has_bits_),
+const uint32_t TableStruct_ssl_5fvision_5fwrapper_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
+  PROTOBUF_FIELD_OFFSET(::SSL_WrapperPacket, _impl_._has_bits_),
   PROTOBUF_FIELD_OFFSET(::SSL_WrapperPacket, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::SSL_WrapperPacket, detection_),
-  PROTOBUF_FIELD_OFFSET(::SSL_WrapperPacket, geometry_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::SSL_WrapperPacket, _impl_.detection_),
+  PROTOBUF_FIELD_OFFSET(::SSL_WrapperPacket, _impl_.geometry_),
   0,
   1,
 };
-static const ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, 7, sizeof(::SSL_WrapperPacket)},
+static const ::_pbi::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
+  { 0, 8, -1, sizeof(::SSL_WrapperPacket)},
 };
 
-static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_SSL_WrapperPacket_default_instance_),
+static const ::_pb::Message* const file_default_instances[] = {
+  &::_SSL_WrapperPacket_default_instance_._instance,
 };
 
 const char descriptor_table_protodef_ssl_5fvision_5fwrapper_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
@@ -66,35 +66,31 @@ const char descriptor_table_protodef_ssl_5fvision_5fwrapper_2eproto[] PROTOBUF_S
   "\0132\023.SSL_DetectionFrame\022#\n\010geometry\030\002 \001(\013"
   "2\021.SSL_GeometryData"
   ;
-static const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable*const descriptor_table_ssl_5fvision_5fwrapper_2eproto_deps[2] = {
+static const ::_pbi::DescriptorTable* const descriptor_table_ssl_5fvision_5fwrapper_2eproto_deps[2] = {
   &::descriptor_table_ssl_5fvision_5fdetection_2eproto,
   &::descriptor_table_ssl_5fvision_5fgeometry_2eproto,
 };
-static ::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase*const descriptor_table_ssl_5fvision_5fwrapper_2eproto_sccs[1] = {
-  &scc_info_SSL_WrapperPacket_ssl_5fvision_5fwrapper_2eproto.base,
+static ::_pbi::once_flag descriptor_table_ssl_5fvision_5fwrapper_2eproto_once;
+const ::_pbi::DescriptorTable descriptor_table_ssl_5fvision_5fwrapper_2eproto = {
+    false, false, 179, descriptor_table_protodef_ssl_5fvision_5fwrapper_2eproto,
+    "ssl_vision_wrapper.proto",
+    &descriptor_table_ssl_5fvision_5fwrapper_2eproto_once, descriptor_table_ssl_5fvision_5fwrapper_2eproto_deps, 2, 1,
+    schemas, file_default_instances, TableStruct_ssl_5fvision_5fwrapper_2eproto::offsets,
+    file_level_metadata_ssl_5fvision_5fwrapper_2eproto, file_level_enum_descriptors_ssl_5fvision_5fwrapper_2eproto,
+    file_level_service_descriptors_ssl_5fvision_5fwrapper_2eproto,
 };
-static ::PROTOBUF_NAMESPACE_ID::internal::once_flag descriptor_table_ssl_5fvision_5fwrapper_2eproto_once;
-const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_ssl_5fvision_5fwrapper_2eproto = {
-  false, false, descriptor_table_protodef_ssl_5fvision_5fwrapper_2eproto, "ssl_vision_wrapper.proto", 179,
-  &descriptor_table_ssl_5fvision_5fwrapper_2eproto_once, descriptor_table_ssl_5fvision_5fwrapper_2eproto_sccs, descriptor_table_ssl_5fvision_5fwrapper_2eproto_deps, 1, 2,
-  schemas, file_default_instances, TableStruct_ssl_5fvision_5fwrapper_2eproto::offsets,
-  file_level_metadata_ssl_5fvision_5fwrapper_2eproto, 1, file_level_enum_descriptors_ssl_5fvision_5fwrapper_2eproto, file_level_service_descriptors_ssl_5fvision_5fwrapper_2eproto,
-};
+PROTOBUF_ATTRIBUTE_WEAK const ::_pbi::DescriptorTable* descriptor_table_ssl_5fvision_5fwrapper_2eproto_getter() {
+  return &descriptor_table_ssl_5fvision_5fwrapper_2eproto;
+}
 
 // Force running AddDescriptors() at dynamic initialization time.
-static bool dynamic_init_dummy_ssl_5fvision_5fwrapper_2eproto = (static_cast<void>(::PROTOBUF_NAMESPACE_ID::internal::AddDescriptors(&descriptor_table_ssl_5fvision_5fwrapper_2eproto)), true);
+PROTOBUF_ATTRIBUTE_INIT_PRIORITY2 static ::_pbi::AddDescriptorsRunner dynamic_init_dummy_ssl_5fvision_5fwrapper_2eproto(&descriptor_table_ssl_5fvision_5fwrapper_2eproto);
 
 // ===================================================================
 
-void SSL_WrapperPacket::InitAsDefaultInstance() {
-  ::_SSL_WrapperPacket_default_instance_._instance.get_mutable()->detection_ = const_cast< ::SSL_DetectionFrame*>(
-      ::SSL_DetectionFrame::internal_default_instance());
-  ::_SSL_WrapperPacket_default_instance_._instance.get_mutable()->geometry_ = const_cast< ::SSL_GeometryData*>(
-      ::SSL_GeometryData::internal_default_instance());
-}
 class SSL_WrapperPacket::_Internal {
  public:
-  using HasBits = decltype(std::declval<SSL_WrapperPacket>()._has_bits_);
+  using HasBits = decltype(std::declval<SSL_WrapperPacket>()._impl_._has_bits_);
   static const ::SSL_DetectionFrame& detection(const SSL_WrapperPacket* msg);
   static void set_has_detection(HasBits* has_bits) {
     (*has_bits)[0] |= 1u;
@@ -107,169 +103,167 @@ class SSL_WrapperPacket::_Internal {
 
 const ::SSL_DetectionFrame&
 SSL_WrapperPacket::_Internal::detection(const SSL_WrapperPacket* msg) {
-  return *msg->detection_;
+  return *msg->_impl_.detection_;
 }
 const ::SSL_GeometryData&
 SSL_WrapperPacket::_Internal::geometry(const SSL_WrapperPacket* msg) {
-  return *msg->geometry_;
+  return *msg->_impl_.geometry_;
 }
 void SSL_WrapperPacket::clear_detection() {
-  if (detection_ != nullptr) detection_->Clear();
-  _has_bits_[0] &= ~0x00000001u;
+  if (_impl_.detection_ != nullptr) _impl_.detection_->Clear();
+  _impl_._has_bits_[0] &= ~0x00000001u;
 }
 void SSL_WrapperPacket::clear_geometry() {
-  if (geometry_ != nullptr) geometry_->Clear();
-  _has_bits_[0] &= ~0x00000002u;
+  if (_impl_.geometry_ != nullptr) _impl_.geometry_->Clear();
+  _impl_._has_bits_[0] &= ~0x00000002u;
 }
-SSL_WrapperPacket::SSL_WrapperPacket(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+SSL_WrapperPacket::SSL_WrapperPacket(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:SSL_WrapperPacket)
 }
 SSL_WrapperPacket::SSL_WrapperPacket(const SSL_WrapperPacket& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      _has_bits_(from._has_bits_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  SSL_WrapperPacket* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){from._impl_._has_bits_}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.detection_){nullptr}
+    , decltype(_impl_.geometry_){nullptr}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   if (from._internal_has_detection()) {
-    detection_ = new ::SSL_DetectionFrame(*from.detection_);
-  } else {
-    detection_ = nullptr;
+    _this->_impl_.detection_ = new ::SSL_DetectionFrame(*from._impl_.detection_);
   }
   if (from._internal_has_geometry()) {
-    geometry_ = new ::SSL_GeometryData(*from.geometry_);
-  } else {
-    geometry_ = nullptr;
+    _this->_impl_.geometry_ = new ::SSL_GeometryData(*from._impl_.geometry_);
   }
   // @@protoc_insertion_point(copy_constructor:SSL_WrapperPacket)
 }
 
-void SSL_WrapperPacket::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_SSL_WrapperPacket_ssl_5fvision_5fwrapper_2eproto.base);
-  ::memset(&detection_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&geometry_) -
-      reinterpret_cast<char*>(&detection_)) + sizeof(geometry_));
+inline void SSL_WrapperPacket::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_._has_bits_){}
+    , /*decltype(_impl_._cached_size_)*/{}
+    , decltype(_impl_.detection_){nullptr}
+    , decltype(_impl_.geometry_){nullptr}
+  };
 }
 
 SSL_WrapperPacket::~SSL_WrapperPacket() {
   // @@protoc_insertion_point(destructor:SSL_WrapperPacket)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void SSL_WrapperPacket::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  if (this != internal_default_instance()) delete detection_;
-  if (this != internal_default_instance()) delete geometry_;
+inline void SSL_WrapperPacket::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  if (this != internal_default_instance()) delete _impl_.detection_;
+  if (this != internal_default_instance()) delete _impl_.geometry_;
 }
 
-void SSL_WrapperPacket::ArenaDtor(void* object) {
-  SSL_WrapperPacket* _this = reinterpret_cast< SSL_WrapperPacket* >(object);
-  (void)_this;
-}
-void SSL_WrapperPacket::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SSL_WrapperPacket::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const SSL_WrapperPacket& SSL_WrapperPacket::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_SSL_WrapperPacket_ssl_5fvision_5fwrapper_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void SSL_WrapperPacket::Clear() {
 // @@protoc_insertion_point(message_clear_start:SSL_WrapperPacket)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000003u) {
     if (cached_has_bits & 0x00000001u) {
-      GOOGLE_DCHECK(detection_ != nullptr);
-      detection_->Clear();
+      GOOGLE_DCHECK(_impl_.detection_ != nullptr);
+      _impl_.detection_->Clear();
     }
     if (cached_has_bits & 0x00000002u) {
-      GOOGLE_DCHECK(geometry_ != nullptr);
-      geometry_->Clear();
+      GOOGLE_DCHECK(_impl_.geometry_ != nullptr);
+      _impl_.geometry_->Clear();
     }
   }
-  _has_bits_.Clear();
+  _impl_._has_bits_.Clear();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* SSL_WrapperPacket::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* SSL_WrapperPacket::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
   _Internal::HasBits has_bits{};
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // optional .SSL_DetectionFrame detection = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
           ptr = ctx->ParseMessage(_internal_mutable_detection(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // optional .SSL_GeometryData geometry = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 18)) {
           ptr = ctx->ParseMessage(_internal_mutable_geometry(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
-  _has_bits_.Or(has_bits);
+message_done:
+  _impl_._has_bits_.Or(has_bits);
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SSL_WrapperPacket::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SSL_WrapperPacket::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:SSL_WrapperPacket)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   // optional .SSL_DetectionFrame detection = 1;
   if (cached_has_bits & 0x00000001u) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        1, _Internal::detection(this), target, stream);
+      InternalWriteMessage(1, _Internal::detection(this),
+        _Internal::detection(this).GetCachedSize(), target, stream);
   }
 
   // optional .SSL_GeometryData geometry = 2;
   if (cached_has_bits & 0x00000002u) {
-    target = stream->EnsureSpace(target);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        2, _Internal::geometry(this), target, stream);
+      InternalWriteMessage(2, _Internal::geometry(this),
+        _Internal::geometry(this).GetCachedSize(), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:SSL_WrapperPacket)
@@ -280,74 +274,57 @@ size_t SSL_WrapperPacket::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:SSL_WrapperPacket)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  cached_has_bits = _has_bits_[0];
+  cached_has_bits = _impl_._has_bits_[0];
   if (cached_has_bits & 0x00000003u) {
     // optional .SSL_DetectionFrame detection = 1;
     if (cached_has_bits & 0x00000001u) {
       total_size += 1 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-          *detection_);
+          *_impl_.detection_);
     }
 
     // optional .SSL_GeometryData geometry = 2;
     if (cached_has_bits & 0x00000002u) {
       total_size += 1 +
         ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-          *geometry_);
+          *_impl_.geometry_);
     }
 
   }
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void SSL_WrapperPacket::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:SSL_WrapperPacket)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SSL_WrapperPacket* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<SSL_WrapperPacket>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:SSL_WrapperPacket)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:SSL_WrapperPacket)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SSL_WrapperPacket::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    SSL_WrapperPacket::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SSL_WrapperPacket::GetClassData() const { return &_class_data_; }
 
-void SSL_WrapperPacket::MergeFrom(const SSL_WrapperPacket& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:SSL_WrapperPacket)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void SSL_WrapperPacket::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<SSL_WrapperPacket*>(&to_msg);
+  auto& from = static_cast<const SSL_WrapperPacket&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:SSL_WrapperPacket)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  cached_has_bits = from._has_bits_[0];
+  cached_has_bits = from._impl_._has_bits_[0];
   if (cached_has_bits & 0x00000003u) {
     if (cached_has_bits & 0x00000001u) {
-      _internal_mutable_detection()->::SSL_DetectionFrame::MergeFrom(from._internal_detection());
+      _this->_internal_mutable_detection()->::SSL_DetectionFrame::MergeFrom(
+          from._internal_detection());
     }
     if (cached_has_bits & 0x00000002u) {
-      _internal_mutable_geometry()->::SSL_GeometryData::MergeFrom(from._internal_geometry());
+      _this->_internal_mutable_geometry()->::SSL_GeometryData::MergeFrom(
+          from._internal_geometry());
     }
   }
-}
-
-void SSL_WrapperPacket::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:SSL_WrapperPacket)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void SSL_WrapperPacket::CopyFrom(const SSL_WrapperPacket& from) {
@@ -359,34 +336,36 @@ void SSL_WrapperPacket::CopyFrom(const SSL_WrapperPacket& from) {
 
 bool SSL_WrapperPacket::IsInitialized() const {
   if (_internal_has_detection()) {
-    if (!detection_->IsInitialized()) return false;
+    if (!_impl_.detection_->IsInitialized()) return false;
   }
   if (_internal_has_geometry()) {
-    if (!geometry_->IsInitialized()) return false;
+    if (!_impl_.geometry_->IsInitialized()) return false;
   }
   return true;
 }
 
 void SSL_WrapperPacket::InternalSwap(SSL_WrapperPacket* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  swap(_has_bits_[0], other->_has_bits_[0]);
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  swap(_impl_._has_bits_[0], other->_impl_._has_bits_[0]);
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(SSL_WrapperPacket, geometry_)
-      + sizeof(SSL_WrapperPacket::geometry_)
-      - PROTOBUF_FIELD_OFFSET(SSL_WrapperPacket, detection_)>(
-          reinterpret_cast<char*>(&detection_),
-          reinterpret_cast<char*>(&other->detection_));
+      PROTOBUF_FIELD_OFFSET(SSL_WrapperPacket, _impl_.geometry_)
+      + sizeof(SSL_WrapperPacket::_impl_.geometry_)
+      - PROTOBUF_FIELD_OFFSET(SSL_WrapperPacket, _impl_.detection_)>(
+          reinterpret_cast<char*>(&_impl_.detection_),
+          reinterpret_cast<char*>(&other->_impl_.detection_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata SSL_WrapperPacket::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_ssl_5fvision_5fwrapper_2eproto_getter, &descriptor_table_ssl_5fvision_5fwrapper_2eproto_once,
+      file_level_metadata_ssl_5fvision_5fwrapper_2eproto[0]);
 }
-
 
 // @@protoc_insertion_point(namespace_scope)
 PROTOBUF_NAMESPACE_OPEN
-template<> PROTOBUF_NOINLINE ::SSL_WrapperPacket* Arena::CreateMaybeMessage< ::SSL_WrapperPacket >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::SSL_WrapperPacket*
+Arena::CreateMaybeMessage< ::SSL_WrapperPacket >(Arena* arena) {
   return Arena::CreateMessageInternal< ::SSL_WrapperPacket >(arena);
 }
 PROTOBUF_NAMESPACE_CLOSE

@@ -37,6 +37,47 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+/*
+Acho que teria que fazer uma gambiarra de passar os dois message, do grSim e da vida real, e
+uma variavel booleana pra decidir qual dos dois usar.
+Ou deixar os dois com o mesmo nome, meio que fazer uma classe abstrata.
+*/
+void MainWindow::strategyAndSend(i, grSim_Robot_Command *command, SSL_DetectionRobot robot,
+grSim_Packet packet)
+{
+    command->set_id(i);
+    command->set_veltangent(robot.x() >= 0 ? 0.5 : -0.5);
+    command->set_wheelsspeed(!true);
+    command->set_wheel1(0);
+    command->set_wheel2(0);
+    command->set_wheel3(0);
+    command->set_wheel4(0);
+    command->set_velnormal(0);
+    command->set_velangular(0);
+    command->set_kickspeedx(0);
+    command->set_kickspeedz(0);
+    command->set_spinner(false);
+
+    QByteArray dgram;
+    dgram.resize(packet.ByteSizeLong());
+    if (packet.SerializeToArray(dgram.data(), dgram.size()))
+    {
+        qDebug() << "Pacote serializado com sucesso. Tamanho do datagrama:" << dgram.size();
+        udpsocket.writeDatagram(dgram, _addr, _port);
+    }
+    else
+    {
+        qDebug() << "Falha na serialização do pacote.";
+    }
+}
+
+
+
+
+/*a ideia é fazer essa funçao servir pro simulado e pro real.
+ mas pra isso precisa que no real a gente implemente a mesma interface
+do .proto do grSim. ai passava os message como parametros.
+*/
 void MainWindow::simulationStrategy(SSL_DetectionFrame detection)
 {
     qDebug() << "Estratégia Simulada"; // Debug
@@ -398,12 +439,7 @@ void MainWindow::stopReceiving()
     // Fecha o socket para interromper o recebimento
     disconnect(&udpsocket_rec, &QUdpSocket::readyRead, this, &MainWindow::processPendingDatagrams); // Desconecta o sinal
     ui->txtInfo->append("Recebimento de dados interrompido.");                                      // Mensagem de log
-    /*if (udpsocket.isOpen()) {
 
-        udpsocket.close(); // Fecha o socket para interromper o recebimento
-        disconnect(&udpsocket, &QUdpSocket::readyRead, this, &MainWindow::processPendingDatagrams); // Desconecta o sinal
-        txtInfo->append("Recebimento de dados interrompido."); // Mensagem de log
-    }*/
 }
 
 // Efeitos de cliques nos botões
