@@ -47,3 +47,13 @@ Software Requirements
 sudo apt-get install libprotobuf-dev protobuf-compiler
 ```
 
+```
+sudo apt-get install libqt5serialport5
+```
+
+
+```
+sudo apt-get install libqt5serialport5-dev
+```
+
+
