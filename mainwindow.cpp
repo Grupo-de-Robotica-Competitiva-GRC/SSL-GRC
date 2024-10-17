@@ -6,6 +6,8 @@
 #include "Includes/GRSimProtos/grSim_Packet.pb.h"
 #include "Includes/VisionProtos/timer.h"
 #include <QDebug>
+#include <QSerialPort>
+#include <QSerialPortInfo>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow), udpsocket_rec(this)
@@ -30,6 +32,14 @@ MainWindow::MainWindow(QWidget *parent)
     // connect(timer, SIGNAL(timeout()), this, SLOT(sendPacket()));
     ui->Send->setDisabled(true);
     sending = false;
+
+    // Configurar a porta serial
+    serial.setPortName("/dev/ttyUSB0");  // ou "COM3" no Windows
+    serial.setBaudRate(QSerialPort::Baud115200);
+    serial.setDataBits(QSerialPort::Data8);
+    serial.setParity(QSerialPort::NoParity);
+    serial.setStopBits(QSerialPort::OneStop);
+    serial.setFlowControl(QSerialPort::NoFlowControl);
 }
 
 MainWindow::~MainWindow()
@@ -42,7 +52,7 @@ Acho que teria que fazer uma gambiarra de passar os dois message, do grSim e da 
 uma variavel booleana pra decidir qual dos dois usar.
 Ou deixar os dois com o mesmo nome, meio que fazer uma classe abstrata.
 */
-void MainWindow::strategyAndSend(int i,SSL_DetectionRobot robot, grSim_Packet packet)
+void MainWindow::strategyAndSendSimulated(int i,SSL_DetectionRobot robot, grSim_Packet packet)
 {
 
     grSim_Robot_Command *command = packet.mutable_commands()->add_robot_commands();
@@ -73,7 +83,57 @@ void MainWindow::strategyAndSend(int i,SSL_DetectionRobot robot, grSim_Packet pa
     }
 }
 
+void MainWindow::strategyAndSendReal(int i,SSL_DetectionRobot robot, grSim_Packet packet)
+{
 
+    grSim_Robot_Command *command = packet.mutable_commands()->add_robot_commands();
+
+    command->set_id(i);
+    command->set_veltangent(robot.x() >= 0 ? 0.5 : -0.5);
+    command->set_wheelsspeed(!true);
+    command->set_wheel1(0);
+    command->set_wheel2(0);
+    command->set_wheel3(0);
+    command->set_wheel4(0);
+    command->set_velnormal(0);
+    command->set_velangular(0);
+    command->set_kickspeedx(0);
+    command->set_kickspeedz(0);
+    command->set_spinner(false);
+
+    QByteArray dgram;
+    dgram.resize(packet.ByteSizeLong());
+    if (packet.SerializeToArray(dgram.data(), dgram.size()))
+    {
+        qDebug() << "Pacote serializado com sucesso. Tamanho do datagrama:" << dgram.size();
+        if (serial.open(QIODevice::WriteOnly))
+        {
+            qDebug() << "Porta serial aberta com sucesso.";
+
+            // Enviar os dados serializados
+            qint64 bytesWritten = serial.write(dgram);
+            if (bytesWritten == -1)
+            {
+                qDebug() << "Erro ao escrever na porta serial.";
+            }
+            else
+            {
+                qDebug() << "Bytes enviados:" << bytesWritten;
+            }
+
+            serial.flush();  // Certifique-se de que todos os dados foram enviados
+            serial.close();  // Fechar a porta serial
+        }
+        else
+        {
+            qDebug() << "Falha ao abrir a porta serial.";
+        }
+    }
+    else
+    {
+        qDebug() << "Falha na serialização do pacote.";
+    }
+}
 
 
 /*a ideia é fazer essa funçao servir pro simulado e pro real.
@@ -101,7 +161,7 @@ void MainWindow::simulationStrategy(SSL_DetectionFrame detection)
         {
 
             SSL_DetectionRobot robot = detection.robots_yellow(i);
-            strategyAndSend(i, robot, packet);
+            strategyAndSendSimulated(i, robot, packet);
 
         }
     }
@@ -111,14 +171,45 @@ void MainWindow::simulationStrategy(SSL_DetectionFrame detection)
         for (int i = 0; i < robots_blue_n; i++)
         {
             SSL_DetectionRobot robot = detection.robots_blue(i);
-            strategyAndSend(i, robot, packet);
+            strategyAndSendSimulated(i, robot, packet);
         }
     }
 }
 
 void MainWindow::realStrategy(SSL_DetectionFrame detection)
 {
-    qDebug() << "Estratégia Real"; // Debug
+    qDebug() << "Estratégia real"; // Debug
+
+    grSim_Packet packet;
+    bool yellow = ui->team->currentText() == "Yellow";
+
+    packet.mutable_commands()->set_isteamyellow(yellow);
+    packet.mutable_commands()->set_timestamp(0.0);
+
+    int balls_n = detection.balls_size();
+    int robots_blue_n = detection.robots_blue_size();
+    int robots_yellow_n = detection.robots_yellow_size();
+
+    if (yellow)
+    {
+        // Yellow robot info:
+        for (int i = 0; i < robots_yellow_n; i++)
+        {
+
+            SSL_DetectionRobot robot = detection.robots_yellow(i);
+            strategyAndSendReal(i, robot, packet);
+
+        }
+    }
+    else
+    {
+        // Blue robot info:
+        for (int i = 0; i < robots_blue_n; i++)
+        {
+            SSL_DetectionRobot robot = detection.robots_blue(i);
+            strategyAndSendReal(i, robot, packet);
+        }
+    }
 }
 
 void MainWindow::sendPacket(SSL_DetectionFrame detection)
