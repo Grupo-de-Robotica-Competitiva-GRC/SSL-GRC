@@ -8,6 +8,8 @@
 #include "Includes/VisionProtos/ssl_vision_geometry.pb.h"
 #include "Includes/VisionProtos/ssl_vision_wrapper.pb.h"
 #include "Includes/VisionProtos/timer.h"
+#include "Includes/GRSimProtos/grSim_Packet.pb.h"
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -30,7 +32,7 @@ public slots:
     void sendPacket(SSL_DetectionFrame detection);
     void simulationStrategy(SSL_DetectionFrame detection);
     void realStrategy(SSL_DetectionFrame detection);
-
+    void strategyAndSend(int i,SSL_DetectionRobot robot, grSim_Packet packet);
 private slots:
     void on_Receive_pressed();
 

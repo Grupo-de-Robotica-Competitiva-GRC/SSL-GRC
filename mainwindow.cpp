@@ -42,9 +42,11 @@ Acho que teria que fazer uma gambiarra de passar os dois message, do grSim e da 
 uma variavel booleana pra decidir qual dos dois usar.
 Ou deixar os dois com o mesmo nome, meio que fazer uma classe abstrata.
 */
-void MainWindow::strategyAndSend(i, grSim_Robot_Command *command, SSL_DetectionRobot robot,
-grSim_Packet packet)
+void MainWindow::strategyAndSend(int i,SSL_DetectionRobot robot, grSim_Packet packet)
 {
+
+    grSim_Robot_Command *command = packet.mutable_commands()->add_robot_commands();
+
     command->set_id(i);
     command->set_veltangent(robot.x() >= 0 ? 0.5 : -0.5);
     command->set_wheelsspeed(!true);
@@ -87,7 +89,6 @@ void MainWindow::simulationStrategy(SSL_DetectionFrame detection)
 
     packet.mutable_commands()->set_isteamyellow(yellow);
     packet.mutable_commands()->set_timestamp(0.0);
-    grSim_Robot_Command *command = packet.mutable_commands()->add_robot_commands();
 
     int balls_n = detection.balls_size();
     int robots_blue_n = detection.robots_blue_size();
@@ -100,31 +101,8 @@ void MainWindow::simulationStrategy(SSL_DetectionFrame detection)
         {
 
             SSL_DetectionRobot robot = detection.robots_yellow(i);
+            strategyAndSend(i, robot, packet);
 
-            command->set_id(i);
-            command->set_veltangent(robot.x() >= 0 ? 0.5 : -0.5);
-            command->set_wheelsspeed(!true);
-            command->set_wheel1(0);
-            command->set_wheel2(0);
-            command->set_wheel3(0);
-            command->set_wheel4(0);
-            command->set_velnormal(0);
-            command->set_velangular(0);
-            command->set_kickspeedx(0);
-            command->set_kickspeedz(0);
-            command->set_spinner(false);
-
-            QByteArray dgram;
-            dgram.resize(packet.ByteSizeLong());
-            if (packet.SerializeToArray(dgram.data(), dgram.size()))
-            {
-                qDebug() << "Pacote serializado com sucesso. Tamanho do datagrama:" << dgram.size();
-                udpsocket.writeDatagram(dgram, _addr, _port);
-            }
-            else
-            {
-                qDebug() << "Falha na serialização do pacote.";
-            }
         }
     }
     else
@@ -133,30 +111,7 @@ void MainWindow::simulationStrategy(SSL_DetectionFrame detection)
         for (int i = 0; i < robots_blue_n; i++)
         {
             SSL_DetectionRobot robot = detection.robots_blue(i);
-            command->set_id(i);
-            command->set_veltangent(robot.x() <= 0 ? 0.5 : -0.5);
-            command->set_wheelsspeed(!true);
-            command->set_wheel1(0);
-            command->set_wheel2(0);
-            command->set_wheel3(0);
-            command->set_wheel4(0);
-            command->set_velnormal(0);
-            command->set_velangular(0);
-            command->set_kickspeedx(0);
-            command->set_kickspeedz(0);
-            command->set_spinner(false);
-
-            QByteArray dgram;
-            dgram.resize(packet.ByteSizeLong());
-            if (packet.SerializeToArray(dgram.data(), dgram.size()))
-            {
-                qDebug() << "Pacote serializado com sucesso. Tamanho do datagrama:" << dgram.size();
-                udpsocket.writeDatagram(dgram, _addr, _port);
-            }
-            else
-            {
-                qDebug() << "Falha na serialização do pacote.";
-            }
+            strategyAndSend(i, robot, packet);
         }
     }
 }
