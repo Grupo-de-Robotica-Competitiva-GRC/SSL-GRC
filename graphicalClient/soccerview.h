@@ -21,7 +21,7 @@
 
 #include <QMouseEvent>
 #include <QWidget>
-#include <QOpenGLWidget>
+#include <QGLWidget>
 #include <QMutex>
 #include <QVector>
 #include <GL/glu.h>
@@ -29,11 +29,11 @@
 #include <float.h>
 #include <stdio.h>
 #include <cstdio>
-#include "shared/net/robocup_ssl_client.h"
-#include "shared/util/field_default_constants.h"
-#include "Includes/VisionProtos/timer.h"
-#include "shared/util/geometry.h"
-#include "shared/util/util.h"
+#include "robocup_ssl_client.h"
+#include "field_default_constants.h"
+#include "timer.h"
+#include "geometry.h"
+#include "util.h"
 #include "gltext.h"
 
 #ifndef SOCCERVIEW_H
@@ -44,7 +44,7 @@ using namespace std;
 #define FIELD_COLOR 0.0,0.5686,0.0980,1.0
 #define FIELD_LINES_COLOR 1.0,1.0,1.0,1.0
 
-class GLSoccerView : public QOpenGLWidget{
+class GLSoccerView : public QGLWidget{
   Q_OBJECT
 
 public:
