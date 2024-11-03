@@ -40,12 +40,56 @@ MainWindow::MainWindow(QWidget *parent)
     serial.setParity(QSerialPort::NoParity);
     serial.setStopBits(QSerialPort::OneStop);
     serial.setFlowControl(QSerialPort::NoFlowControl);
+
+
+
+    // Configura o GLSoccerView e adiciona na aba "Visual"
+    view = new GLSoccerView(this);
+    QVBoxLayout *visualLayout = new QVBoxLayout();
+    visualLayout->addWidget(view);
+    ui->Visual->setLayout(visualLayout);
+
+    // Inicia o thread
+    int portNumber = 10020;
+    thread = new MyThread(portNumber, this);
+    thread->start();
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+    delete thread;
 }
+
+//sobre o graphical client
+void MyThread::run() {
+    static const double minDuration = 0.01; // 100FPS
+    RoboCupSSLClient client(m_port);
+    client.open(false);
+    SSL_WrapperPacket packet;
+    while(runApp) {
+        while (client.receive(packet)) {
+            if (packet.has_detection()) {
+                SSL_DetectionFrame detection = packet.detection();
+                view->updateDetection(detection);
+            }
+            if (packet.has_geometry()) {
+                view->updateFieldGeometry(packet.geometry().field());
+            }
+        }
+        QThread::msleep(minDuration * 1000);
+    }
+}
+
+MyThread::MyThread(int port, QObject* parent)
+    : QThread(parent), m_port(port) {}
+
+MyThread::~MyThread() {
+    runApp = false;
+    wait();
+}
+
+
 
 /*
 Acho que teria que fazer uma gambiarra de passar os dois message, do grSim e da vida real, e

@@ -1,6 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include <QThread>
+#include "soccerview.h"
 #include <QMainWindow>
 #include <QtNetwork>
 #include <QTextEdit>
@@ -15,6 +17,20 @@
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
+
+class MyThread : public QThread
+{
+    Q_OBJECT
+protected:
+    void run() override;
+public:
+    MyThread(int port, QObject* parent = nullptr);
+    ~MyThread();
+private:
+    int m_port;
+};
+
+
 
 class MainWindow : public QMainWindow
 {
@@ -62,6 +78,8 @@ private:
     bool sending;
     QTimer *timer;
     QSerialPort serial;
+    GLSoccerView *view;      // Declaração do ponteiro para a visualização
+    MyThread *thread;
 
 };
 #endif // MAINWINDOW_H
