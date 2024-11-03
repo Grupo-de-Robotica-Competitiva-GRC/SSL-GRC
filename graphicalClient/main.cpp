@@ -66,7 +66,7 @@ int main(int argc, char **argv)
 
   QStringList arguments = QCoreApplication::arguments();
 
-  const int portNumber = arguments.size() > 1 ? arguments[1].toInt() : 10006;
+  const int portNumber = arguments.size() > 1 ? arguments[1].toInt() : 10020;
   view = new GLSoccerView();
   view->show();
   MyThread thread(portNumber);
